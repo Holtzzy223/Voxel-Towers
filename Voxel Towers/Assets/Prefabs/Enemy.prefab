@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  speed: 0
+  speed: 1
+  pathRestartOnEnd: 0
 --- !u!114 &1407281200685211943
 MonoBehaviour:
   m_ObjectHideFlags: 0

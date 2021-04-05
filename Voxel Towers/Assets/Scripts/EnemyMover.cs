@@ -5,11 +5,11 @@ using UnityEngine;
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
-    [SerializeField] float speed;
-    [SerializeField] bool  pathRestartOnEnd;
+    [SerializeField] float speed = 1f;
+    [SerializeField] bool  pathRestartOnEnd = false;
     private void Awake()
     {
-        speed = 1;
+        
     }
     // Start is called before the first frame update
     void Start()
@@ -28,6 +28,7 @@ public class EnemyMover : MonoBehaviour
         foreach (Transform child in parent.transform)
         {
             path.Add(child.GetComponent<Waypoint>());
+            child.GetComponentInParent<Waypoint>().isPlaceable = false;
         }
         
     }
@@ -60,7 +61,7 @@ public class EnemyMover : MonoBehaviour
         }
         else 
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
