@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: caaf18301e9137d4fab5aa43b1ac8d21
+guid: c0ebc2d9933d6e5458ad5ca971ded172
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palette
+    second: {fileID: 2100000, guid: 913413d29752cf44ebb331d49c5a5f49, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +71,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0

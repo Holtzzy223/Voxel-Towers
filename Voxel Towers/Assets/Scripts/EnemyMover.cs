@@ -6,14 +6,36 @@ public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
     [SerializeField] float speed;
-
+    [SerializeField] bool  pathRestartOnEnd;
+    private void Awake()
+    {
+        speed = 1;
+    }
     // Start is called before the first frame update
     void Start()
     {
+
+        FindPath();
+        ReturnToStart();
         StartCoroutine(FollowPath());
     }
 
     // Update is called once per frame
+    void FindPath()
+    {
+        path.Clear();
+        GameObject parent = GameObject.FindGameObjectWithTag("Path");
+        foreach (Transform child in parent.transform)
+        {
+            path.Add(child.GetComponent<Waypoint>());
+        }
+        
+    }
+    void ReturnToStart() 
+    {
+        transform.position = path[0].transform.position;
+    
+    }
     IEnumerator FollowPath()
     {
         foreach (Waypoint waypoint in path)
@@ -29,6 +51,16 @@ public class EnemyMover : MonoBehaviour
                 transform.position = Vector3.Lerp(startPos, endPos, travelPercent);
                 yield return new WaitForEndOfFrame();
             }
+        }
+
+        if (pathRestartOnEnd)
+        {
+            ReturnToStart();
+            StartCoroutine(FollowPath());
+        }
+        else 
+        {
+            Destroy(gameObject);
         }
     }
 }

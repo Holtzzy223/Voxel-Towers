@@ -13,6 +13,11 @@ public class Tower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(FindObjectOfType<EnemyMover>().transform.position);
+        FindTarget();   
+    }
+
+    void FindTarget() 
+    {
+        transform.LookAt(FindObjectOfType<EnemyMover>().transform);
     }
 }
