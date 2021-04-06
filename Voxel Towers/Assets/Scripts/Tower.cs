@@ -4,20 +4,63 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Transform weapon;
+    [SerializeField] float range = 15f;
+    [SerializeField] ParticleSystem projectileParticle;
+    Transform target;
+
+    public Mesh mesh;
+    public Material material;
+
+    private void Start()
     {
+ 
+    }
+
+    void Update()
+    {
+       
+        Graphics.DrawMesh(mesh, Matrix4x4.TRS(transform.position,Quaternion.identity,new Vector3(range,range,range)), material,0);
+        FindClosestTarget();
+        AimWeapon();
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void FindClosestTarget() 
     {
-        FindTarget();   
-    }
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
+        Transform closestTarget = null;
+        float maxDistance = Mathf.Infinity;
 
-    void FindTarget() 
+        foreach (Enemy enemy in enemies)
+        {
+            float targetDistance = Vector3.Distance(transform.position, enemy.transform.position);
+            if (targetDistance < maxDistance)
+            {
+                closestTarget = enemy.transform;
+                maxDistance = targetDistance;
+            }
+        }
+        target = closestTarget;
+    }
+    void AimWeapon()
     {
-        transform.LookAt(FindObjectOfType<EnemyMover>().transform);
+      
+        float targetDistance = Vector3.Distance(transform.position, target.position);
+        weapon.LookAt(target);
+
+        if (targetDistance < range)
+        {
+           Attack(true);
+        }
+        else
+        {
+            Attack(false);
+        }
+    }
+    void Attack(bool isActive)
+    {
+        var emissionComp = projectileParticle.emission;
+        emissionComp.enabled = isActive;
     }
 }

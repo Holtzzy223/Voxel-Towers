@@ -7,14 +7,18 @@ public class EnemyMover : MonoBehaviour
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
     [SerializeField] float speed = 1f;
     [SerializeField] bool  pathRestartOnEnd = false;
+    [SerializeField] bool  pathFinished;
+    bool PathFinshed {get { return pathFinished; } }
+    Enemy enemy;
+    Base playerBase;
     private void Awake()
     {
-        
+        enemy = GetComponent<Enemy>();
     }
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-
+        pathFinished = false;
         FindPath();
         ReturnToStart();
         StartCoroutine(FollowPath());
@@ -56,12 +60,18 @@ public class EnemyMover : MonoBehaviour
 
         if (pathRestartOnEnd)
         {
+            pathFinished = true;
+            enemy.DamageBase();
             ReturnToStart();
             StartCoroutine(FollowPath());
         }
         else 
         {
+
+            pathFinished = true;
+            enemy.DamageBase();
             gameObject.SetActive(false);
         }
     }
+
 }
