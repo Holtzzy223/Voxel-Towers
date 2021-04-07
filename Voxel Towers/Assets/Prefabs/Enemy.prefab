@@ -48,8 +48,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  speed: 1
+  speed: 0.5
   pathRestartOnEnd: 0
+  pathFinished: 0
 --- !u!114 &1407281200685211943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beec15cf559166645b0e89c13bfe8aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 5
+  maxHP: 3
   currentHP: 0
 --- !u!136 &6924383903253824120
 CapsuleCollider:
@@ -90,6 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c367f0304cc984c4784ff3df27befc6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killReward: 25
+  damageToBase: 10
 --- !u!1 &6616372846196476733
 GameObject:
   m_ObjectHideFlags: 0

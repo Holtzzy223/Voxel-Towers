@@ -7,6 +7,7 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] int maxHP = 5;
     [SerializeField] int currentHP = 0;
     Enemy enemy;
+    
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -28,7 +29,7 @@ public class EnemyStats : MonoBehaviour
     }
     void ProcessHit() 
     {
-        currentHP--;
+        currentHP -= 2;
         if (currentHP <= 0)
         {
             gameObject.SetActive(false);

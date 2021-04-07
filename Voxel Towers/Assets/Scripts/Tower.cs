@@ -6,7 +6,9 @@ public class Tower : MonoBehaviour
 {
     [SerializeField] Transform weapon;
     [SerializeField] float range = 15f;
+    [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
+    [SerializeField] int cost  = 75;
     Transform target;
 
     public Mesh mesh;
@@ -19,8 +21,6 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
-       
-        Graphics.DrawMesh(mesh, Matrix4x4.TRS(transform.position,Quaternion.identity,new Vector3(range,range,range)), material,0);
         FindClosestTarget();
         AimWeapon();
         
@@ -62,5 +62,31 @@ public class Tower : MonoBehaviour
     {
         var emissionComp = projectileParticle.emission;
         emissionComp.enabled = isActive;
+    }
+    void DrawRange()
+    {
+        Graphics.DrawMesh(mesh, Matrix4x4.TRS(transform.position, Quaternion.identity, new Vector3(range * rangeIndicatorMod, range * rangeIndicatorMod, range * rangeIndicatorMod)), material, 0);
+    }
+    private void OnMouseOver()
+    {
+        DrawRange();
+    }
+    public bool CreateTower(Tower tower, Vector3 position) 
+    {
+        PlayerBank bank = FindObjectOfType<PlayerBank>();
+        if (bank == null)
+        {
+            return false;
+        }
+        if (bank.CurrentBalance >= cost)
+        {
+            Instantiate(tower, position, Quaternion.identity);
+            bank.Withdrawl(cost);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
