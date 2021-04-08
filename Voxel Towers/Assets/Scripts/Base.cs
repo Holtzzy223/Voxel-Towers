@@ -9,21 +9,31 @@ public class Base : MonoBehaviour
     [SerializeField] int currentHP;
     
     int CurrentHP { get { return currentHP; } }
-    private ParticleSystem healthParticles;
+    public ParticleSystem healthParticles;
+    ParticleSystem.MainModule main;
     // Start is called before the first frame update
     void Awake()
     {
-        
+ 
+
         currentHP = maxHP;
-        healthParticles = GetComponent<ParticleSystem>();
-        
+        healthParticles = GetComponentInChildren<ParticleSystem>();
+        main = healthParticles.main;
+        main.startColor = Color.green;
+        if (healthParticles == null)
+        {
+            Debug.Log("healthparticles is null");
+        }
+
     }
 
     private void Update()
     {
-        if (currentHP <= maxHP * 0.5)
+        if (currentHP <= maxHP *0.5f)
         {
-            ParticleSystem.MainModule main = healthParticles.main;   
+            //healthParticles.GetComponent<Renderer>().material.color = Color.yellow;
+            
+            
             main.startColor = Color.yellow;
         }
     }
