@@ -6,17 +6,24 @@ public class Tower : MonoBehaviour
 {
     [SerializeField] Transform weapon;
     [SerializeField] float range = 15f;
+    [SerializeField] float damage = 2f;
+    public float Damage  {get {return damage;}}
+
     [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] int cost  = 75;
+    public AudioSource audioSource;
+    public AudioClip fire;
+    public AudioClip deploy;
     Transform target;
 
     public Mesh mesh;
     public Material material;
 
+    public List<ParticleCollisionEvent> collisionEvents;
     private void Start()
     {
- 
+        collisionEvents = new List<ParticleCollisionEvent>();
     }
 
     void Update()
@@ -49,7 +56,7 @@ public class Tower : MonoBehaviour
         float targetDistance = Vector3.Distance(transform.position, target.position);
         weapon.LookAt(target);
 
-        if (targetDistance < range)
+        if (targetDistance <= range)
         {
            Attack(true);
         }
@@ -60,6 +67,15 @@ public class Tower : MonoBehaviour
     }
     void Attack(bool isActive)
     {
+        if (audioSource != null)
+        {
+            audioSource.clip = fire;
+           if(!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(fire);
+            }
+        }
+
         var emissionComp = projectileParticle.emission;
         emissionComp.enabled = isActive;
     }
@@ -82,6 +98,12 @@ public class Tower : MonoBehaviour
         {
             Instantiate(tower, position, Quaternion.identity);
             bank.Withdrawl(cost);
+            if (audioSource != null)
+            {
+                audioSource.clip = deploy;
+                audioSource.PlayOneShot(deploy);
+            }
+
             return true;
         }
         else
@@ -89,4 +111,8 @@ public class Tower : MonoBehaviour
             return false;
         }
     }
+
+    
 }
+
+

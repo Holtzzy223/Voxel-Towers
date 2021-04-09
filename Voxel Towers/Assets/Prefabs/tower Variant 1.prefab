@@ -124,10 +124,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 2776769072113744302}
   range: 15
-  damage: 2
+  damage: 5
   rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 3192717639595741585}
-  cost: 75
+  cost: 100
   audioSource: {fileID: 6160993218768089346}
   fire: {fileID: 8300000, guid: 617de380cc231cf45bf5a39f2f991adc, type: 3}
   deploy: {fileID: 8300000, guid: a746b943a8c56544f81ab4225409604a, type: 3}
@@ -159,7 +159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7405051579927134878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.16, y: 1.94, z: 1.92}
+  m_LocalPosition: {x: 0.16, y: 3.16, z: 3.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2776769072113744302}
@@ -4999,11 +4999,19 @@ PrefabInstance:
       objectReference: {fileID: -2432090755550338912, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}
     - target: {fileID: 919132149155446097, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}
       propertyPath: m_Name
-      value: tower Variant
+      value: tower Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6593
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}

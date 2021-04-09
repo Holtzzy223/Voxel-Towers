@@ -46,7 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e805b7a445832343af7d52c7009f565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tower: {fileID: 1321021948, guid: 36cae2a4682a03b44951503cddb8aa3c, type: 3}
+  towers:
+  - {fileID: 1321021948, guid: 36cae2a4682a03b44951503cddb8aa3c, type: 3}
+  - {fileID: 1321021948, guid: bbb62b83053a25b48a08c8e6ad83bd66, type: 3}
   isPlaceable: 1
 --- !u!65 &4299538769233344455
 BoxCollider:
@@ -306,6 +308,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70ab2324255d4354fab1f69b3f9c9968, type: 2}
     - target: {fileID: 919132149155446097, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
       propertyPath: m_Name
       value: Grass

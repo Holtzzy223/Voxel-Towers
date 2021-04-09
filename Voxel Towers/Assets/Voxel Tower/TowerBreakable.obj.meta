@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: defaultMat
     second: {fileID: -8469494145858465668, guid: 06d344a783ebd694f84de1380ad19f67, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palette
+    second: {fileID: 2100000, guid: 4c4aeb0c297882a40b4ef0e79d700c75, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

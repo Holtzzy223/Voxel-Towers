@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
-    [SerializeField] int maxHP = 5;
-    [SerializeField] int currentHP = 0;
+    [SerializeField] float baseHP = 5f;
+    [SerializeField] float currentHP = 0f;
     Enemy enemy;
-    
+
     // Start is called before the first frame update
     void OnEnable()
     {
-        currentHP = maxHP;
+        //int health per wave at base * wave count 
+        WavePool wavePool = FindObjectOfType<WavePool>();
+        if (wavePool != null)
+        {
+            float maxHP = baseHP * wavePool.WaveCount;
+            currentHP = maxHP;
+        }
     }
     private void Start()
     {
@@ -25,11 +31,13 @@ public class EnemyStats : MonoBehaviour
     }
     private void OnParticleCollision(GameObject other)
     {
-        ProcessHit();
+        Debug.LogError("Hit by Particle "+other.name);   
+        ProcessHit(other);
     }
-    void ProcessHit() 
+    void ProcessHit(GameObject other) 
     {
-        currentHP -= 2;
+
+        currentHP -= other.GetComponentInParent<Tower>().Damage;
         if (currentHP <= 0)
         {
             gameObject.SetActive(false);

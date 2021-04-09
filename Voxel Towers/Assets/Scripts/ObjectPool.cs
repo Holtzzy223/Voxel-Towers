@@ -6,18 +6,26 @@ public class ObjectPool : MonoBehaviour
 {
     [SerializeField] GameObject enemyPrefab;
 
-    [SerializeField] int waveSize   = 5;
-    [SerializeField] int waveNumber = 5;
+
     [SerializeField] int poolSize;
     [SerializeField] float spawnTimer = 1f;
-    [SerializeField] float waveTimer = 15f;
-    GameObject[] pool;
-    int waveCount = 1;
+
+
+    public GameObject[] pool;
+    
     int spawnCount = 1;
     private void Awake()
     {
-        PopulatePool();
-        
+        WavePool manager = FindObjectOfType<WavePool>();
+        if (manager != null)
+        {
+            poolSize = manager.EnemiesPerWave;
+            PopulatePool();
+        }
+        else
+        {
+            Debug.Log("Wave Manager is fucked");
+        }
     }
 
     void Start()
@@ -27,13 +35,13 @@ public class ObjectPool : MonoBehaviour
 
     void PopulatePool() 
     {
-        poolSize = waveSize * waveNumber;
         pool = new GameObject[poolSize];
         for (int i = 0; i < pool.Length; i++)
         {
             pool[i] = Instantiate(enemyPrefab, transform);
             pool[i].SetActive(false);
         }
+   
     }
 
     
