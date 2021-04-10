@@ -81,7 +81,9 @@ public class Tower : MonoBehaviour
     }
     void DrawRange()
     {
-        Graphics.DrawMesh(mesh, Matrix4x4.TRS(transform.position, Quaternion.identity, new Vector3(range * rangeIndicatorMod, range * rangeIndicatorMod, range * rangeIndicatorMod)), material, 0);
+        Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * rangeIndicatorMod, range * rangeIndicatorMod);
+        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
+        Graphics.DrawMesh(mesh, trsMatrix, material, 0);
     }
     private void OnMouseOver()
     {
@@ -110,6 +112,7 @@ public class Tower : MonoBehaviour
         {
             return false;
         }
+
     }
 
     
