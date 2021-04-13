@@ -8,7 +8,8 @@ public class ObjectPool : MonoBehaviour
 
 
     [SerializeField] int poolSize;
-    [SerializeField] float spawnTimer = 1f;
+    [SerializeField] float spawnTimer;
+    public float SpawnTimer {get { return spawnTimer; } }
 
 
     public GameObject[] pool;
@@ -16,7 +17,9 @@ public class ObjectPool : MonoBehaviour
     int spawnCount = 1;
     private void Awake()
     {
+
         WavePool manager = FindObjectOfType<WavePool>();
+        spawnTimer = manager.SpawnTimer;
         if (manager != null)
         {
             poolSize = manager.EnemiesPerWave;

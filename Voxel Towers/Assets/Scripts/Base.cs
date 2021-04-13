@@ -29,13 +29,7 @@ public class Base : MonoBehaviour
 
     private void Update()
     {
-        if (currentHP <= maxHP *0.5f)
-        {
-            //healthParticles.GetComponent<Renderer>().material.color = Color.yellow;
-            
-            
-            main.startColor = Color.yellow;
-        }
+
     }
 
     public void RemoveHP(int amount)

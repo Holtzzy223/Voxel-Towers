@@ -19,10 +19,14 @@ public class Tower : MonoBehaviour
 
     public Mesh mesh;
     public Material material;
+    
 
     public List<ParticleCollisionEvent> collisionEvents;
     private void Start()
     {
+
+        
+
         collisionEvents = new List<ParticleCollisionEvent>();
     }
 
@@ -31,6 +35,10 @@ public class Tower : MonoBehaviour
         FindClosestTarget();
         AimWeapon();
         
+    }
+    private void OnMouseOver()
+    {
+        DrawRange();
     }
 
     void FindClosestTarget() 
@@ -81,14 +89,12 @@ public class Tower : MonoBehaviour
     }
     void DrawRange()
     {
-        Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * rangeIndicatorMod, range * rangeIndicatorMod);
+        float zDrawOffset = 0.75f;
+        Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
         Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
-        Graphics.DrawMesh(mesh, trsMatrix, material, 0);
+        Graphics.DrawMesh(mesh, trsMatrix, material, 1);
     }
-    private void OnMouseOver()
-    {
-        DrawRange();
-    }
+
     public bool CreateTower(Tower tower, Vector3 position) 
     {
         PlayerBank bank = FindObjectOfType<PlayerBank>();
