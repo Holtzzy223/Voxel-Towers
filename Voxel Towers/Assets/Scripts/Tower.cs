@@ -86,6 +86,7 @@ public class Tower : MonoBehaviour
 
         var emissionComp = projectileParticle.emission;
         emissionComp.enabled = isActive;
+        Debug.Log("Should fire");
     }
     void DrawRange()
     {
