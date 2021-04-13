@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Base : MonoBehaviour
 {
     [SerializeField] int maxHP = 200;
     [SerializeField] int currentHP;
+    public Slider healthBar;
     
     int CurrentHP { get { return currentHP; } }
     public ParticleSystem healthParticles;
@@ -14,12 +16,13 @@ public class Base : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
- 
+        healthBar.maxValue = maxHP;
+        healthBar.value = healthBar.maxValue;
 
         currentHP = maxHP;
-        healthParticles = GetComponentInChildren<ParticleSystem>();
-        main = healthParticles.main;
-        main.startColor = Color.green;
+      // healthParticles = GetComponentInChildren<ParticleSystem>();
+      // main = healthParticles.main;
+      // main.startColor = Color.green;
         if (healthParticles == null)
         {
             Debug.Log("healthparticles is null");
@@ -29,12 +32,13 @@ public class Base : MonoBehaviour
 
     private void Update()
     {
-
+        UpdateHeathBar();
     }
 
     public void RemoveHP(int amount)
     {
         currentHP -= Mathf.Abs(amount);
+        UpdateHeathBar();
         if (currentHP <= 0)
         {
             
@@ -46,11 +50,23 @@ public class Base : MonoBehaviour
             Destroy(gameObject);
             //Reload Scene Temp
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
         }
     }
     public void AddHP(int amount)
     {
         currentHP += Mathf.Abs(amount);
+        UpdateHeathBar();
     }
+    private void UpdateHeathBar()
+    {
+        
 
+        Debug.Log("Should change health bar");
+        healthBar.value = currentHP;
+       
+        
+
+
+    }
 }
