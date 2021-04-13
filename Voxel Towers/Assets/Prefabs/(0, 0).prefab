@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towers:
-  - {fileID: 4933393057370239132, guid: 146947fdc9f85fd4085e66c94ca311f9, type: 3}
+  - {fileID: 337987227944606559, guid: 146947fdc9f85fd4085e66c94ca311f9, type: 3}
   - {fileID: 4933393057370239132, guid: 146947fdc9f85fd4085e66c94ca311f9, type: 3}
   isPlaceable: 1
 --- !u!65 &4299538769233344455

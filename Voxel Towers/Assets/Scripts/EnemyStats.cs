@@ -13,19 +13,10 @@ public class EnemyStats : MonoBehaviour
     {
         //int health per wave at base * wave count 
         WavePool wavePool = FindObjectOfType<WavePool>();
-        float maxHP;
         if (wavePool != null)
         {
-            if (wavePool.WaveCount == 1)
-            {
-                maxHP = baseHP * wavePool.WaveCount;
-            }
-            else 
-            {
-                maxHP = baseHP * wavePool.WaveCount * 0.75f;
-            }
-                currentHP = maxHP;
-            Debug.Log(currentHP);
+            float maxHP = baseHP * wavePool.WaveCount;
+            currentHP = maxHP;
         }
     }
     private void Start()
