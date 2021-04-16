@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947013573753229545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.76, z: 1.475}
+  m_LocalPosition: {x: 0, y: 4.12, z: 2.16}
   m_LocalScale: {x: 1, y: 1, z: 1.3199}
   m_Children: []
   m_Father: {fileID: 3608462511913233174}
@@ -4864,7 +4864,7 @@ Transform:
   m_GameObject: {fileID: 7522033492494001121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.104887, y: 4.375311, z: 14.723408}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3608462511913233174}
   - {fileID: 7204682487680182001}
@@ -4898,7 +4898,7 @@ MonoBehaviour:
   - {fileID: 1327142519841044, guid: 5ea24856f6ccd37428935189fe0fdc79, type: 3}
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
-  speed: 500
+  speed: 750
 --- !u!65 &1179440067350909180
 BoxCollider:
   m_ObjectHideFlags: 0
