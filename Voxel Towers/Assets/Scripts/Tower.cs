@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
+
+    [Header("Tower")]
     [SerializeField] Transform weapon;
-    [SerializeField] float range = 15f;
+    [SerializeField] float range = 10f;
     [SerializeField] float damage = 2f;
     public float Damage  {get {return damage;}}
+    float targetDistance;
 
     [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
@@ -15,10 +18,21 @@ public class Tower : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip fire;
     public AudioClip deploy;
-    Transform target;
 
+    Transform target;
+    [Header("Range Indicator")]
     public Mesh mesh;
     public Material material;
+    
+    [Header("Projectile")]
+    [SerializeField]
+    public GameObject[] projectiles;
+    [Header("Missile spawns at attached game object")]
+    public Transform spawnPosition;
+    [HideInInspector]
+    public int currentProjectile = 0;
+    public float speed = 500;
+    GameObject projectile;
     
 
     public List<ParticleCollisionEvent> collisionEvents;
@@ -49,7 +63,7 @@ public class Tower : MonoBehaviour
 
         foreach (Enemy enemy in enemies)
         {
-            float targetDistance = Vector3.Distance(transform.position, enemy.transform.position);
+            targetDistance = Vector3.Distance(transform.position, enemy.transform.position);
             if (targetDistance < maxDistance)
             {
                 closestTarget = enemy.transform;
@@ -61,10 +75,10 @@ public class Tower : MonoBehaviour
     void AimWeapon()
     {
       
-        float targetDistance = Vector3.Distance(transform.position, target.position);
+        targetDistance = Vector3.Distance(transform.position, target.position);
         weapon.LookAt(target);
 
-        if (targetDistance < range)
+        if (targetDistance <= range)
         {
            Attack(true);
         }
@@ -75,17 +89,26 @@ public class Tower : MonoBehaviour
     }
     void Attack(bool isActive)
     {
-        if (audioSource != null)
+        if (isActive)
         {
-            audioSource.clip = fire;
-           if(!audioSource.isPlaying)
+            if (audioSource != null)
             {
-                audioSource.PlayOneShot(fire);
+                audioSource.clip = fire;
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.PlayOneShot(fire);
+                }
+            }
+            if (projectile == null)
+            {
+                projectile = Instantiate(projectiles[currentProjectile], spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+                projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the point clicked
+                projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
             }
         }
 
-        var emissionComp = projectileParticle.emission;
-        emissionComp.enabled = isActive;
+        //var emissionComp = projectileParticle.emission;
+        //emissionComp.enabled = isActive;
     }
     void DrawRange()
     {

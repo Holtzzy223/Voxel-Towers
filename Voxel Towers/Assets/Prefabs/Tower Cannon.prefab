@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2303536799236407313
 Transform:
   m_ObjectHideFlags: 0
@@ -4864,7 +4864,7 @@ Transform:
   m_GameObject: {fileID: 7522033492494001121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.104887, y: 4.375311, z: 14.723408}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 3608462511913233174}
   - {fileID: 7204682487680182001}
@@ -4894,6 +4894,11 @@ MonoBehaviour:
   deploy: {fileID: 0}
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
+  projectiles:
+  - {fileID: 1327142519841044, guid: 5ea24856f6ccd37428935189fe0fdc79, type: 3}
+  spawnPosition: {fileID: 2303536799236407313}
+  currentProjectile: 0
+  speed: 500
 --- !u!65 &1179440067350909180
 BoxCollider:
   m_ObjectHideFlags: 0

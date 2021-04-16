@@ -29,19 +29,20 @@ public class EnemyStats : MonoBehaviour
     {
         
     }
-    private void OnParticleCollision(GameObject other)
-    {
-        Debug.LogError("Hit by Particle "+other.name);   
-        ProcessHit(other);
-    }
-    void ProcessHit(GameObject other) 
+
+    void ProcessHit(Collider other) 
     {
 
-        currentHP -= other.GetComponentInParent<Tower>().Damage;
+        currentHP -= other.GetComponentInParent<VoxelArsenal.VoxelProjectileScript>().BulletDamage;
         if (currentHP <= 0)
         {
             gameObject.SetActive(false);
             enemy.RewardCurrency();
         }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.LogError("Hit by bullet " + other.name);
+        ProcessHit(other);
     }
 }
