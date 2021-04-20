@@ -48,9 +48,9 @@ MonoBehaviour:
   impactParticle: {fileID: 1884369399907594, guid: a3973859d1474274980a0c6fa8067103, type: 3}
   projectileParticle: {fileID: 1209031047464458, guid: c30daab65df081146937578f16ed223b, type: 3}
   muzzleParticle: {fileID: 1492335687177186, guid: 25149e8fbc27a6a4980605e4bb635452, type: 3}
-  colliderRadius: 1.2
+  colliderRadius: 3
   collideOffset: 0.05
-  bulletDamage: 1
+  bulletDamage: 2
 --- !u!54 &54436072522858860
 Rigidbody:
   m_ObjectHideFlags: 0

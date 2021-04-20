@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VoxelArsenal;
 
 public class Tower : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class Tower : MonoBehaviour
     
     [Header("Projectile")]
     [SerializeField]
-    public GameObject[] projectiles;
+    public GameObject projectiles;
     [Header("Missile spawns at attached game object")]
     public Transform spawnPosition;
     [HideInInspector]
@@ -42,6 +43,7 @@ public class Tower : MonoBehaviour
         
 
         collisionEvents = new List<ParticleCollisionEvent>();
+        projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
     }
 
     void Update()
@@ -101,7 +103,7 @@ public class Tower : MonoBehaviour
             }
             if (projectile == null)
             {
-                projectile = Instantiate(projectiles[currentProjectile], spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+                projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
                 projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the point clicked
                 projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
             }

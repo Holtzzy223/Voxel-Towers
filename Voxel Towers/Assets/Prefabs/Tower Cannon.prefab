@@ -4885,7 +4885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 3608462511913233174}
   range: 30
-  damage: 1.5
+  damage: 5
   rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 806884979473033098}
   cost: 100
@@ -4894,8 +4894,7 @@ MonoBehaviour:
   deploy: {fileID: 0}
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
-  projectiles:
-  - {fileID: 1327142519841044, guid: 5ea24856f6ccd37428935189fe0fdc79, type: 3}
+  projectiles: {fileID: 1327142519841044, guid: c9ec4e80bb652e34d9c114f373439ac3, type: 3}
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
   speed: 750
