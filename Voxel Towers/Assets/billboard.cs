@@ -13,6 +13,7 @@ public class billboard : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        //    transform.LookAt(Camera.main.transform.position*-1);
+        //look into this
+       // transform.LookAt(new Vector3(-Camera.main.transform.position.x, -Camera.main.transform.position.z));
     }
 }

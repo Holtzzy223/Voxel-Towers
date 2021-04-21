@@ -16,7 +16,7 @@ public class Tower : MonoBehaviour
     [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] int cost  = 75;
-    [SerializeField] int upgradeCost;
+    
     public AudioSource audioSource;
     public AudioClip fire;
     public AudioClip deploy;
@@ -36,6 +36,8 @@ public class Tower : MonoBehaviour
     public int currentProjectile = 0;
     public float speed = 500;
     GameObject projectile;
+    private int tier = 0;
+    private int tierMax = 3;
     
 
     public List<ParticleCollisionEvent> collisionEvents;
@@ -46,7 +48,7 @@ public class Tower : MonoBehaviour
 
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
-        upgradeCost = cost / 2;
+        
     }
 
     void Update()
@@ -60,7 +62,19 @@ public class Tower : MonoBehaviour
         DrawRange();
         if (Input.GetMouseButtonDown(0))
         {
-            UpgradeTower();
+            switch (tier)
+            {
+                case 0:
+                    UpgradeTower(1f,0.75f,Mathf.RoundToInt(cost*0.5f));
+                    break;
+                case 1:
+                    UpgradeTower(2f, 1.25f, Mathf.RoundToInt(cost * 0.65f));
+                    break;
+                case 2:
+                    UpgradeTower(4f,1.25f, Mathf.RoundToInt(cost * 0.85f));
+                    break;
+
+            }
         }
     }
 
@@ -157,17 +171,21 @@ public class Tower : MonoBehaviour
 
     }
 
-    public void UpgradeTower()
+    public void UpgradeTower(float damageBuff, float rangeBuff,int upgradeCost)
     {
         PlayerBank bank = FindObjectOfType<PlayerBank>();
-        if (bank.CurrentBalance >= upgradeCost)
+        if (bank.CurrentBalance >= upgradeCost && tier != tierMax)
         {
-            damage +=2;
-            range += 0.75f;
-            projectiles = upgradeProjectiles;
-            projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+            damage +=damageBuff;
+            range += rangeBuff;
+            if (tier == 2)
+            {
+                projectiles = upgradeProjectiles;
+                projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+            }
             bank.Withdrawl(upgradeCost);
             upgradeCost += 15;
+            tier++;
         }
 
     }
