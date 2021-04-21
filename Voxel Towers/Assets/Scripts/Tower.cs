@@ -10,12 +10,13 @@ public class Tower : MonoBehaviour
     [SerializeField] Transform weapon;
     [SerializeField] float range = 10f;
     [SerializeField] float damage = 2f;
-    public float Damage  {get {return damage;}}
+    public float Damage { get{return damage; } }
     float targetDistance;
 
     [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] int cost  = 75;
+    [SerializeField] int upgradeCost;
     public AudioSource audioSource;
     public AudioClip fire;
     public AudioClip deploy;
@@ -28,6 +29,7 @@ public class Tower : MonoBehaviour
     [Header("Projectile")]
     [SerializeField]
     public GameObject projectiles;
+    public GameObject upgradeProjectiles;
     [Header("Missile spawns at attached game object")]
     public Transform spawnPosition;
     [HideInInspector]
@@ -44,6 +46,7 @@ public class Tower : MonoBehaviour
 
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+        upgradeCost = cost / 2;
     }
 
     void Update()
@@ -55,6 +58,10 @@ public class Tower : MonoBehaviour
     private void OnMouseOver()
     {
         DrawRange();
+        if (Input.GetMouseButtonDown(0))
+        {
+            UpgradeTower();
+        }
     }
 
     void FindClosestTarget() 
@@ -119,6 +126,10 @@ public class Tower : MonoBehaviour
         Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
         Graphics.DrawMesh(mesh, trsMatrix, material, 1);
     }
+    void DrawHighLight() 
+    {
+        // how do we want to draw highlights on hover? Shader? Static mesh?
+    }
 
     public bool CreateTower(Tower tower, Vector3 position) 
     {
@@ -142,6 +153,21 @@ public class Tower : MonoBehaviour
         else
         {
             return false;
+        }
+
+    }
+
+    public void UpgradeTower()
+    {
+        PlayerBank bank = FindObjectOfType<PlayerBank>();
+        if (bank.CurrentBalance >= upgradeCost)
+        {
+            damage +=2;
+            range += 0.75f;
+            projectiles = upgradeProjectiles;
+            projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+            bank.Withdrawl(upgradeCost);
+            upgradeCost += 15;
         }
 
     }
