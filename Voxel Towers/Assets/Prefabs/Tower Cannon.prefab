@@ -4889,14 +4889,16 @@ MonoBehaviour:
   rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 806884979473033098}
   cost: 100
-  upgradeCost: 0
   audioSource: {fileID: 0}
   fire: {fileID: 0}
   deploy: {fileID: 0}
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
   projectiles: {fileID: 1327142519841044, guid: 00a5dbf234b761347a6c8f6ccdedf0bb, type: 3}
-  upgradeProjectiles: {fileID: 1327142519841044, guid: e89b11e629a608c45963140bb383cc57, type: 3}
+  upgradeProjectiles:
+  - {fileID: 1327142519841044, guid: e89b11e629a608c45963140bb383cc57, type: 3}
+  - {fileID: 1327142519841044, guid: 7a4489fb3cb0c9a4a9f0733077e74eae, type: 3}
+  - {fileID: 1327142519841044, guid: f0bf161ff65351242aedb8464873b877, type: 3}
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
   speed: 750

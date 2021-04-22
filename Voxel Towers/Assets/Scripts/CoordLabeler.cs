@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEditor;
 
 [ExecuteAlways]
 public class CoordLabeler : MonoBehaviour
@@ -34,8 +35,9 @@ public class CoordLabeler : MonoBehaviour
 
     void DisplayCoords() 
     {
-        coords.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);
-        coords.y = Mathf.RoundToInt(transform.parent.position.z / UnityEditor.EditorSnapSettings.move.z);
+        //Copmment these out before build
+        coords.x = Mathf.RoundToInt(transform.parent.position.x / EditorSnapSettings.move.x);
+        coords.y = Mathf.RoundToInt(transform.parent.position.z / EditorSnapSettings.move.z);
         label.text = coords.x + "," + coords.y;
     }
     void UpdateName()

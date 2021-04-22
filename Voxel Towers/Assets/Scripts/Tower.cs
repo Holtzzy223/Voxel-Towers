@@ -10,13 +10,13 @@ public class Tower : MonoBehaviour
     [SerializeField] Transform weapon;
     [SerializeField] float range = 10f;
     [SerializeField] float damage = 2f;
-    public float Damage { get{return damage; } }
+    public float Damage { get { return damage; } }
     float targetDistance;
 
     [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
-    [SerializeField] int cost  = 75;
-    
+    [SerializeField] int cost = 75;
+
     public AudioSource audioSource;
     public AudioClip fire;
     public AudioClip deploy;
@@ -25,11 +25,11 @@ public class Tower : MonoBehaviour
     [Header("Range Indicator")]
     public Mesh mesh;
     public Material material;
-    
+
     [Header("Projectile")]
     [SerializeField]
     public GameObject projectiles;
-    public GameObject upgradeProjectiles;
+    public GameObject[] upgradeProjectiles;
     [Header("Missile spawns at attached game object")]
     public Transform spawnPosition;
     [HideInInspector]
@@ -125,7 +125,7 @@ public class Tower : MonoBehaviour
             if (projectile == null)
             {
                 projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
-                projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the point clicked
+                projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
                 projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
             }
         }
@@ -178,10 +178,21 @@ public class Tower : MonoBehaviour
         {
             damage +=damageBuff;
             range += rangeBuff;
-            if (tier == 2)
+            switch (tier)
             {
-                projectiles = upgradeProjectiles;
-                projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                case 0:
+                    projectiles = upgradeProjectiles[0];
+                    speed = 1200;
+                    projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    break;
+                case 1:
+                    projectiles = upgradeProjectiles[1];
+                    projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    break;
+                case 2:
+                    projectiles = upgradeProjectiles[2];
+                    projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    break;
             }
             bank.Withdrawl(upgradeCost);
             upgradeCost += 15;
