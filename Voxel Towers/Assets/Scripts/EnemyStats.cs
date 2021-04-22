@@ -17,24 +17,30 @@ public class EnemyStats : MonoBehaviour
         healthBar.value = healthBar.maxValue;
         //int health per wave at base * wave count 
         WavePool wavePool = FindObjectOfType<WavePool>();
+        UpdateHealth(wavePool);
+    }
+
+
+
+    private void Start()
+    {
+        enemy = GetComponent<Enemy>();
+    }
+    private void UpdateHealth(WavePool wavePool)
+    {
         if (wavePool != null)
         {
             if (wavePool.WaveCount > 1)
             {
-                maxHP = baseHP * (wavePool.WaveCount );
+                maxHP = baseHP * (wavePool.WaveCount);
             }
-            else 
+            else
             {
                 maxHP = baseHP;
             }
             currentHP = maxHP;
         }
     }
-    private void Start()
-    {
-        enemy = GetComponent<Enemy>();
-    }
-
     // Update is called once per frame
     void Update()
     {

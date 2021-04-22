@@ -126,3 +126,210 @@ System memory in use after: 126.6 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3092.
 Total: 5.132600 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.220400 ms MarkObjects: 4.265600 ms  DeleteObjects: 0.151300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1310.099748 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcadf572c59a34ce005b3523f951913d') in 0.451080 seconds
+  Import took 0.473764 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.020 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 10.868700 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.229400 ms MarkObjects: 10.187700 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.411957 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4622070b80c9877c3c222de247d4a174') in 0.656795 seconds
+  Import took 0.699148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.619 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 23.636500 ms (FindLiveObjects: 13.529100 ms CreateObjectMapping: 1.292100 ms MarkObjects: 8.788100 ms  DeleteObjects: 0.025400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.301 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3173.
+Total: 10.465700 ms (FindLiveObjects: 0.480200 ms CreateObjectMapping: 0.365500 ms MarkObjects: 9.570100 ms  DeleteObjects: 0.047300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.311 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 8.416100 ms (FindLiveObjects: 0.465600 ms CreateObjectMapping: 0.256600 ms MarkObjects: 7.664800 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.137843 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c518a0ce606f7b26d4c7cc9f8c6e8711') in 0.780838 seconds
+  Import took 0.800293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e66c28c3cc88a54d23730cbb0572cd4') in 0.176761 seconds
+  Import took 0.195769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3be5fba6bad0fe04c5db52d54252fb') in 0.199446 seconds
+  Import took 0.227876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.715689 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43edaa6bb7cdfa106d3520d1a5c67df7') in 0.133782 seconds
+  Import took 0.159475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.286246 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce8594c2811d2b003784af5a89069cb') in 0.140136 seconds
+  Import took 0.156864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.612824 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e432c7d80123b7e67e430f73ca46f87') in 0.115600 seconds
+  Import took 0.137258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.929432 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83060697217efe707568601f5de70787') in 0.187022 seconds
+  Import took 0.220531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 14.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.003 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 127.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3215.
+Total: 41.321800 ms (FindLiveObjects: 6.677800 ms CreateObjectMapping: 0.592400 ms MarkObjects: 34.027000 ms  DeleteObjects: 0.023100 ms)
+

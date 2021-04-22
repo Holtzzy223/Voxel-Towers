@@ -30,6 +30,7 @@ public class Tower : MonoBehaviour
     [SerializeField]
     public GameObject projectiles;
     public GameObject[] upgradeProjectiles;
+    public float[] upgradeProjectileSpeeds;
     [Header("Missile spawns at attached game object")]
     public Transform spawnPosition;
     [HideInInspector]
@@ -62,6 +63,7 @@ public class Tower : MonoBehaviour
         DrawRange();
         if (Input.GetMouseButtonDown(0))
         {
+            //REMOVE MAGIC NUMBERS
             switch (tier)
             {
                 case 0:
@@ -182,15 +184,17 @@ public class Tower : MonoBehaviour
             {
                 case 0:
                     projectiles = upgradeProjectiles[0];
-                    speed = 1200;
+                    speed = upgradeProjectileSpeeds[0];
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
                     break;
                 case 1:
                     projectiles = upgradeProjectiles[1];
+                    speed = upgradeProjectileSpeeds[1];
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
                     break;
                 case 2:
                     projectiles = upgradeProjectiles[2];
+                    speed = upgradeProjectileSpeeds[2];
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
                     break;
             }
