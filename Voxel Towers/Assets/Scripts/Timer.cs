@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Linq;
 
 public class Timer : MonoBehaviour
 {
     public float timeRemaining;
     public bool timerIsRunning = false;
+    public bool displayTime;
     public TextMeshProUGUI timeText;
     private float waveTimer;
     private float spawnTimer;
+    public bool isWaveTimer = true;
+    public bool isAlarmTimer = false;
+    
+
 
     private void Start()
     {
@@ -23,23 +29,39 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        if (timerIsRunning)
+        RunTimer();
+    }
+    public void RunTimer()
+    {
+         if (timerIsRunning)
         {
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                DisplayTime(timeRemaining);
+                if (displayTime)
+                {
+                    DisplayTime(timeRemaining);
+                }
             }
             else
             {
                 Debug.Log("Time has run out!");
-                timeRemaining = 0;
-                timeRemaining = waveTimer * spawnTimer;
+
+                if (isWaveTimer)
+                {
+                    
+                    timeRemaining = 0;
+                    timeRemaining = waveTimer * spawnTimer;
+                }
+                if (isAlarmTimer)
+                {
+                   
+                }
+      
                 //timerIsRunning = false;
             }
         }
     }
-
     void DisplayTime(float timeToDisplay)
     {
         timeToDisplay += 1;
