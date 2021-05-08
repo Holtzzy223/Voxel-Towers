@@ -40,7 +40,7 @@ public class Tower : MonoBehaviour
     GameObject projectile;
     private int tier = 0;
     private int tierMax = 3;
-    
+    public GameObject onHoverUI;
 
     public List<ParticleCollisionEvent> collisionEvents;
     private void Start()
@@ -57,28 +57,18 @@ public class Tower : MonoBehaviour
     {
         FindClosestTarget();
         AimWeapon();
-        
+        var matColor = material.color;
+        matColor.a = Random.Range(0.0f,0.5f);
     }
     private void OnMouseOver()
     {
-        
+          
         DrawRange();
+        onHoverUI.SetActive(true);
         if (Input.GetMouseButtonDown(0))
         {
             //REMOVE MAGIC NUMBERS
-            switch (tier)
-            {
-                case 0:
-                    UpgradeTower(1f,0.75f,Mathf.RoundToInt(cost*0.5f));
-                    break;
-                case 1:
-                    UpgradeTower(2f, 1.25f, Mathf.RoundToInt(cost * 0.65f));
-                    break;
-                case 2:
-                    UpgradeTower(4f,1.25f, Mathf.RoundToInt(cost * 0.85f));
-                    break;
-
-            }
+           
         }
     }
 
@@ -142,7 +132,9 @@ public class Tower : MonoBehaviour
         float zDrawOffset = 0.75f;
         Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
         Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
+         
         Graphics.DrawMesh(mesh, trsMatrix, material, 1);
+
     }
     void DrawHighLight() 
     {
@@ -209,10 +201,53 @@ public class Tower : MonoBehaviour
             bank.Withdrawl(upgradeCost);
             upgradeCost += 15;
             tier++;
+            onHoverUI.SetActive(false);
         }
 
     }
+    public void SellTower()
+    {
+        PlayerBank bank = FindObjectOfType<PlayerBank>();
+        var towerValue = Mathf.RoundToInt(cost * (tier+1) * 0.75f);
+        bank.Deposit(towerValue);
+        
+        Waypoint[] waypoints = FindObjectsOfType<Waypoint>();
+        Transform closestPoint = null;
+        float maxDistance = Mathf.Infinity;
 
+        foreach (Waypoint waypoint in waypoints)
+        {
+            targetDistance = Vector3.Distance(transform.position, waypoint.transform.position);
+            if (targetDistance < maxDistance)
+            {
+                closestPoint = waypoint.transform;
+                maxDistance = targetDistance;
+            }
+        }
+        var targetPoint = closestPoint;
+        closestPoint.gameObject.GetComponent<Waypoint>().isPlaceable = true;
+    
+        onHoverUI.SetActive(false);
+        gameObject.SetActive(false);
+        
+    }
+    public void UpgradeButton() 
+    {
+        switch (tier)
+        {
+            case 0:
+                UpgradeTower(1f, 0.75f, Mathf.RoundToInt(cost * 0.5f));
+                break;
+            case 1:
+                UpgradeTower(2f, 1.25f, Mathf.RoundToInt(cost * 0.65f));
+                break;
+            case 2:
+                UpgradeTower(4f, 1.25f, Mathf.RoundToInt(cost * 0.85f));
+                break;
+
+        }
+
+    }
     
 }
 
