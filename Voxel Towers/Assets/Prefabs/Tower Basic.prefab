@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947013573753229545}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.12, z: 2.16}
+  m_LocalRotation: {x: -0.22497913, y: -0, z: -0, w: 0.9743636}
+  m_LocalPosition: {x: -0.13, y: 3.9, z: 1.76}
   m_LocalScale: {x: 1, y: 1, z: 1.3199}
   m_Children: []
   m_Father: {fileID: 3608462511913233174}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -26.003, y: 0, z: 0}
 --- !u!198 &806884979473033098
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 900
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -658,9 +658,9 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 0
-    type: 4
-    angle: 25
+    enabled: 1
+    type: 8
+    angle: 15
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -803,9 +803,9 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
     arc:
-      value: 360
-      mode: 0
-      spread: 0
+      value: 180
+      mode: 1
+      spread: 1
       speed:
         serializedVersion: 2
         minMaxState: 0
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3925,9 +3925,9 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 0
+    enabled: 1
     mode: 0
-    ratio: 1
+    ratio: 0.5
     lifetime:
       serializedVersion: 2
       minMaxState: 0
@@ -3982,15 +3982,15 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     minVertexDistance: 0.2
-    textureMode: 0
+    textureMode: 1
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
-    dieWithParticles: 1
-    sizeAffectsWidth: 1
-    sizeAffectsLifetime: 0
-    inheritParticleColor: 1
-    generateLightingData: 0
+    dieWithParticles: 0
+    sizeAffectsWidth: 0
+    sizeAffectsLifetime: 1
+    inheritParticleColor: 0
+    generateLightingData: 1
     splitSubEmitterRibbons: 0
     attachRibbonsToTransform: 0
     colorOverLifetime:
@@ -4059,7 +4059,7 @@ ParticleSystem:
     widthOverTrail:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4759,6 +4759,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 83424bd4209ab084eaf5f073dfa4c9a2, type: 2}
+  - {fileID: 2100000, guid: 1d9d9b36a5896cd46afb2895499dffad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4831,7 +4832,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.56, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7120995588736106950}
   - {fileID: 2303536799236407313}
   - {fileID: 8000883812667479311}
   m_Father: {fileID: 8375555782047755799}
@@ -4849,7 +4849,7 @@ GameObject:
   - component: {fileID: 4933393057370239132}
   - component: {fileID: 1179440067350909180}
   m_Layer: 0
-  m_Name: Tower Cannon
+  m_Name: Tower Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4884,29 +4884,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 3608462511913233174}
-  range: 20
-  damage: 3
+  range: 15
+  damage: 1.5
   rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 806884979473033098}
-  cost: 100
+  cost: 50
   audioSource: {fileID: 0}
   fire: {fileID: 0}
   deploy: {fileID: 0}
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   hilightMesh: {fileID: -2432090755550338912, guid: b1e854b597acc2f49ac9c735d498e1ad, type: 3}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
-  projectiles: {fileID: 1327142519841044, guid: 00a5dbf234b761347a6c8f6ccdedf0bb, type: 3}
+  projectiles: {fileID: 1327142519841044, guid: 697a7acf0d6ce8f4dab72ebae97a9dd7, type: 3}
   upgradeProjectiles:
-  - {fileID: 1327142519841044, guid: e89b11e629a608c45963140bb383cc57, type: 3}
-  - {fileID: 1327142519841044, guid: 7a4489fb3cb0c9a4a9f0733077e74eae, type: 3}
-  - {fileID: 1327142519841044, guid: f0bf161ff65351242aedb8464873b877, type: 3}
+  - {fileID: 1327142519841044, guid: ec64493a88371a341a496d5146796b05, type: 3}
+  - {fileID: 1327142519841044, guid: 00d522ee3ed6056458636e905b5be7ff, type: 3}
+  - {fileID: 1327142519841044, guid: fe7c0d0684a1e5f4f8dc64e44b21b1ea, type: 3}
   upgradeProjectileSpeeds:
-  - 850
-  - 950
   - 1200
+  - 1400
+  - 1600
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
-  speed: 750
+  speed: 1100
 --- !u!65 &1179440067350909180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4982,68 +4982,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 524d536f675c26448a70504fc8fd3b02, type: 3}
   m_PrefabInstance: {fileID: 7239138315832312090}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &7302695368779638317
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 3608462511913233174}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-      propertyPath: m_Name
-      value: TowerTopCannon
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
---- !u!4 &7120995588736106950 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6925cf6f04714441a4ec68a566740ee, type: 3}
-  m_PrefabInstance: {fileID: 7302695368779638317}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7530687159918572260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5053,7 +4991,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 47f70761ec2d9ee4d91b0a2378f172c6, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 47f70761ec2d9ee4d91b0a2378f172c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5065,7 +5003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 47f70761ec2d9ee4d91b0a2378f172c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 47f70761ec2d9ee4d91b0a2378f172c6, type: 3}
       propertyPath: m_LocalRotation.w

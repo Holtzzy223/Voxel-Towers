@@ -113,15 +113,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   towers:
-  - {fileID: 4933393057370239132, guid: 146947fdc9f85fd4085e66c94ca311f9, type: 3}
+  - {fileID: 4933393057370239132, guid: ba9c1eedb125dd84c8e3bf3769b506e6, type: 3}
   - {fileID: 4933393057370239132, guid: 307fb58a2c3d2d247971700aa751e384, type: 3}
+  - {fileID: 4933393057370239132, guid: 3fb595b354187f944b5d1ccaf409e537, type: 3}
   isPlaceable: 1
   grassMesh: {fileID: 0}
   pathMesh: {fileID: 0}
   path90Mesh: {fileID: 0}
   towerUI: {fileID: 0}
   mesh: {fileID: -2432090755550338912, guid: ea045bd341655c2449fc77d300291227, type: 3}
-  material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
+  yesMaterial: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
+  noMaterial: {fileID: 2100000, guid: bd263060107bbae4c86609fce0633ee8, type: 2}
 --- !u!65 &4299538769233344455
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -11,8 +11,10 @@ public class Waypoint : MonoBehaviour
     public GameObject pathMesh;
     public GameObject path90Mesh;
     public TowerUI towerUI;
+    
     public Mesh mesh;
-    public Material material;
+    public Material yesMaterial;
+    public Material noMaterial;
 
 
     public bool IsPlaceable { get   { return isPlaceable;}}
@@ -49,6 +51,14 @@ public class Waypoint : MonoBehaviour
         Vector3 scale =new Vector3( 1f,1.1f,1f);
         //Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
         Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
-        Graphics.DrawMesh(mesh, trsMatrix, material, 1);
+        if (isPlaceable)
+        {
+            Graphics.DrawMesh(mesh, trsMatrix, yesMaterial, 1);
+
+        }
+        else
+        {
+            Graphics.DrawMesh(mesh, trsMatrix, noMaterial, 1);
+        }
     }
 }

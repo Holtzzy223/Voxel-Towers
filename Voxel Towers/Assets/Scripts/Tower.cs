@@ -24,6 +24,7 @@ public class Tower : MonoBehaviour
     Transform target;
     [Header("Range Indicator")]
     public Mesh mesh;
+    public Mesh hilightMesh;
     public Material material;
 
     [Header("Projectile")]
@@ -60,6 +61,7 @@ public class Tower : MonoBehaviour
     }
     private void OnMouseOver()
     {
+        
         DrawRange();
         if (Input.GetMouseButtonDown(0))
         {
@@ -144,7 +146,13 @@ public class Tower : MonoBehaviour
     }
     void DrawHighLight() 
     {
-        // how do we want to draw highlights on hover? Shader? Static mesh?
+      //  Vector3 scale = new Vector3(1.1f, 1.1f, 1.1f);
+      //  //Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
+      //  Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
+      //
+      //  Graphics.DrawMesh(hilightMesh, trsMatrix, material, 1);
+
+        
     }
 
     public bool CreateTower(Tower tower, Vector3 position) 
