@@ -37,6 +37,7 @@ public class Base : MonoBehaviour
 
     public void RemoveHP(int amount)
     {
+        Debug.LogError("Remove Health");
         currentHP -= Mathf.Abs(amount);
         UpdateHeathBar();
         if (currentHP <= 0)
