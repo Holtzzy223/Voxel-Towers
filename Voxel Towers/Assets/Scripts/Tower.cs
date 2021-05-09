@@ -240,7 +240,7 @@ public class Tower : MonoBehaviour
         }
         var targetPoint = closestPoint;
         closestPoint.gameObject.GetComponent<Waypoint>().isPlaceable = true;
-    
+        Time.timeScale = 1;
         onHoverUI.SetActive(false);
         gameObject.SetActive(false);
         
