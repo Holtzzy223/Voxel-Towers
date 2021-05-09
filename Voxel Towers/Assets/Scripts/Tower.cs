@@ -56,10 +56,23 @@ public class Tower : MonoBehaviour
     void Update()
     {
         FindClosestTarget();
-        AimWeapon();
+        if (onHoverUI.activeSelf==true)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
         var matColor = material.color;
         matColor.a = Random.Range(0.0f,0.5f);
     }
+    private void FixedUpdate()
+    {
+        AimWeapon();
+
+    }
+
     private void OnMouseOver()
     {
           
