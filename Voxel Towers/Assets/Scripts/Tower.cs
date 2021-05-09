@@ -72,8 +72,8 @@ public class Tower : MonoBehaviour
 
         }
         
-        costText.text = '$'+ upgradeCost.ToString();
-        sellText.text = '$' + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
+        costText.text = "- $"+ upgradeCost.ToString();
+        sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
         var matColor = material.color;
         matColor.a = Random.Range(0.0f,0.5f);
