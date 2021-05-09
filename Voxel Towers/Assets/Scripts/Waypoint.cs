@@ -30,16 +30,22 @@ public class Waypoint : MonoBehaviour
      ///      }
      ///  }
     }
+
     private void OnMouseOver()
     {
         DrawHighLight();
-        PlaceTower();
+        var menu = GameObject.FindGameObjectWithTag("Upgrade");
+        if(menu==null || menu.activeInHierarchy == false)
+        {
+            PlaceTower();
+        }
         
+     
         
     }
     public void PlaceTower()
     {
-        if (isPlaceable && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1)
+        if (isPlaceable && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1 )
         {
             bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
             isPlaceable = !isPlaced;

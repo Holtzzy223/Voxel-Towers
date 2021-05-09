@@ -64,11 +64,12 @@ public class Tower : MonoBehaviour
     {
           
         DrawRange();
-        onHoverUI.SetActive(true);
+       
         if (Input.GetMouseButtonDown(0))
         {
-            //REMOVE MAGIC NUMBERS
            
+            onHoverUI.SetActive(true);
+            
         }
     }
 

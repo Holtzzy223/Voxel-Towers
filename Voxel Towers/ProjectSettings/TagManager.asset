@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Path
   - Base
+  - Missile
+  - Upgrade
   layers:
   - Default
   - TransparentFX
