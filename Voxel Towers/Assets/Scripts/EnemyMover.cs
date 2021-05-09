@@ -13,7 +13,8 @@ public class EnemyMover : MonoBehaviour
     Base playerBase;
     private void Awake()
     {
-        enemy = GetComponent<Enemy>();
+        enemy = GetComponentInChildren<Enemy>();
+        Debug.LogError(enemy.ToString());
     }
     // Start is called before the first frame update
     void OnEnable()

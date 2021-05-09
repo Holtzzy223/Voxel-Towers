@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class EnemyStats : MonoBehaviour
 {
-    [SerializeField] float baseHP = 10f;
+    [SerializeField] float baseHP = 20f;
     [SerializeField] float currentHP = 0f;
     [SerializeField] float maxHP;
     public Slider healthBar;

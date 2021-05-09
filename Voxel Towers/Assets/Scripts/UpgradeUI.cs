@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TowerUI : MonoBehaviour
+public class UpgradeUI : MonoBehaviour
 {
-    public int ButtonChoice { get; set; }
     // Start is called before the first frame update
     void Start()
     {
-        ButtonChoice = -1;
+        
     }
 
     // Update is called once per frame
@@ -16,10 +15,12 @@ public class TowerUI : MonoBehaviour
     {
         
     }
-    public void CursorChange()
+    public void PauseGame()
     {
-        Cursor.visible = false;
+        Time.timeScale = 0;
     }
-
-
+    public void UnPauseGame()
+    {
+        Time.timeScale = 1;
+    }
 }

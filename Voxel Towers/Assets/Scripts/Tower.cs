@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using VoxelArsenal;
-
+using TMPro;
 public class Tower : MonoBehaviour
 {
 
@@ -16,6 +16,7 @@ public class Tower : MonoBehaviour
     [SerializeField] float rangeIndicatorMod = 1.5f;
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] int cost = 75;
+    [SerializeField] int upgradeCost;
 
     public AudioSource audioSource;
     public AudioClip fire;
@@ -41,6 +42,8 @@ public class Tower : MonoBehaviour
     private int tier = 0;
     private int tierMax = 3;
     public GameObject onHoverUI;
+    public TextMeshProUGUI costText;
+    public TextMeshProUGUI sellText;
 
     public List<ParticleCollisionEvent> collisionEvents;
     private void Start()
@@ -55,15 +58,23 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
+        switch (tier)
+        {
+            case 0:
+                upgradeCost = Mathf.RoundToInt(cost * 0.5f);
+                break;
+            case 1:
+                upgradeCost = Mathf.RoundToInt(cost * 0.65f);
+                break;
+            case 2:
+                upgradeCost = Mathf.RoundToInt(cost * 0.85f);
+                break;
+
+        }
+        
+        costText.text = '$'+ upgradeCost.ToString();
+        sellText.text = '$' + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
-        if (onHoverUI.activeSelf==true)
-        {
-            Time.timeScale = 0;
-        }
-        else
-        {
-            Time.timeScale = 1;
-        }
         var matColor = material.color;
         matColor.a = Random.Range(0.0f,0.5f);
     }
@@ -77,12 +88,14 @@ public class Tower : MonoBehaviour
     {
           
         DrawRange();
-       
+        var UI = FindObjectOfType<UpgradeUI>();
         if (Input.GetMouseButtonDown(0))
         {
-           
-            onHoverUI.SetActive(true);
-            
+            if (UI == null||UI.gameObject.activeInHierarchy == false)
+            {
+                onHoverUI.SetActive(true);
+                Time.timeScale = 0;
+            }
         }
     }
 
@@ -215,6 +228,7 @@ public class Tower : MonoBehaviour
             bank.Withdrawl(upgradeCost);
             upgradeCost += 15;
             tier++;
+            Time.timeScale = 1;
             onHoverUI.SetActive(false);
         }
 
@@ -222,7 +236,7 @@ public class Tower : MonoBehaviour
     public void SellTower()
     {
         PlayerBank bank = FindObjectOfType<PlayerBank>();
-        var towerValue = Mathf.RoundToInt(cost * (tier+1) * 0.75f);
+        var towerValue = Mathf.FloorToInt(cost * (tier+1) * 0.5f);
         bank.Deposit(towerValue);
         
         Waypoint[] waypoints = FindObjectsOfType<Waypoint>();
@@ -250,13 +264,13 @@ public class Tower : MonoBehaviour
         switch (tier)
         {
             case 0:
-                UpgradeTower(1f, 0.75f, Mathf.RoundToInt(cost * 0.5f));
+                UpgradeTower(1f, 0.75f, upgradeCost);
                 break;
             case 1:
-                UpgradeTower(2f, 1.25f, Mathf.RoundToInt(cost * 0.65f));
+                UpgradeTower(2f, 1.25f, upgradeCost);
                 break;
             case 2:
-                UpgradeTower(4f, 1.25f, Mathf.RoundToInt(cost * 0.85f));
+                UpgradeTower(4f, 1.25f, upgradeCost);
                 break;
 
         }
