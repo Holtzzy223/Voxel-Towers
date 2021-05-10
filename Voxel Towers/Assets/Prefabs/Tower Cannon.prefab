@@ -4885,11 +4885,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 3608462511913233174}
-  range: 20
-  damage: 3
+  range: 25
+  damage: 2
   rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 806884979473033098}
   cost: 100
+  upgradeCost: 0
   audioSource: {fileID: 0}
   fire: {fileID: 0}
   deploy: {fileID: 0}

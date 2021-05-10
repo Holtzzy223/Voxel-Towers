@@ -6,7 +6,10 @@ public class EnemyStats : MonoBehaviour
 {
     [SerializeField] float baseHP = 20f;
     [SerializeField] float currentHP = 0f;
-    [SerializeField] float maxHP;
+    [SerializeField] float maxHP;  
+    public float baseSpeed = 0.5f;
+    public float currentSpeed = 0f;
+    public float maxSpeed;
     public Slider healthBar;
     Enemy enemy;
 
@@ -17,7 +20,7 @@ public class EnemyStats : MonoBehaviour
         healthBar.value = healthBar.maxValue;
         //int health per wave at base * wave count 
         WavePool wavePool = FindObjectOfType<WavePool>();
-        UpdateHealth(wavePool);
+        UpdateStats(wavePool);
     }
 
 
@@ -26,19 +29,22 @@ public class EnemyStats : MonoBehaviour
     {
         enemy = GetComponent<Enemy>();
     }
-    private void UpdateHealth(WavePool wavePool)
+    private void UpdateStats(WavePool wavePool)
     {
         if (wavePool != null)
         {
             if (wavePool.WaveCount > 1)
             {
                 maxHP = baseHP * (wavePool.WaveCount);
+                maxSpeed = baseSpeed +(wavePool.WaveCount * 0.08f);
             }
             else
             {
                 maxHP = baseHP;
+                maxSpeed = baseSpeed;
             }
             currentHP = maxHP;
+            currentSpeed = maxSpeed;
         }
     }
     // Update is called once per frame

@@ -176,6 +176,9 @@ MonoBehaviour:
   baseHP: 20
   currentHP: 0
   maxHP: 0
+  baseSpeed: 0.25
+  currentSpeed: 0
+  maxSpeed: 0
   healthBar: {fileID: 3494253447243063906}
 --- !u!114 &3583431383344407185
 MonoBehaviour:

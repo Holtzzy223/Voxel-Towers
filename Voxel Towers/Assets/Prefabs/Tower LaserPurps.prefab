@@ -4886,7 +4886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: {fileID: 3608462511913233174}
   range: 15
-  damage: 2
+  damage: 1.5
   rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 806884979473033098}
   cost: 75
@@ -4903,12 +4903,12 @@ MonoBehaviour:
   - {fileID: 1327142519841044, guid: c60d730ac37c9f74aaf5c213a29838d6, type: 3}
   - {fileID: 1327142519841044, guid: 3bef42ac5db5a574482a27e7198bc681, type: 3}
   upgradeProjectileSpeeds:
-  - 850
-  - 950
+  - 1100
   - 1200
+  - 1400
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
-  speed: 900
+  speed: 1000
   onHoverUI: {fileID: 3863800488695430526}
   costText: {fileID: 7114541281825733783}
   sellText: {fileID: 5648573907840779940}

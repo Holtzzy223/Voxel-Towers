@@ -19,6 +19,7 @@ public class EnemyMover : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
+        speed = enemy.GetComponent<EnemyStats>().currentSpeed;
         pathFinished = false;
         FindPath();
         ReturnToStart();
@@ -55,7 +56,7 @@ public class EnemyMover : MonoBehaviour
             {
                 travelPercent += Mathf.Abs(speed)*Time.deltaTime;
                 transform.position = Vector3.Lerp(startPos, endPos, travelPercent);
-                yield return new WaitForEndOfFrame();
+                yield return new WaitForFixedUpdate();
             }
         }
 
