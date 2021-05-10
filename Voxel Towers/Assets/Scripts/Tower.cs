@@ -13,7 +13,7 @@ public class Tower : MonoBehaviour
     public float Damage { get { return damage; } }
     float targetDistance;
 
-    [SerializeField] float rangeIndicatorMod = 1.5f;
+    private float rangeIndicatorMod = 1.8f;
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] int cost = 75;
     [SerializeField] int upgradeCost;

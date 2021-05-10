@@ -4885,9 +4885,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 3608462511913233174}
-  range: 15
+  range: 12
   damage: 1
-  rangeIndicatorMod: 1.5
   projectileParticle: {fileID: 806884979473033098}
   cost: 50
   upgradeCost: 0
