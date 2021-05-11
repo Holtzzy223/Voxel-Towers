@@ -4138,3 +4138,1368 @@ System memory in use after: 127.2 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3543.
 Total: 5.508400 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.148100 ms MarkObjects: 4.946300 ms  DeleteObjects: 0.022300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 6247.716314 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bed6127c2720e1c97ce4b9c23ce8e7f') in 0.391102 seconds
+  Import took 0.421864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebca99ad454747e520aad4f0a071b59') in 0.111331 seconds
+  Import took 0.123370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f9ec36b26ae6241b370b5be6f0d0a9') in 0.047284 seconds
+  Import took 0.053159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae825076d12e683c41d3055bf1af58d') in 0.097937 seconds
+  Import took 0.109636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.153239 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7341c10a758b4e686cadd613c47aacb1') in 0.171214 seconds
+  Import took 0.186283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31982ee59edd92c7ca1dd8c07b3c1cc3') in 0.096045 seconds
+  Import took 0.107854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53df3566344a44d08981ff104d58ee3') in 0.045505 seconds
+  Import took 0.053116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe4500ec347a43fc07147b30fd073d8') in 0.107597 seconds
+  Import took 0.121620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.842705 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802051baa1dbb9954ef18c5e084a2944') in 0.127003 seconds
+  Import took 0.147627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93bd50831b1efe9b28bd5908f4b8d70') in 0.184239 seconds
+  Import took 0.200105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49454c2d3013759e8d5e98f387ad24ce') in 0.060099 seconds
+  Import took 0.070107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff81cb65a4d0a6c16436ecebbf155f6b') in 0.115013 seconds
+  Import took 0.128154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.427767 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e586ec741639d7b085b33222f8ba42c') in 0.164829 seconds
+  Import took 0.183795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001862 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a734c1488fc050ddfc542de74b66297d') in 0.144889 seconds
+  Import took 0.159050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10f43f0a142c730736c9498c7a0e73c') in 0.053723 seconds
+  Import took 0.061066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f414e19844988b85c0ef4e403a88ced4') in 0.118930 seconds
+  Import took 0.131735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192740 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2e301a4d1792a390e98a3d573e183d') in 0.107060 seconds
+  Import took 0.120306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3495e0c8295903d1f232da69a49074d') in 0.100200 seconds
+  Import took 0.113567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514b23e8122cedc78c21e626b88ac8e') in 0.041840 seconds
+  Import took 0.047426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e076e3ed68c4f9fe2e846faa9bff1c79') in 0.090913 seconds
+  Import took 0.102094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.192794 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95549951329b511a093c92cc2c46d6e6') in 0.095253 seconds
+  Import took 0.108804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d1a6ab234bf58745f58cc58b8f6019') in 0.093788 seconds
+  Import took 0.105248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2539203e396b761df687c71105fb2822') in 0.047299 seconds
+  Import took 0.052892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91dc0d7170f4f2f0ba6e02072575eb') in 0.087320 seconds
+  Import took 0.099282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.797859 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a53751f33f4c5b274239e9f7eb6d4b3') in 0.127824 seconds
+  Import took 0.149327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abf47b3752b1d2b5bac160404cdbd24') in 0.138223 seconds
+  Import took 0.152175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ca5e26dd6c514028bf7e9e0f2bd3d2') in 0.042902 seconds
+  Import took 0.048506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74f29e6d74e767eac72b775d4d8edcb') in 0.096762 seconds
+  Import took 0.107842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.717239 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3f613570d69e797efdfd652f39207f') in 0.129618 seconds
+  Import took 0.144628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b0eb019befc0d1bf4dab5a88f36e67') in 0.107017 seconds
+  Import took 0.123814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347f85e7d74b57c1a9b9c4324f7ac25f') in 0.062185 seconds
+  Import took 0.069732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93939002935cdaf5e681f81f0e626b04') in 0.145491 seconds
+  Import took 0.156916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.406823 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a6ae6695ad0e621eaa25d07ac4ea28') in 0.125483 seconds
+  Import took 0.142714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861ae01e8b51f28a81ca2128b9f69332') in 0.094281 seconds
+  Import took 0.106136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4aba741d37a9121767e30e27113ef01') in 0.043808 seconds
+  Import took 0.049702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18b123caa00d5330a841df3b7a1ce05') in 0.092391 seconds
+  Import took 0.103211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.914344 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f0bfb6412423f0309f95cc5dbdc52') in 0.141090 seconds
+  Import took 0.159081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241cf4fd4bc3c34208c588e8b2e61515') in 0.098884 seconds
+  Import took 0.113520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d3088cd76a8cb88d679b92ff8f9b74') in 0.049058 seconds
+  Import took 0.054974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb7ae8f6e7c0d6930d6093bee6c95c3') in 0.114903 seconds
+  Import took 0.127793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.604305 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d80e7f0cdc187a5da0ea2080f77989e') in 0.109043 seconds
+  Import took 0.121733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0f3655efbe981b836e73b24d1c4a53') in 0.096620 seconds
+  Import took 0.108426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a713fda6179011c435e9e8ea1c34651') in 0.045442 seconds
+  Import took 0.052713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42e1975a14c18280588e5f6e3d9a4be') in 0.094035 seconds
+  Import took 0.106699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.683578 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee87fd5003537d427672f5d086aa854') in 0.151275 seconds
+  Import took 0.171758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47e59134f41bbca0cf1067a07886246') in 0.104373 seconds
+  Import took 0.120270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd093864a651153e89116a3adf35ab6cc') in 0.050648 seconds
+  Import took 0.058633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e84548efad09a90755bbb6029b0599a') in 0.095203 seconds
+  Import took 0.108142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.809750 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0b923a8069784c796966e71ca96351') in 0.229148 seconds
+  Import took 0.243694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54b29b112cd14375f1f30a0da78f13b') in 0.095661 seconds
+  Import took 0.107461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac061b39b63de9d10a66963b2bfd5a59') in 0.049476 seconds
+  Import took 0.056394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6acfa48a6c363c5f2bbe6ae05bba03') in 0.094097 seconds
+  Import took 0.106506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987298 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c732d6f6c20ef79c5daa53e24116f9ef') in 0.145038 seconds
+  Import took 0.169616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51d069c5c8ee6d42f7b89b64d0333ab') in 0.103140 seconds
+  Import took 0.119164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a905cad371b33043b37edd6aff6c92e') in 0.057711 seconds
+  Import took 0.065115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9593574230bc003e9fac6549f60d22af') in 0.092246 seconds
+  Import took 0.104325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.101109 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2f3c200125881925fda245d4c351c3') in 0.136855 seconds
+  Import took 0.163018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45d034877714828b26dea71cbd6f47') in 0.119687 seconds
+  Import took 0.134503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100ff8743140efa57524558c04aeb76b') in 0.045764 seconds
+  Import took 0.051388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b6133ea29cb414425466bf0d258ad1') in 0.106148 seconds
+  Import took 0.120101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.926196 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16bf1556be22a7177a6c92df6ef8eb0') in 0.130879 seconds
+  Import took 0.146837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3982837b19e2cbb0e6774367a601bbc0') in 0.118715 seconds
+  Import took 0.134968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7633691d985ba099a29226ce47e70d77') in 0.057041 seconds
+  Import took 0.065172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f115b432c97456432b7ed36b3c841e3e') in 0.107920 seconds
+  Import took 0.126481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.046417 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b45dcdb80f63f3b6a2ce14fa3adfd4') in 0.186103 seconds
+  Import took 0.203061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84f28e0488e1505a9b8b798f4f88098') in 0.145307 seconds
+  Import took 0.170914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97316882f3ba0bd3468bbac043473de9') in 0.133952 seconds
+  Import took 0.141631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fff596d7e87441fa6c6715b913ceaef') in 0.098800 seconds
+  Import took 0.110751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.385666 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5d92c391d107517e0aafbad686ab1') in 0.113111 seconds
+  Import took 0.129026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b2ea92eaebe4fe9c7d6fdee7569d77') in 0.108307 seconds
+  Import took 0.121880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef74559faf2c17f28af6f1036d6a4d6') in 0.046679 seconds
+  Import took 0.053003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f731f6a619926ce4f03b4b1595565f84') in 0.089825 seconds
+  Import took 0.100537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.284773 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20163c9a7456558336aef3a8faa8561d') in 0.149506 seconds
+  Import took 0.165535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bd26775c2761f71dea0dcde4488dbf') in 0.098002 seconds
+  Import took 0.109599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7de44f318f1888660088fa7a6d1055') in 0.044213 seconds
+  Import took 0.049510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f20d716485059aa9dacf454a346ce5a') in 0.090443 seconds
+  Import took 0.113015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.074779 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be8e801ce51928178af558151e8f3bd') in 0.138265 seconds
+  Import took 0.152969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4baf833ae0309e7844c3f0654b2e148') in 0.099413 seconds
+  Import took 0.111613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092eeeae3460becc66f45f799aa6f9b1') in 0.041976 seconds
+  Import took 0.049236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa049b4e5a6c21ee5c903371969824f2') in 0.116437 seconds
+  Import took 0.128707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.290028 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0493f2631e0a447fc5d5d43bbab798cf') in 0.104201 seconds
+  Import took 0.120391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c0775a31313b5a8daf195453f7dd4c') in 0.130818 seconds
+  Import took 0.142937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e08d384b919f8d3fc3d0bbf9db7b259') in 0.051560 seconds
+  Import took 0.057955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04ca5caed7c5d2d3fc0e02aac0cc316') in 0.094248 seconds
+  Import took 0.106157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.311566 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c75fc7a46891a53368f132c083131a') in 0.135523 seconds
+  Import took 0.159728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbf3502df5e35f4e27db99fc90dfdbf') in 0.104133 seconds
+  Import took 0.120943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7736963f12b3d92942defcb7a031ba') in 0.052994 seconds
+  Import took 0.066886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7027cce9e57d79eff817b86231b187d8') in 0.108749 seconds
+  Import took 0.125200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.317084 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d46bfb11d659fec89c296360391d06') in 0.107060 seconds
+  Import took 0.143749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca09443cdea428fdc0c70465eb3e628') in 0.101246 seconds
+  Import took 0.114431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7705ca4fe5f74ef09f9dfd37f981e043') in 0.059478 seconds
+  Import took 0.066528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1259cf572e1dc0fc713b06b89b232a9') in 0.128174 seconds
+  Import took 0.139096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.823142 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d04e7db04af96cac3790b439b482de') in 0.120651 seconds
+  Import took 0.135993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae58d7337f3c2d4a350157309eb0cd5') in 0.179950 seconds
+  Import took 0.194019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2cda5e283f13a9ff8d1107803a672a') in 0.053153 seconds
+  Import took 0.058807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868a025b08b455fb8af3fa87349e690c') in 0.093869 seconds
+  Import took 0.107049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.485 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3582.
+Total: 4.436400 ms (FindLiveObjects: 0.367300 ms CreateObjectMapping: 0.544900 ms MarkObjects: 3.466000 ms  DeleteObjects: 0.035200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.598561 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33879424d120802159c73afe5dbee221') in 0.365498 seconds
+  Import took 0.380526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebe904f9bbb61d7b0723e4a696deb88') in 0.098498 seconds
+  Import took 0.110017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50d06eccda6b1eb0409cc644fdf39ee') in 0.049137 seconds
+  Import took 0.055300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bbc30c55bff0a05c56048a12a651b8') in 0.102889 seconds
+  Import took 0.113455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.031812 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28e14aef8546fddf91b98d0c1a63d19') in 0.095680 seconds
+  Import took 0.108666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065b9a315834bca503e8bb4b5778c1da') in 0.103820 seconds
+  Import took 0.116035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d5046095953bebc7ca27848d508b41') in 0.052551 seconds
+  Import took 0.058103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e5a943fccdd83f834fab6e01d3a071') in 0.098866 seconds
+  Import took 0.111150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.882657 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df983c06f498b794e3a91f40eb13da52') in 0.091312 seconds
+  Import took 0.106617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57d842a6f0ec9281e4529f90ea15664') in 0.127500 seconds
+  Import took 0.140445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8825edcf588cfba346cdc39fe9a1734') in 0.063230 seconds
+  Import took 0.070511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9943efedb48a9dfc73e1a9efe006196') in 0.154210 seconds
+  Import took 0.165501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.993679 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b5facc24b2c9ab59ec3b29cfc0e264') in 0.204887 seconds
+  Import took 0.224731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6643a540a96111b6e54ab85e58f5cd3e') in 0.125355 seconds
+  Import took 0.139015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a396f0bffab09ccf3cc5243fa4c143a') in 0.045152 seconds
+  Import took 0.051102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc577f93b32bd94f2bfeb07feeb826d') in 0.111542 seconds
+  Import took 0.123260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.539873 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8905a42dfd6a6bfe0b71086ea38caa3') in 0.099845 seconds
+  Import took 0.115089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ec03090986ccd4054b8484707febdc') in 0.110578 seconds
+  Import took 0.123929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3e3a13b023674266bb1af495388acd') in 0.048342 seconds
+  Import took 0.053957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219ea5aa0d0fcc881296eba6991a1da') in 0.108002 seconds
+  Import took 0.119635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.217726 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed99ad61aab52b0beaa39c825051c080') in 0.096005 seconds
+  Import took 0.110649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4296a1018dc26944a2f49c0224429cf6') in 0.098968 seconds
+  Import took 0.111348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbee8d2c92e14f213aeefd66aa794c61') in 0.052615 seconds
+  Import took 0.059084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224c3eb415eb8a3f0d8a040b9622ae4a') in 0.109696 seconds
+  Import took 0.125109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.138954 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9f292f3e7538c7f922b62c656a367c') in 0.111160 seconds
+  Import took 0.127783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ce1d547b9f694264017c052cef1e38') in 0.096698 seconds
+  Import took 0.109413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f5cadf419eb7c358b2526b3ddccc90') in 0.053876 seconds
+  Import took 0.060238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030800ec0a7e1fa8a00b1d3ebfe42674') in 0.239273 seconds
+  Import took 0.255402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.582937 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcde41ee400f9fa6aed12026452cc85d') in 0.133496 seconds
+  Import took 0.150990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6daff291a527e3c8460233281b830c8') in 0.111731 seconds
+  Import took 0.127230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f4620c83b8f5fdfe078c33ddf45e38') in 0.099981 seconds
+  Import took 0.108856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6998da2d168ca5e787374776774ca488') in 0.086772 seconds
+  Import took 0.112439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347916 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56382110c4e6826a30f0347fd6ae86f') in 0.105270 seconds
+  Import took 0.121529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a5689187d431b26630f41e71e20494') in 0.101122 seconds
+  Import took 0.190598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80379bafa80b200754e31c399e6f1c80') in 0.049906 seconds
+  Import took 0.056494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7bd096843c007c66115cd69213bf3c') in 0.123326 seconds
+  Import took 0.135817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998513 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcb9e5646dd5ef6570102ad38a829ed') in 0.138442 seconds
+  Import took 0.158549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542568052502623bf91bf64a97a1fed9') in 0.126839 seconds
+  Import took 0.145318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Prefabs/TowerUI.prefab
+  artifactKey: Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TowerUI.prefab using Guid(4a9318049e756b24b9a6a3fb8ab64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998f11615de1649585a55c80fb5dd64') in 0.054529 seconds
+  Import took 0.061955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c493979bd087685794bca8510676a907') in 0.118459 seconds
+  Import took 0.132754 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3621.
+Total: 3.547400 ms (FindLiveObjects: 0.525800 ms CreateObjectMapping: 0.139500 ms MarkObjects: 2.837800 ms  DeleteObjects: 0.043100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.567 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3624.
+Total: 4.615700 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.275700 ms MarkObjects: 3.951900 ms  DeleteObjects: 0.021300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3627.
+Total: 3.100000 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.524600 ms  DeleteObjects: 0.033200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3630.
+Total: 4.587200 ms (FindLiveObjects: 0.557900 ms CreateObjectMapping: 0.261200 ms MarkObjects: 3.729900 ms  DeleteObjects: 0.036700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3633.
+Total: 3.387900 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.194100 ms MarkObjects: 2.704900 ms  DeleteObjects: 0.032400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3636.
+Total: 3.355500 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.131300 ms MarkObjects: 2.838700 ms  DeleteObjects: 0.021000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.897 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3639.
+Total: 11.165600 ms (FindLiveObjects: 1.594400 ms CreateObjectMapping: 0.628800 ms MarkObjects: 8.918800 ms  DeleteObjects: 0.021200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.345 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3642.
+Total: 9.004400 ms (FindLiveObjects: 1.079600 ms CreateObjectMapping: 0.631200 ms MarkObjects: 7.252900 ms  DeleteObjects: 0.039100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1761.809765 seconds.
+  path: Assets/Prefabs/Enemy(Green).prefab
+  artifactKey: Guid(897dd17dca2ef4d4db9bfcc152baf89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy(Green).prefab using Guid(897dd17dca2ef4d4db9bfcc152baf89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d540670c951ec224dd7dc7aca0dca6b') in 0.072094 seconds
+  Import took 0.080465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.587460 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8f9b2d7663f852c5cbafc47973ada5') in 0.343120 seconds
+  Import took 0.362930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.568010 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fde11cddd1e567e2c98d6bf786e10ac') in 0.158009 seconds
+  Import took 0.176656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.003 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.3 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3681.
+Total: 7.221000 ms (FindLiveObjects: 0.485600 ms CreateObjectMapping: 0.339500 ms MarkObjects: 6.361900 ms  DeleteObjects: 0.032600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.4 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3684.
+Total: 3.435200 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.839200 ms  DeleteObjects: 0.021400 ms)
+

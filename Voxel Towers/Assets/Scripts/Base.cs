@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 public class Base : MonoBehaviour
 {
     [SerializeField] int maxHP = 200;
+    public int MaxHP {get {return maxHP;}}
     [SerializeField] int currentHP;
+    public int CurrentHP { get { return currentHP; } }
     public Slider healthBar;
     
-    int CurrentHP { get { return currentHP; } }
+    
     public ParticleSystem healthParticles;
     ParticleSystem.MainModule main;
     // Start is called before the first frame update

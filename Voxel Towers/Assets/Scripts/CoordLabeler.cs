@@ -36,9 +36,9 @@ public class CoordLabeler : MonoBehaviour
     void DisplayCoords() 
     {
         //Comment these out before build
-      // coords.x = Mathf.RoundToInt(transform.parent.position.x / EditorSnapSettings.move.x);
-      // coords.y = Mathf.RoundToInt(transform.parent.position.z / EditorSnapSettings.move.z);
-      // label.text = coords.x + "," + coords.y;
+      coords.x = Mathf.RoundToInt(transform.parent.position.x / EditorSnapSettings.move.x);
+      coords.y = Mathf.RoundToInt(transform.parent.position.z / EditorSnapSettings.move.z);
+      label.text = coords.x + "," + coords.y;
     }
     void UpdateName()
     {

@@ -51,6 +51,10 @@ public class Timer : MonoBehaviour
                 {
                     
                     timeRemaining = 0;
+                    if (FindObjectOfType<Base>().CurrentHP== FindObjectOfType<Base>().MaxHP)
+                    {
+                        FindObjectOfType<PlayerBank>().Deposit(50);
+                    }
                     timeRemaining = waveTimer * spawnTimer;
                 }
                 if (isAlarmTimer)

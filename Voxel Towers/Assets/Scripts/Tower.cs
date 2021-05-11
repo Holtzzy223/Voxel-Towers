@@ -258,9 +258,9 @@ public class Tower : MonoBehaviour
             }
             bank.Withdrawl(upgradeCost);
             tier++;
-            Time.timeScale = 1;
+            //Time.timeScale = 1;
             UpdateStats();
-            onHoverUI.SetActive(false);
+            //onHoverUI.SetActive(false);
         }
 
     }
@@ -314,8 +314,8 @@ public class Tower : MonoBehaviour
         Debug.Log("Should change stats bar");
         tierText.text = "Tier: " + (tier+1);
         attackSlider.value = damage;
-        rangeSlider.value = range;
-        speedSlider.value = speed;
+        rangeSlider.value = range*1.15f;
+        speedSlider.value = speed*1.05f;
 
     }
 
