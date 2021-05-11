@@ -71,12 +71,15 @@ public class Tower : MonoBehaviour
                 break;
 
         }
-        
-        costText.text = "- $"+ upgradeCost.ToString();
+        if (tier == tierMax)
+            costText.text = "Max Tier"+" ^ "+tier;
+        else
+        {
+            costText.text = "- $" + upgradeCost.ToString() +" ^ "+ tier;
+        }
         sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
-        var matColor = material.color;
-        matColor.a = Random.Range(0.0f,0.5f);
+
     }
     private void FixedUpdate()
     {
