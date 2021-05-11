@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killReward: 15
-  damageToBase: 10
+  damageToBase: 30
 --- !u!114 &8898076551116157396
 MonoBehaviour:
   m_ObjectHideFlags: 0

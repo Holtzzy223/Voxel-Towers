@@ -176,10 +176,12 @@ MonoBehaviour:
   baseHP: 20
   currentHP: 0
   maxHP: 0
+  isBreaker: 0
   baseSpeed: 0.25
   currentSpeed: 0
   maxSpeed: 0
   healthBar: {fileID: 3494253447243063906}
+  childEnemy: {fileID: 0}
 --- !u!114 &3583431383344407185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killReward: 15
-  damageToBase: 10
+  damageToBase: 20
 --- !u!114 &8898076551116157396
 MonoBehaviour:
   m_ObjectHideFlags: 0
