@@ -176,6 +176,9 @@ MonoBehaviour:
   baseHP: 10
   currentHP: 0
   maxHP: 0
+  baseSpeed: 0.5
+  currentSpeed: 0
+  maxSpeed: 0
   healthBar: {fileID: 3494253447243063906}
 --- !u!114 &3583431383344407185
 MonoBehaviour:
@@ -189,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c367f0304cc984c4784ff3df27befc6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killReward: 25
+  killReward: 10
   damageToBase: 10
 --- !u!114 &6363871633627470541
 MonoBehaviour:

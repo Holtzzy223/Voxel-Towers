@@ -61,13 +61,13 @@ public class Tower : MonoBehaviour
         switch (tier)
         {
             case 0:
-                upgradeCost = Mathf.RoundToInt(cost * 0.5f);
+                upgradeCost = Mathf.RoundToInt(cost * 0.75f);
                 break;
             case 1:
-                upgradeCost = Mathf.RoundToInt(cost * 0.65f);
+                upgradeCost = Mathf.RoundToInt(cost * 0.95f);
                 break;
             case 2:
-                upgradeCost = Mathf.RoundToInt(cost * 0.85f);
+                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
                 break;
 
         }
@@ -226,7 +226,6 @@ public class Tower : MonoBehaviour
                     break;
             }
             bank.Withdrawl(upgradeCost);
-            upgradeCost += 15;
             tier++;
             Time.timeScale = 1;
             onHoverUI.SetActive(false);
@@ -264,13 +263,13 @@ public class Tower : MonoBehaviour
         switch (tier)
         {
             case 0:
-                UpgradeTower(1f, 0.75f, upgradeCost);
+                UpgradeTower(1.5f, 0.75f, upgradeCost);
                 break;
             case 1:
-                UpgradeTower(2f, 1.25f, upgradeCost);
+                UpgradeTower(1.75f, 1.25f, upgradeCost);
                 break;
             case 2:
-                UpgradeTower(4f, 1.25f, upgradeCost);
+                UpgradeTower(3f, 1.25f, upgradeCost);
                 break;
 
         }

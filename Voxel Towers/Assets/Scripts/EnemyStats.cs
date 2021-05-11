@@ -6,12 +6,14 @@ public class EnemyStats : MonoBehaviour
 {
     [SerializeField] float baseHP = 20f;
     [SerializeField] float currentHP = 0f;
-    [SerializeField] float maxHP;  
+    [SerializeField] float maxHP;
+    public bool isBreaker;
     public float baseSpeed = 0.5f;
     public float currentSpeed = 0f;
     public float maxSpeed;
     public Slider healthBar;
     Enemy enemy;
+    public GameObject childEnemy;
 
     // Start is called before the first frame update
     void OnEnable()
@@ -74,8 +76,23 @@ public class EnemyStats : MonoBehaviour
         UpdateHeathBar();
         if (currentHP <= 0)
         {
-            gameObject.SetActive(false);
-            enemy.RewardCurrency();
+            if (isBreaker == true)
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Vector3 spawnPosition = new Vector3(transform.position.x+i, transform.position.y, transform.position.z+i);
+
+                    Instantiate(childEnemy,spawnPosition,Quaternion.identity);
+
+                }
+                gameObject.SetActive(false);
+                enemy.RewardCurrency();
+            }
+            else
+            {
+                gameObject.SetActive(false);
+                enemy.RewardCurrency();
+            }
         }
         
     }

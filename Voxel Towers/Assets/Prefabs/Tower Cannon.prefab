@@ -4885,9 +4885,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 3608462511913233174}
-  range: 25
-  damage: 2
-  rangeIndicatorMod: 1.5
+  range: 20
+  damage: 6
   projectileParticle: {fileID: 806884979473033098}
   cost: 100
   upgradeCost: 0
@@ -4897,18 +4896,18 @@ MonoBehaviour:
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   hilightMesh: {fileID: -2432090755550338912, guid: b1e854b597acc2f49ac9c735d498e1ad, type: 3}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
-  projectiles: {fileID: 1327142519841044, guid: 00a5dbf234b761347a6c8f6ccdedf0bb, type: 3}
+  projectiles: {fileID: 1327142519841044, guid: c60d730ac37c9f74aaf5c213a29838d6, type: 3}
   upgradeProjectiles:
-  - {fileID: 1327142519841044, guid: e89b11e629a608c45963140bb383cc57, type: 3}
-  - {fileID: 1327142519841044, guid: 7a4489fb3cb0c9a4a9f0733077e74eae, type: 3}
+  - {fileID: 1327142519841044, guid: f8c00f6f38893ae4eb0d3092e483e718, type: 3}
+  - {fileID: 1327142519841044, guid: 3bef42ac5db5a574482a27e7198bc681, type: 3}
   - {fileID: 1327142519841044, guid: f0bf161ff65351242aedb8464873b877, type: 3}
   upgradeProjectileSpeeds:
-  - 850
-  - 950
-  - 1200
+  - 1150
+  - 1250
+  - 1500
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
-  speed: 750
+  speed: 950
   onHoverUI: {fileID: 5877596175010998753}
   costText: {fileID: 483148635756914696}
   sellText: {fileID: 3056911209957790267}

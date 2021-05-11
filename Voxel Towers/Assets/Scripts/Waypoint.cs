@@ -49,6 +49,7 @@ public class Waypoint : MonoBehaviour
         {
             bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
             isPlaceable = !isPlaced;
+              
         }
         Cursor.visible = true;
     }
