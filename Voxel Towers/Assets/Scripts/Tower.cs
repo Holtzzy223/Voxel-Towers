@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using VoxelArsenal;
 using TMPro;
+using UnityEngine.UI;
 public class Tower : MonoBehaviour
 {
 
     [Header("Tower")]
+    [SerializeField] string towerName;
     [SerializeField] Transform weapon;
     [SerializeField] float range = 10f;
+    private float maxRange = 30f;
     [SerializeField] float damage = 2f;
+    private float maxDamage = 15f;
     public float Damage { get { return damage; } }
     float targetDistance;
 
@@ -37,15 +41,38 @@ public class Tower : MonoBehaviour
     public Transform spawnPosition;
     [HideInInspector]
     public int currentProjectile = 0;
-    public float speed = 500;
+    public float speed;
+    private float maxSpeed = 1700;
     GameObject projectile;
     private int tier = 0;
     private int tierMax = 3;
     public GameObject onHoverUI;
     public TextMeshProUGUI costText;
     public TextMeshProUGUI sellText;
+    public TextMeshProUGUI attackText;
+    public TextMeshProUGUI rangeText;
+    public TextMeshProUGUI speedText;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI tierText;
+    public Slider attackSlider;
+    public Slider rangeSlider;
+    public Slider speedSlider;
 
     public List<ParticleCollisionEvent> collisionEvents;
+
+    private void OnEnable()
+    {
+        nameText.text = towerName;
+        tierText.text = "Tier: " + (tier+1);
+        attackSlider.maxValue = maxDamage;
+        attackSlider.value = damage;
+        rangeSlider.maxValue = maxRange;
+        rangeSlider.value = range;
+        speedSlider.maxValue = maxSpeed;
+        speedSlider.value = speed;
+
+    }
+
     private void Start()
     {
 
@@ -58,6 +85,7 @@ public class Tower : MonoBehaviour
 
     void Update()
     {
+        
         switch (tier)
         {
             case 0:
@@ -72,10 +100,10 @@ public class Tower : MonoBehaviour
 
         }
         if (tier == tierMax)
-            costText.text = "Max Tier"+" ^ "+tier;
+            costText.text = "Max Tier";
         else
         {
-            costText.text = "- $" + upgradeCost.ToString() +" ^ "+ tier;
+            costText.text = "- $" + upgradeCost.ToString();
         }
         sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
@@ -231,6 +259,7 @@ public class Tower : MonoBehaviour
             bank.Withdrawl(upgradeCost);
             tier++;
             Time.timeScale = 1;
+            UpdateStats();
             onHoverUI.SetActive(false);
         }
 
@@ -278,7 +307,18 @@ public class Tower : MonoBehaviour
         }
 
     }
-    
+
+    private void UpdateStats()
+    {
+
+        Debug.Log("Should change stats bar");
+        tierText.text = "Tier: " + (tier+1);
+        attackSlider.value = damage;
+        rangeSlider.value = range;
+        speedSlider.value = speed;
+
+    }
+
 }
 
 
