@@ -33,35 +33,35 @@ public class CoordLabeler : MonoBehaviour
       //  DebugDisplay();
     } //
 
-    void DisplayCoords() 
-    {
-        //Comment these out before build
-      coords.x = Mathf.RoundToInt(transform.parent.position.x / EditorSnapSettings.move.x);
-      coords.y = Mathf.RoundToInt(transform.parent.position.z / EditorSnapSettings.move.z);
-      label.text = coords.x + "," + coords.y;
-    }
-    void UpdateName()
-    {
-        transform.parent.name = coords.ToString();
-    }
-    void DebugDisplay() 
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        if (Input.GetKey(KeyCode.LeftControl)&& Input.GetKeyDown(KeyCode.D))
-        {
-            label.enabled = !label.IsActive();
-        }
-        if (waypoint.IsPlaceable)
-        {
-            label.color = defColor;
-        }
-        else 
-        {
-            label.color = blockedColor;
-        }
-
-    }
+ //   void DisplayCoords() 
+ //   {
+ //       //Comment these out before build
+ //     coords.x = Mathf.RoundToInt(transform.parent.position.x / EditorSnapSettings.move.x);
+ //     coords.y = Mathf.RoundToInt(transform.parent.position.z / EditorSnapSettings.move.z);
+ //     label.text = coords.x + "," + coords.y;
+ //   }
+ //   void UpdateName()
+ //   {
+ //       transform.parent.name = coords.ToString();
+ //   }
+ //   void DebugDisplay() 
+ //   {
+ //       if (Input.GetKeyDown(KeyCode.R))
+ //       {
+ //           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+ //       }
+ //       if (Input.GetKey(KeyCode.LeftControl)&& Input.GetKeyDown(KeyCode.D))
+ //       {
+ //           label.enabled = !label.IsActive();
+ //       }
+ //       if (waypoint.IsPlaceable)
+ //       {
+ //           label.color = defColor;
+ //       }
+ //       else 
+ //       {
+ //           label.color = blockedColor;
+ //       }
+ //
+ //   }
 }

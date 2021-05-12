@@ -45,10 +45,11 @@ public class EnemyMover : MonoBehaviour
     }
     IEnumerator FollowPath()
     {
-        var offset = new Vector3(0,1,0);
+        
         foreach (Waypoint waypoint in path)
         {
-            Vector3 startPos = transform.position+offset;
+            var offset = new Vector3(0, 1, 0);
+            Vector3 startPos = transform.position;
             Vector3 endPos = waypoint.transform.position+offset;
             float travelPercent = 0f;
             transform.LookAt(endPos);
@@ -56,7 +57,7 @@ public class EnemyMover : MonoBehaviour
             while (travelPercent < 1)
             {
                 travelPercent += Mathf.Abs(speed)*Time.deltaTime;
-                transform.position = Vector3.Lerp(startPos, endPos, travelPercent);
+                transform.position = Vector3.Lerp(startPos, endPos+offset, travelPercent);
                 yield return new WaitForFixedUpdate();
             }
         }
