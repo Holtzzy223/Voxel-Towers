@@ -89,13 +89,13 @@ public class Tower : MonoBehaviour
         switch (tier)
         {
             case 0:
-                upgradeCost = Mathf.RoundToInt(cost * 0.75f);
+                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
                 break;
             case 1:
-                upgradeCost = Mathf.RoundToInt(cost * 0.95f);
+                upgradeCost = Mathf.RoundToInt(cost * 1.35f);
                 break;
             case 2:
-                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
+                upgradeCost = Mathf.RoundToInt(cost * 1.55f);
                 break;
 
         }
