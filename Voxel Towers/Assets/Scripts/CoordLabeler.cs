@@ -16,22 +16,22 @@ public class CoordLabeler : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        label = GetComponent<TextMeshPro>();
-        label.enabled = false;
-        waypoint = GetComponentInParent<Waypoint>();
-        DisplayCoords();
+      // label = GetComponent<TextMeshPro>();
+      // label.enabled = false;
+      // waypoint = GetComponentInParent<Waypoint>();
+      // DisplayCoords();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!Application.isPlaying)
-        {
-            DisplayCoords();
-            UpdateName();
-        }
-        DebugDisplay();
-    }
+      //  if (!Application.isPlaying)
+      //  {
+      //      DisplayCoords();
+      //      UpdateName();
+      //  }
+      //  DebugDisplay();
+    } //
 
     void DisplayCoords() 
     {

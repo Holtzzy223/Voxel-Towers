@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 3054621685963647782}
   - component: {fileID: 2208509681792769908}
   - component: {fileID: 3583431383344407185}
-  - component: {fileID: 6363871633627470541}
+  - component: {fileID: 8898076551116157396}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -173,13 +173,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beec15cf559166645b0e89c13bfe8aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHP: 10
+  baseHP: 15
   currentHP: 0
   maxHP: 0
+  isBreaker: 0
   baseSpeed: 0.5
   currentSpeed: 0
   maxSpeed: 0
   healthBar: {fileID: 3494253447243063906}
+  childEnemy: {fileID: 0}
 --- !u!114 &3583431383344407185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,9 +194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c367f0304cc984c4784ff3df27befc6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killReward: 10
-  damageToBase: 10
---- !u!114 &6363871633627470541
+  killReward: 15
+  damageToBase: 20
+--- !u!114 &8898076551116157396
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  speed: 0.5
+  speed: 0.35
   pathRestartOnEnd: 0
   pathFinished: 0
 --- !u!1 &2349776546632689243
@@ -451,7 +453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8729605412036985191}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy(Red))
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,7 +714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4686782900343590, guid: 22b740e575c572a4e807cd633656f0c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.58
       objectReference: {fileID: 0}
     - target: {fileID: 4686782900343590, guid: 22b740e575c572a4e807cd633656f0c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -759,12 +761,16 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 198701246037086034, guid: 22b740e575c572a4e807cd633656f0c5, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 198701246037086034, guid: 22b740e575c572a4e807cd633656f0c5, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198701246037086034, guid: 22b740e575c572a4e807cd633656f0c5, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0
+      value: 0.1091786
       objectReference: {fileID: 0}
     - target: {fileID: 198701246037086034, guid: 22b740e575c572a4e807cd633656f0c5, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
