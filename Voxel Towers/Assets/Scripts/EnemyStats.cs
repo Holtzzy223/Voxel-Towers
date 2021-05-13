@@ -37,12 +37,12 @@ public class EnemyStats : MonoBehaviour
         {
             if (wavePool.WaveCount >1)
             {
-                maxHP = (baseHP+15) * (wavePool.WaveCount);
-                maxSpeed = baseSpeed +(wavePool.WaveCount * 0.08f);
+                maxHP = (baseHP + 25) * (wavePool.WaveCount);
+                maxSpeed = baseSpeed +(wavePool.WaveCount * 0.15f);
             }
-            if (wavePool.WaveCount >4)
+            if (wavePool.WaveCount >3)
             {
-                maxHP = (baseHP*2) * (wavePool.WaveCount);
+                maxHP = (baseHP*1.25f) * (wavePool.WaveCount);
                 maxSpeed = baseSpeed + (wavePool.WaveCount * 0.08f);
             }
             else

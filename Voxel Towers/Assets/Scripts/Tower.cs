@@ -11,6 +11,7 @@ public class Tower : MonoBehaviour
     [SerializeField] string towerName;
     [SerializeField] Transform weapon;
     [SerializeField] float range = 10f;
+    public float Range { get{ return range; } }
     private float maxRange = 30f;
     [SerializeField] float damage = 2f;
     private float maxDamage = 15f;
@@ -18,6 +19,7 @@ public class Tower : MonoBehaviour
     float targetDistance;
 
     private float rangeIndicatorMod = 1.8f;
+    public float RangeIndicatorMod { get { return rangeIndicatorMod; } }
     [SerializeField] ParticleSystem projectileParticle;
     [SerializeField] int cost = 75;
     [SerializeField] int upgradeCost;

@@ -34,6 +34,7 @@ public class Waypoint : MonoBehaviour
     private void OnMouseOver()
     {
         DrawHighLight();
+        DrawTowerRange();
         var menu = GameObject.FindGameObjectWithTag("Upgrade");
         if(menu==null || menu.activeInHierarchy == false)
         {
@@ -49,7 +50,7 @@ public class Waypoint : MonoBehaviour
         {
             bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
             isPlaceable = !isPlaced;
-              
+            towerUI.ButtonChoice = -1;
         }
         Cursor.visible = true;
     }
@@ -68,5 +69,22 @@ public class Waypoint : MonoBehaviour
             Graphics.DrawMesh(mesh, trsMatrix, noMaterial, 1);
         }
     }
+    void DrawTowerMesh()
+    {
+    
+    
+    }
+    void DrawTowerRange()
+    {
+        var towerChoice = towers[towerUI.ButtonChoice];
+        float zDrawOffset = 0.75f;
+        Vector3 rangeIndicatorVector = new Vector3(towerChoice.Range * towerChoice.RangeIndicatorMod, towerChoice.Range * (towerChoice.RangeIndicatorMod * zDrawOffset), towerChoice.Range * towerChoice.RangeIndicatorMod);
+        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
+
+        Graphics.DrawMesh(towerChoice.mesh, trsMatrix, towerChoice.material, 1);
+
+    }
 
 }
+
+
