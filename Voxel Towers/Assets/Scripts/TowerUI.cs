@@ -9,6 +9,7 @@ public class TowerUI : MonoBehaviour
     void Start()
     {
         ButtonChoice = -1;
+        PauseGame();
     }
 
     // Update is called once per frame
@@ -21,7 +22,14 @@ public class TowerUI : MonoBehaviour
         Cursor.visible = false;
 
     }
-
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+    public void UnPauseGame()
+    {
+        Time.timeScale = 1;
+    }
 
 
 }
