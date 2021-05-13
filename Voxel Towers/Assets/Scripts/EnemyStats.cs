@@ -12,7 +12,7 @@ public class EnemyStats : MonoBehaviour
     public float currentSpeed = 0f;
     public float maxSpeed;
     public Slider healthBar;
-    Enemy enemy;
+    public Enemy enemy;
     public GameObject childEnemy;
 
     // Start is called before the first frame update
@@ -27,10 +27,7 @@ public class EnemyStats : MonoBehaviour
 
 
 
-    private void Start()
-    {
-        enemy = GetComponent<Enemy>();
-    }
+
     private void UpdateStats(WavePool wavePool)
     {
         if (wavePool != null)
@@ -39,11 +36,13 @@ public class EnemyStats : MonoBehaviour
             {
                 maxHP = (baseHP + 25) * (wavePool.WaveCount);
                 maxSpeed = baseSpeed +(wavePool.WaveCount * 0.15f);
+                enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.15f);
             }
             if (wavePool.WaveCount >3)
             {
                 maxHP = (baseHP*1.25f) * (wavePool.WaveCount);
                 maxSpeed = baseSpeed + (wavePool.WaveCount * 0.08f);
+                enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.25f);
             }
             else
             {
