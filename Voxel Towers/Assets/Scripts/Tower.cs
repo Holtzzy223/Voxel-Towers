@@ -297,13 +297,13 @@ public class Tower : MonoBehaviour
         switch (tier)
         {
             case 0:
-                UpgradeTower(1.5f, 0.75f, upgradeCost);
+                UpgradeTower(2f, 0.75f, upgradeCost);
                 break;
             case 1:
-                UpgradeTower(1.75f, 1.25f, upgradeCost);
+                UpgradeTower(3f, 1.25f, upgradeCost);
                 break;
             case 2:
-                UpgradeTower(3f, 1.25f, upgradeCost);
+                UpgradeTower(4f, 1.25f, upgradeCost);
                 break;
 
         }

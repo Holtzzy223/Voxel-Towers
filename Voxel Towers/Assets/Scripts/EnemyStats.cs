@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 public class EnemyStats : MonoBehaviour
 {
-    [SerializeField] float baseHP = 20f;
-    [SerializeField] float currentHP = 0f;
-    [SerializeField] float maxHP;
+    public float baseHP = 20f;
+    public float currentHP = 0f;
+    public float maxHP;
     public bool isBreaker;
     public float baseSpeed = 0.5f;
     public float currentSpeed = 0f;
@@ -14,7 +14,9 @@ public class EnemyStats : MonoBehaviour
     public Slider healthBar;
     public Enemy enemy;
     public GameObject childEnemy;
-
+    bool updatedDebug = false;
+    Slider healthSlider;
+    Slider speedSlider;
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -23,6 +25,11 @@ public class EnemyStats : MonoBehaviour
         //int health per wave at base * wave count 
         WavePool wavePool = FindObjectOfType<WavePool>();
         UpdateStats(wavePool);
+        healthSlider  = FindObjectOfType<TesterFunctions>().healthSlider;
+        speedSlider = FindObjectOfType<TesterFunctions>().speedSlider;
+        healthSlider.onValueChanged.AddListener(delegate { UpdateDebugStats(); });
+        speedSlider.onValueChanged.AddListener(delegate { UpdateDebugStats(); });
+
     }
 
 
@@ -34,13 +41,13 @@ public class EnemyStats : MonoBehaviour
         {
             if (wavePool.WaveCount >1)
             {
-                maxHP = (baseHP + 25) * (wavePool.WaveCount);
-                maxSpeed = baseSpeed +(wavePool.WaveCount * 0.15f);
+                maxHP = (baseHP + 15) * (wavePool.WaveCount);
+                maxSpeed = baseSpeed +(wavePool.WaveCount * 0.08f);
                 enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.15f);
             }
             if (wavePool.WaveCount >3)
             {
-                maxHP = (baseHP*1.25f) * (wavePool.WaveCount);
+                maxHP = (baseHP*1.15f) * (wavePool.WaveCount);
                 maxSpeed = baseSpeed + (wavePool.WaveCount * 0.08f);
                 enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.25f);
             }
@@ -54,9 +61,13 @@ public class EnemyStats : MonoBehaviour
         }
     }
     // Update is called once per frame
-    void Update()
+    void UpdateDebugStats()
     {
-        
+        maxHP = healthSlider.value;
+        maxSpeed = speedSlider.value;
+        currentHP = maxHP;
+        currentSpeed = maxSpeed;
+        FindObjectOfType<EnemyMover>().speed = currentSpeed;
     }
     private void UpdateHeathBar()
     {

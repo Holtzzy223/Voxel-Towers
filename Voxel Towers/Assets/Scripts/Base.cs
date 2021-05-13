@@ -15,6 +15,7 @@ public class Base : MonoBehaviour
     
     public ParticleSystem healthParticles;
     ParticleSystem.MainModule main;
+    TesterFunctions debugUI;
     // Start is called before the first frame update
     void Awake()
     {
@@ -29,12 +30,24 @@ public class Base : MonoBehaviour
         {
             Debug.Log("healthparticles is null");
         }
-
+        debugUI = FindObjectOfType<TesterFunctions>();
+        debugUI.gameObject.SetActive(false);
     }
 
     private void Update()
     {
         UpdateHeathBar();
+        if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
+        {
+            if (debugUI.gameObject.activeInHierarchy == true)
+            {
+                debugUI.gameObject.SetActive(false);
+            }
+            else
+            {
+                debugUI.gameObject.SetActive(true);
+            }
+        }
     }
 
     public void RemoveHP(int amount)

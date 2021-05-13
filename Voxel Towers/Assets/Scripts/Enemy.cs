@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
       
         bank = FindObjectOfType<PlayerBank>();
         playerBase = FindObjectOfType<Base>();
-    
+       
     }
 
 

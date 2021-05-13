@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
-    [SerializeField] float speed = 1f;
+    public float speed = 1f;
     [SerializeField] bool  pathRestartOnEnd = false;
     [SerializeField] bool  pathFinished;
     bool PathFinshed {get { return pathFinished; } }
