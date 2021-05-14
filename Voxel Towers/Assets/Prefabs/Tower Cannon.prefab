@@ -4887,7 +4887,7 @@ MonoBehaviour:
   towerName: Cannon Turret
   weapon: {fileID: 3608462511913233174}
   range: 20
-  damage: 6
+  damage: 7
   projectileParticle: {fileID: 806884979473033098}
   cost: 100
   upgradeCost: 0
