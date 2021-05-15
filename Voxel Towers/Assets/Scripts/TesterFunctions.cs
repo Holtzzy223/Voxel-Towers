@@ -42,9 +42,12 @@ public class TesterFunctions : MonoBehaviour
         var enemyStats = FindObjectOfType<EnemyStats>();
 
         var towerUI = FindObjectOfType<Tower>().onHoverUI;
-        if (towerUI.activeInHierarchy == false)
+        if (towerUI != null)
         {
-            Time.timeScale = timeSlider.value;
+            if (towerUI.activeInHierarchy == false)
+            {
+                Time.timeScale = timeSlider.value;
+            }
         }
         enemyStats.maxHP = healthSlider.value;
         enemyStats.maxSpeed = speedSlider.value;

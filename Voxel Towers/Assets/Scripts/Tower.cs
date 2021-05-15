@@ -14,8 +14,12 @@ public class Tower : MonoBehaviour
     public float Range { get{ return range; } }
     private float maxRange = 30f;
     [SerializeField] float damage = 2f;
+    [SerializeField] float damageMod = 1f;
+    [SerializeField] float speedDamage = 2f;
+    [SerializeField] float speedDamageMod = 0f;
     private float maxDamage = 15f;
     public float Damage { get { return damage; } }
+    public float SpeedDamage { get { return speedDamage; } }
     float targetDistance;
 
     private float rangeIndicatorMod = 1.8f;
@@ -82,6 +86,7 @@ public class Tower : MonoBehaviour
 
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+        projectiles.GetComponent<VoxelProjectileScript>().speedDamage = SpeedDamage;
         
     }
 
@@ -238,7 +243,8 @@ public class Tower : MonoBehaviour
         PlayerBank bank = FindObjectOfType<PlayerBank>();
         if (bank.CurrentBalance >= upgradeCost && tier != tierMax)
         {
-            damage +=damageBuff;
+            damage +=damageBuff*damageMod;
+            speedDamage += 0.1f*speedDamageMod;
             range += rangeBuff;
             switch (tier)
             {

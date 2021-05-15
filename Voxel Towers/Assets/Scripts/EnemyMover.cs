@@ -77,5 +77,27 @@ public class EnemyMover : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+    void ProcessHit(Collider other)
+    {
+        var damage = other.GetComponentInParent<VoxelArsenal.VoxelProjectileScript>().SpeedDamage;
+        var oldSpeed = speed;
+        if (other != null)
+        {
 
+            speed = Mathf.Clamp(speed,0f, speed-damage); ;
+        }
+        else
+        {
+            Debug.LogError("Collider is Null!");
+            speed = oldSpeed;
+        }
+        
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.LogError("Hit by bullet " + other.name);
+        ProcessHit(other);
+    }
+    
 }

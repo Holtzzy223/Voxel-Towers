@@ -4882,16 +4882,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1996a4373b88848b98b66ecde9aa8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerName: 
   weapon: {fileID: 3608462511913233174}
   range: 20
   damage: 2
-  rangeIndicatorMod: 1.5
+  speedDamage: 0
   projectileParticle: {fileID: 806884979473033098}
   cost: 75
+  upgradeCost: 0
   audioSource: {fileID: 0}
   fire: {fileID: 0}
   deploy: {fileID: 0}
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  hilightMesh: {fileID: 0}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
   projectiles: {fileID: 1327142519841044, guid: dad805849a7183a4c967cc8e34b3d585, type: 3}
   upgradeProjectiles:
@@ -4905,6 +4908,17 @@ MonoBehaviour:
   spawnPosition: {fileID: 0}
   currentProjectile: 0
   speed: 500
+  onHoverUI: {fileID: 0}
+  costText: {fileID: 0}
+  sellText: {fileID: 0}
+  attackText: {fileID: 0}
+  rangeText: {fileID: 0}
+  speedText: {fileID: 0}
+  nameText: {fileID: 0}
+  tierText: {fileID: 0}
+  attackSlider: {fileID: 0}
+  rangeSlider: {fileID: 0}
+  speedSlider: {fileID: 0}
 --- !u!65 &1179440067350909180
 BoxCollider:
   m_ObjectHideFlags: 0

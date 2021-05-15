@@ -273,3 +273,1987 @@ System memory in use after: 124.3 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3112.
 Total: 3.036400 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.130200 ms MarkObjects: 2.594000 ms  DeleteObjects: 0.021900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.622 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3115.
+Total: 2.750000 ms (FindLiveObjects: 0.369500 ms CreateObjectMapping: 0.148200 ms MarkObjects: 2.211000 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.854 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 3.189500 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.697100 ms  DeleteObjects: 0.019300 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 5.610600 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.853400 ms MarkObjects: 4.456900 ms  DeleteObjects: 0.019300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 3.888900 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.338600 ms MarkObjects: 3.229100 ms  DeleteObjects: 0.028100 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 3.223100 ms (FindLiveObjects: 0.348000 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.710100 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002667 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 4.270500 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.183600 ms MarkObjects: 3.707500 ms  DeleteObjects: 0.036600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 5.927200 ms (FindLiveObjects: 0.728100 ms CreateObjectMapping: 0.501200 ms MarkObjects: 4.673500 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3130.
+Total: 3.143500 ms (FindLiveObjects: 0.315600 ms CreateObjectMapping: 0.150200 ms MarkObjects: 2.652400 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 2.479700 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.130600 ms MarkObjects: 2.026600 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3136.
+Total: 2.935400 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.334400 ms MarkObjects: 2.232600 ms  DeleteObjects: 0.030800 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3136.
+Total: 2.782400 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.174900 ms MarkObjects: 2.288700 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.519 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 3.488200 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.200900 ms MarkObjects: 2.742200 ms  DeleteObjects: 0.022600 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 2.636400 ms (FindLiveObjects: 0.289800 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.187000 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 2.895000 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.192700 ms MarkObjects: 2.281900 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20943.624667 seconds.
+  path: Assets/Prefabs/Enemy(Green).prefab
+  artifactKey: Guid(897dd17dca2ef4d4db9bfcc152baf89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy(Green).prefab using Guid(897dd17dca2ef4d4db9bfcc152baf89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c956d04fe5e83fd707687d92583af5d3') in 0.077495 seconds
+  Import took 0.093073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023006 seconds.
+  path: Assets/Prefabs/Enemy(Green).prefab
+  artifactKey: Guid(897dd17dca2ef4d4db9bfcc152baf89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy(Green).prefab using Guid(897dd17dca2ef4d4db9bfcc152baf89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c956d04fe5e83fd707687d92583af5d3') in 0.020743 seconds
+  Import took 0.027952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.233391 seconds.
+  path: Assets/Prefabs/Enemy(Red)).prefab
+  artifactKey: Guid(38d016d4dee13e646bffe5a958b606bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy(Red)).prefab using Guid(38d016d4dee13e646bffe5a958b606bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f2f1db2e5319e76916dc74d3cdd2d') in 0.021421 seconds
+  Import took 0.030875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.448010 seconds.
+  path: Assets/Prefabs/Enemy(Yellow).prefab
+  artifactKey: Guid(30c26b2674bc7e84f92e9c00f2365cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy(Yellow).prefab using Guid(30c26b2674bc7e84f92e9c00f2365cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a6e029d650d469ef7ab5f2ccc7110d') in 0.021855 seconds
+  Import took 0.029556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.111836 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e5465b8b7466f7fbe68e98b970a083') in 0.732316 seconds
+  Import took 0.750490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.394233 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06026d67a8ac1720b71323e9ce6dcdc4') in 0.090824 seconds
+  Import took 0.105563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.542474 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58ef175ea0d43f8ed3fbd27fcedd65e') in 0.086206 seconds
+  Import took 0.098926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.803508 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c85b38687eee7227aa404816513b658') in 0.096104 seconds
+  Import took 0.107540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.757226 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7974fad13fa3bed7586fb4598054f98') in 0.130508 seconds
+  Import took 0.149409 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.517 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 2.978500 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.222500 ms MarkObjects: 2.343300 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 892.545688 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle
+  artifactKey: Guid(b94cd9150a418904db33a67eeb352987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle using Guid(b94cd9150a418904db33a67eeb352987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843654139216ede272fe94962983f35d') in 0.028743 seconds
+  Import took 0.035081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.113519 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab
+  artifactKey: Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab using Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1d6ad327cc201fd7504aa61ef62b3') in 0.058912 seconds
+  Import took 0.066153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileRedOBJ.prefab
+  artifactKey: Guid(855ce7f43c7a9a144bcd5ed910dbedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileRedOBJ.prefab using Guid(855ce7f43c7a9a144bcd5ed910dbedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42542200305d521220f8be520f1567e9') in 0.029795 seconds
+  Import took 0.036450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePurpleOBJ.prefab
+  artifactKey: Guid(f8c00f6f38893ae4eb0d3092e483e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePurpleOBJ.prefab using Guid(f8c00f6f38893ae4eb0d3092e483e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5971e5e375243df16c8fba885bb4c9aa') in 0.047477 seconds
+  Import took 0.054150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileYellowOBJ.prefab
+  artifactKey: Guid(78b461ab9182fbc40ae9e9607ccdd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileYellowOBJ.prefab using Guid(78b461ab9182fbc40ae9e9607ccdd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60850e7f2daa953627876fa0f095281c') in 0.024497 seconds
+  Import took 0.031279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePinkOBJ.prefab
+  artifactKey: Guid(a31974a07e9503e4ba41340697f314ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePinkOBJ.prefab using Guid(a31974a07e9503e4ba41340697f314ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bfa4b51610737a8e41cfe9bd385f02') in 0.024906 seconds
+  Import took 0.033234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileGreenOBJ.prefab
+  artifactKey: Guid(57ffc5df08a5f1346b3bd1266143ca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileGreenOBJ.prefab using Guid(57ffc5df08a5f1346b3bd1266143ca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f02f8fcc6148c1e977c1d8eacf2b553') in 0.024924 seconds
+  Import took 0.031045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.735478 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab
+  artifactKey: Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab using Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031bebf45e2b6645f3c67cbfc67c6c82') in 0.023893 seconds
+  Import took 0.031506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.686383 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab
+  artifactKey: Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab using Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88998d809f3de81a6365a6a5d9c8bfa5') in 0.023670 seconds
+  Import took 0.029956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.846625 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab
+  artifactKey: Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab using Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d1b8bfad34b91ce96a717cc4a043e1') in 0.030216 seconds
+  Import took 0.039486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.195569 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab
+  artifactKey: Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileBlueOBJ.prefab using Guid(c33e17a5aca102146a39760c48400492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d1635e10374178243f3874be87aea4') in 0.025934 seconds
+  Import took 0.035756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.755878 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1563870a713b7ad4d96bef165db75d21') in 0.402187 seconds
+  Import took 0.418560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10972ceceee6dcde6c9300489de58295') in 0.246939 seconds
+  Import took 0.259063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3247c0a1443b80c1e63b45b6db3788b') in 0.102387 seconds
+  Import took 0.115557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5aeefd662f074199883529383c2446') in 0.102157 seconds
+  Import took 0.117505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda12120ab75060e551cae91e99b8ed1') in 0.189853 seconds
+  Import took 0.201254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5aeefd662f074199883529383c2446') in 0.105960 seconds
+  Import took 0.122087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.217793 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644d1efb9ab64329b9219ba7b4881c7a') in 0.272567 seconds
+  Import took 0.298490 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.534 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3217.
+Total: 4.825700 ms (FindLiveObjects: 0.359000 ms CreateObjectMapping: 0.143200 ms MarkObjects: 4.262600 ms  DeleteObjects: 0.058800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.2 MB.
+System memory in use after: 125.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3220.
+Total: 2.753000 ms (FindLiveObjects: 0.279500 ms CreateObjectMapping: 0.192700 ms MarkObjects: 2.262000 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.352938 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97076bd0b0613d5f979366fdc6a33a11') in 0.365565 seconds
+  Import took 0.382154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593472 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a1df04f0fd918e7ca5c3fb6aa64c80') in 0.143856 seconds
+  Import took 0.156723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.360484 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a9f03f332046f7436cc7fde3a5ec99') in 0.199353 seconds
+  Import took 0.224874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.239491 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileBlueOBJ.prefab
+  artifactKey: Guid(697a7acf0d6ce8f4dab72ebae97a9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileBlueOBJ.prefab using Guid(697a7acf0d6ce8f4dab72ebae97a9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451e1d23ad0a45905db32918d0eb59c3') in 0.027658 seconds
+  Import took 0.035523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileRedOBJ.prefab
+  artifactKey: Guid(dad805849a7183a4c967cc8e34b3d585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileRedOBJ.prefab using Guid(dad805849a7183a4c967cc8e34b3d585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f04605f4f8e5c3a146b591d36e43a41') in 0.027512 seconds
+  Import took 0.034612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileGreenOBJ.prefab
+  artifactKey: Guid(c5589a122c6477440bfd7cfac7f69832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileGreenOBJ.prefab using Guid(c5589a122c6477440bfd7cfac7f69832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96632eb95051788a193e718655ced73') in 0.024398 seconds
+  Import took 0.031373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileBlueOBJ.prefab
+  artifactKey: Guid(697a7acf0d6ce8f4dab72ebae97a9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileBlueOBJ.prefab using Guid(697a7acf0d6ce8f4dab72ebae97a9dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451e1d23ad0a45905db32918d0eb59c3') in 0.019686 seconds
+  Import took 0.028448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissilePinkOBJ.prefab
+  artifactKey: Guid(8e185a8dabfc07c48a3c41d9794fd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissilePinkOBJ.prefab using Guid(8e185a8dabfc07c48a3c41d9794fd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438467a7c33c1cc294fc0571a25d589a') in 0.024889 seconds
+  Import took 0.033249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissilePurpleOBJ.prefab
+  artifactKey: Guid(84fb267cc44811b4fbac99749da82167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissilePurpleOBJ.prefab using Guid(84fb267cc44811b4fbac99749da82167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b2a7adebe3cfa6d6a1674639951a53') in 0.021161 seconds
+  Import took 0.028256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileYellowOBJ.prefab
+  artifactKey: Guid(055d2d08624d2b9468a713ed9e812147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileYellowOBJ.prefab using Guid(055d2d08624d2b9468a713ed9e812147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7362360bc30434500d87c0b088d11518') in 0.022163 seconds
+  Import took 0.029827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003879 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileYellowOBJ.prefab
+  artifactKey: Guid(055d2d08624d2b9468a713ed9e812147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Bullet/BulletMissileYellowOBJ.prefab using Guid(055d2d08624d2b9468a713ed9e812147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7362360bc30434500d87c0b088d11518') in 0.021414 seconds
+  Import took 0.030575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.662840 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d6064bed2aca040442e5f2b0f5107') in 0.174701 seconds
+  Import took 0.187747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.275808 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de459bed7f1616342f11adccffbed511') in 0.121732 seconds
+  Import took 0.142225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.666746 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c9bde59d54a3acc0df358b0cab2466') in 0.136504 seconds
+  Import took 0.154269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.546727 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0498391cbda67c7f09fb04f123ca8450') in 0.132040 seconds
+  Import took 0.146656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.4 MB.
+System memory in use after: 125.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3259.
+Total: 3.149100 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.124400 ms MarkObjects: 2.643600 ms  DeleteObjects: 0.070000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.309652 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileBlueOBJ.prefab
+  artifactKey: Guid(4f3040aa1870c144d8010197d2fac0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileBlueOBJ.prefab using Guid(4f3040aa1870c144d8010197d2fac0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff5e2336acada2a7bd324e69edfdf9d') in 0.050810 seconds
+  Import took 0.058764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissilePinkOBJ.prefab
+  artifactKey: Guid(b09058189813b85468c91f55fae01344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissilePinkOBJ.prefab using Guid(b09058189813b85468c91f55fae01344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21ba835bf5b04d562257afc1d672ed9') in 0.021700 seconds
+  Import took 0.029268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileRedOBJ.prefab
+  artifactKey: Guid(7d8d18aab76e7de4bb4ccc00aa8d2097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileRedOBJ.prefab using Guid(7d8d18aab76e7de4bb4ccc00aa8d2097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799f0717bad79433c2f899414c196115') in 0.018733 seconds
+  Import took 0.025717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileGreenOBJ.prefab
+  artifactKey: Guid(01da6019fbd39404198682082b0c1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileGreenOBJ.prefab using Guid(01da6019fbd39404198682082b0c1c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbd24fca3ffaddb7e539490b70f0d8c') in 0.019902 seconds
+  Import took 0.027386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileGreenOBJ.prefab
+  artifactKey: Guid(8df34d720e18e994bbf68ca921592148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileGreenOBJ.prefab using Guid(8df34d720e18e994bbf68ca921592148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c073c01dcecea63ecda5d822cdeec3') in 0.018835 seconds
+  Import took 0.026482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileRedOBJ.prefab
+  artifactKey: Guid(12912515e31848c4cb8dc932f7d25788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileRedOBJ.prefab using Guid(12912515e31848c4cb8dc932f7d25788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0ee63f929a17ce3bb274e485b19605') in 0.018683 seconds
+  Import took 0.025804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissilePinkOBJ.prefab
+  artifactKey: Guid(8a7f413baff45124f92191af7b057254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissilePinkOBJ.prefab using Guid(8a7f413baff45124f92191af7b057254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2997bc25e533e152e94bb5b90e684750') in 0.025164 seconds
+  Import took 0.032970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileYellowOBJ.prefab
+  artifactKey: Guid(8714796efb50f814f96d00402e89a4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissileYellowOBJ.prefab using Guid(8714796efb50f814f96d00402e89a4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b24c67274651a217357dcf831d8dac') in 0.030659 seconds
+  Import took 0.037718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissilePurpleOBJ.prefab
+  artifactKey: Guid(91f40296ac363854b8d26242278afe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissilePurpleOBJ.prefab using Guid(91f40296ac363854b8d26242278afe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325e8240a2bfedb78dd1d6c9d493cdab') in 0.025737 seconds
+  Import took 0.032914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileYellowOBJ.prefab
+  artifactKey: Guid(f5543102f59c762448d35026d67aad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileYellowOBJ.prefab using Guid(f5543102f59c762448d35026d67aad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf67795a3f30eddd8b586a784d01dd16') in 0.021840 seconds
+  Import took 0.028994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileBlueOBJ.prefab
+  artifactKey: Guid(e89b11e629a608c45963140bb383cc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/BlackHole/BlackHoleMissileBlueOBJ.prefab using Guid(e89b11e629a608c45963140bb383cc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79fab6ea3975571e2d8cb4d3be0c733') in 0.022131 seconds
+  Import took 0.029482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissilePurpleOBJ.prefab
+  artifactKey: Guid(72c394b35b2453341ac2f6ada29ba616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Antimatter/AntimatterMissilePurpleOBJ.prefab using Guid(72c394b35b2453341ac2f6ada29ba616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab54e17bb2661dd96653ea5dcf1663c0') in 0.025878 seconds
+  Import took 0.032575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136296 seconds.
+  path: Assets/Grass/GrassElevated.obj
+  artifactKey: Guid(ea045bd341655c2449fc77d300291227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/GrassElevated.obj using Guid(ea045bd341655c2449fc77d300291227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b079a45c81c3222b64272ded6755b37b') in 0.391107 seconds
+  Import took 0.399938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Grass/path90.obj
+  artifactKey: Guid(d135ff9fb9e59a049a25c57cf9c29401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/path90.obj using Guid(d135ff9fb9e59a049a25c57cf9c29401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5f2f25a38d9366448f5c18cbe644fb') in 0.066958 seconds
+  Import took 0.072695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Grass/path.obj
+  artifactKey: Guid(271e60c7637242940944cd6fb87e743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/path.obj using Guid(271e60c7637242940944cd6fb87e743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d98d246b6861d8c82177d07e0a6ffb') in 0.040788 seconds
+  Import took 0.048616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.791447 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileBlueOBJ.prefab
+  artifactKey: Guid(cba4d02f42b31004d9a909855be998fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileBlueOBJ.prefab using Guid(cba4d02f42b31004d9a909855be998fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab687005ea043c27f338d64cd43645b') in 0.022009 seconds
+  Import took 0.030065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileRedOBJ.prefab
+  artifactKey: Guid(7fda0839fbb1a1943a6fcdb7636ee5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileRedOBJ.prefab using Guid(7fda0839fbb1a1943a6fcdb7636ee5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a734acbf11a4b82c96ff873a32e3c') in 0.018123 seconds
+  Import took 0.025623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissilePurpleOBJ.prefab
+  artifactKey: Guid(db5cc887dea9bb7438738019bda76087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissilePurpleOBJ.prefab using Guid(db5cc887dea9bb7438738019bda76087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce56c72fd22f1c5e1e632853c22b90a') in 0.018691 seconds
+  Import took 0.026210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileGreenOBJ.prefab
+  artifactKey: Guid(138c30b1e5323bd4abd19f88cccd9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileGreenOBJ.prefab using Guid(138c30b1e5323bd4abd19f88cccd9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7586c1fdaf5f508058c1d66be2a4719d') in 0.017704 seconds
+  Import took 0.024826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissilePinkOBJ.prefab
+  artifactKey: Guid(961bc7a08d49b4b45b56a3c4c3d2c20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissilePinkOBJ.prefab using Guid(961bc7a08d49b4b45b56a3c4c3d2c20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbac61ca8ba78da1c89cf222b621ab53') in 0.018161 seconds
+  Import took 0.025084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileYellowOBJ.prefab
+  artifactKey: Guid(fc91646581b5995429d8df67d9ea634e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Fireball/FireballMissileYellowOBJ.prefab using Guid(fc91646581b5995429d8df67d9ea634e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfe252e0eb852c769ee7364c66d03ed') in 0.020165 seconds
+  Import took 0.027210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019118 seconds.
+  path: Assets/Voxel Tower/GameObject.prefab
+  artifactKey: Guid(0d1d2da686007114f8c81b8781b1a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Tower/GameObject.prefab using Guid(0d1d2da686007114f8c81b8781b1a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4eaa2dd6931ef963c8ab34fdbbc61a') in 0.035479 seconds
+  Import took 0.042367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileYellowOBJ.prefab
+  artifactKey: Guid(5e69e4b10cf49e04786d7ad575cb2184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileYellowOBJ.prefab using Guid(5e69e4b10cf49e04786d7ad575cb2184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cd2b66ee1cdc2bba5d0b005c6edf6c') in 0.017759 seconds
+  Import took 0.025273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissilePinkOBJ.prefab
+  artifactKey: Guid(70d749ec2b68c0849955d06251a2d7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissilePinkOBJ.prefab using Guid(70d749ec2b68c0849955d06251a2d7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545104f0bff457b9c4cef4e03883e5c9') in 0.019324 seconds
+  Import took 0.030337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileGreenOBJ.prefab
+  artifactKey: Guid(84ecf9312e4d6274bbf21b116c7ddee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileGreenOBJ.prefab using Guid(84ecf9312e4d6274bbf21b116c7ddee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa3dc5ea9bef6847134edc812e8dc05') in 0.017006 seconds
+  Import took 0.024322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileRedOBJ.prefab
+  artifactKey: Guid(e595322360bef8647905b26e5f6be482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileRedOBJ.prefab using Guid(e595322360bef8647905b26e5f6be482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f701f44177830769550c6ec0ead39d9') in 0.016949 seconds
+  Import took 0.024105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissilePurpleOBJ.prefab
+  artifactKey: Guid(2077660603ec2aa4dbb9562923c50209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissilePurpleOBJ.prefab using Guid(2077660603ec2aa4dbb9562923c50209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38721eff6d4ba856eed06399888dea4') in 0.016172 seconds
+  Import took 0.023360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileBlueOBJ.prefab
+  artifactKey: Guid(cb87810a760f7ba4eb594b1fcca552cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Grenade/GrenadeMissileBlueOBJ.prefab using Guid(cb87810a760f7ba4eb594b1fcca552cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a42b560bb1cb7b606be60a567e4c3f') in 0.017139 seconds
+  Import took 0.024085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099614 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Laser/LaserMissileBlueOBJ.prefab
+  artifactKey: Guid(0f42efe248603b04faac76acde1001dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Laser/LaserMissileBlueOBJ.prefab using Guid(0f42efe248603b04faac76acde1001dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c4bbe17f9fdd586d7e7bae351cd33c') in 0.027529 seconds
+  Import took 0.034045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Laser/LaserMissileGreenOBJ.prefab
+  artifactKey: Guid(1987cac2ce5a0ed41bdca25f45eb0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Laser/LaserMissileGreenOBJ.prefab using Guid(1987cac2ce5a0ed41bdca25f45eb0c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78498984085c3ec60b65322a26092769') in 0.023831 seconds
+  Import took 0.033998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileGreenOBJ.prefab
+  artifactKey: Guid(be1cc814489558e49bc9a0669207a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileGreenOBJ.prefab using Guid(be1cc814489558e49bc9a0669207a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25f9aab3b50effbc367838e923204ca') in 0.025343 seconds
+  Import took 0.032990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissilePinkOBJ.prefab
+  artifactKey: Guid(576f52182e4ac984584a676f5aa33aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissilePinkOBJ.prefab using Guid(576f52182e4ac984584a676f5aa33aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c6843f2df943e545af1b80e6d723f1') in 0.018276 seconds
+  Import took 0.025430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileYellowOBJ.prefab
+  artifactKey: Guid(4630a87288a5c7d4d8c1f392810cbe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileYellowOBJ.prefab using Guid(4630a87288a5c7d4d8c1f392810cbe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e4f33d968bba0ca9f2a39a5543f2b') in 0.017798 seconds
+  Import took 0.024771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidWaterMissileOBJ.prefab
+  artifactKey: Guid(15324267785a57840b65d37257121180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidWaterMissileOBJ.prefab using Guid(15324267785a57840b65d37257121180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d40595b78571c18e93d779d31b604') in 0.015187 seconds
+  Import took 0.021395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileRedOBJ.prefab
+  artifactKey: Guid(7a4489fb3cb0c9a4a9f0733077e74eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileRedOBJ.prefab using Guid(7a4489fb3cb0c9a4a9f0733077e74eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313ad752baa1c5dbe0a7320916e4b8eb') in 0.018691 seconds
+  Import took 0.026013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Laser/LaserMissilePinkOBJ.prefab
+  artifactKey: Guid(864610a6507c1e94983709ea748fe0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Laser/LaserMissilePinkOBJ.prefab using Guid(864610a6507c1e94983709ea748fe0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7b108414a9be3938e7e20c9d357c5f') in 0.017410 seconds
+  Import took 0.023880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissilePurpleOBJ.prefab
+  artifactKey: Guid(d9d06cd8fa150ee4a8065a55ec21a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissilePurpleOBJ.prefab using Guid(d9d06cd8fa150ee4a8065a55ec21a7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef2228087646c32c68e2e196ad1a415') in 0.018551 seconds
+  Import took 0.025468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileBlueOBJ.prefab
+  artifactKey: Guid(ec64493a88371a341a496d5146796b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Lightning/LightningMissileBlueOBJ.prefab using Guid(ec64493a88371a341a496d5146796b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ee78e6a057157ed5aa31789da8b0ea') in 0.028208 seconds
+  Import took 0.035327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Nuke/NukeMissileGreenOBJ.prefab
+  artifactKey: Guid(08e96ef68d7c8704095365411710e462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Nuke/NukeMissileGreenOBJ.prefab using Guid(08e96ef68d7c8704095365411710e462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31641a304f830c32611d412e90d48709') in 0.020629 seconds
+  Import took 0.028778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Nuke/NukeMissileBlueOBJ.prefab
+  artifactKey: Guid(c9ec4e80bb652e34d9c114f373439ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Nuke/NukeMissileBlueOBJ.prefab using Guid(c9ec4e80bb652e34d9c114f373439ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed51b8fc3fe5502f2fe0da709ac149eb') in 0.019786 seconds
+  Import took 0.027782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidAcidMissileOBJ.prefab
+  artifactKey: Guid(003eabbc4430c114586e7a579ecdf88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidAcidMissileOBJ.prefab using Guid(003eabbc4430c114586e7a579ecdf88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a3b960784a2d312fad4506fb3c3277') in 0.024908 seconds
+  Import took 0.035187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidOilMissileOBJ.prefab
+  artifactKey: Guid(980aa7b33ca20b14e8242971c950fe9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidOilMissileOBJ.prefab using Guid(980aa7b33ca20b14e8242971c950fe9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b66d2c663dc3c8598f308deefec742') in 0.018112 seconds
+  Import took 0.025280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileGreenOBJ.prefab
+  artifactKey: Guid(e256464dae0ed954e8f94f02951191df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileGreenOBJ.prefab using Guid(e256464dae0ed954e8f94f02951191df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7916fa7c6ed99c10f24a11fab5960944') in 0.045638 seconds
+  Import took 0.053620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileRedOBJ.prefab
+  artifactKey: Guid(42ec9426721d83541a438bc0f8ab1f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileRedOBJ.prefab using Guid(42ec9426721d83541a438bc0f8ab1f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746b05278cb16749afd5a5858df34516') in 0.018202 seconds
+  Import took 0.025719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileYellowOBJ.prefab
+  artifactKey: Guid(00a5dbf234b761347a6c8f6ccdedf0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileYellowOBJ.prefab using Guid(00a5dbf234b761347a6c8f6ccdedf0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69a401215ef825d92228084044abc0c') in 0.018667 seconds
+  Import took 0.025424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissilePurpleOBJ.prefab
+  artifactKey: Guid(fe7c0d0684a1e5f4f8dc64e44b21b1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissilePurpleOBJ.prefab using Guid(fe7c0d0684a1e5f4f8dc64e44b21b1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa7f5477d77d041d7fefaeca6f542fe') in 0.017353 seconds
+  Import took 0.024287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileBlueOBJ.prefab
+  artifactKey: Guid(0ec44792112383c4ba6b13833ca54e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissileBlueOBJ.prefab using Guid(0ec44792112383c4ba6b13833ca54e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d4a630b93d0ebdf0df543adcdfe62') in 0.018952 seconds
+  Import took 0.026198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissilePinkOBJ.prefab
+  artifactKey: Guid(3bb46609922bd764fb4d2e84f55b3343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Plasma/PlasmaMissilePinkOBJ.prefab using Guid(3bb46609922bd764fb4d2e84f55b3343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ba74aa31d3b1bb8242c2c669dfb824') in 0.019349 seconds
+  Import took 0.026581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissilePurpleOBJ.prefab
+  artifactKey: Guid(3bef42ac5db5a574482a27e7198bc681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissilePurpleOBJ.prefab using Guid(3bef42ac5db5a574482a27e7198bc681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f16adc7883b74dc267938a489696b2') in 0.016341 seconds
+  Import took 0.024037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileRedOBJ.prefab
+  artifactKey: Guid(7f7b273ff96a4544596a6463e1fc846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileRedOBJ.prefab using Guid(7f7b273ff96a4544596a6463e1fc846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c596f0543ac2edb5abe18493b5f07640') in 0.018693 seconds
+  Import took 0.028261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileYellowOBJ.prefab
+  artifactKey: Guid(691534cb25db06a46acb1c36781b0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileYellowOBJ.prefab using Guid(691534cb25db06a46acb1c36781b0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983f17b665d63d0422b95dd67d9314f3') in 0.020270 seconds
+  Import took 0.028004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab
+  artifactKey: Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab using Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee13cd9c3924f1d6b3c46ff0e40ec51') in 0.019784 seconds
+  Import took 0.027022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab
+  artifactKey: Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab using Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d624b3c510a21ccc76b76efb920b08') in 0.022164 seconds
+  Import took 0.030282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileYellowOBJ.prefab
+  artifactKey: Guid(1360055b1a1475c4c9ba960db6d1fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileYellowOBJ.prefab using Guid(1360055b1a1475c4c9ba960db6d1fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7605f3011d30663e411edfc7fec26f') in 0.018897 seconds
+  Import took 0.025895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileRedOBJ.prefab
+  artifactKey: Guid(ae53ec97797fa4b43b5aa0bbbc2b4d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileRedOBJ.prefab using Guid(ae53ec97797fa4b43b5aa0bbbc2b4d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b0a4b6f757c6bb51810d40db3b13e5') in 0.025501 seconds
+  Import took 0.033142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileGreenOBJ.prefab
+  artifactKey: Guid(3257473fbe90f134ea593ca99160dd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileGreenOBJ.prefab using Guid(3257473fbe90f134ea593ca99160dd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3284281cf09d9ef0a55d7f6b0cd4bc8') in 0.020212 seconds
+  Import took 0.027458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileRedOBJ.prefab
+  artifactKey: Guid(5f02bd83a58bfd14da41c8c3b4fd2ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileRedOBJ.prefab using Guid(5f02bd83a58bfd14da41c8c3b4fd2ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995e8b1ebcaa9956e25f4209504ea80d') in 0.017339 seconds
+  Import took 0.024089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissilePinkOBJ.prefab
+  artifactKey: Guid(dd8060aad6701d748bf687d308106e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissilePinkOBJ.prefab using Guid(dd8060aad6701d748bf687d308106e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47c9a3d308d700fd1284b9e15bbfc21') in 0.017892 seconds
+  Import took 0.024379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileBlueOBJ.prefab
+  artifactKey: Guid(29679be0b19fdbe40a0f1a738857c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileBlueOBJ.prefab using Guid(29679be0b19fdbe40a0f1a738857c451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8a595b6382e5bb0a4fbdc10e86fa7a') in 0.017618 seconds
+  Import took 0.024620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileBlueOBJ.prefab
+  artifactKey: Guid(c4713438343af9b4e98683868cfef507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileBlueOBJ.prefab using Guid(c4713438343af9b4e98683868cfef507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e68322482200e171d0b39a29b36c06') in 0.018010 seconds
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePurpleOBJ.prefab
+  artifactKey: Guid(00d522ee3ed6056458636e905b5be7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePurpleOBJ.prefab using Guid(00d522ee3ed6056458636e905b5be7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ab207072912bed24f6c47b5825bcbd') in 0.017875 seconds
+  Import took 0.024927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissilePurpleOBJ.prefab
+  artifactKey: Guid(7a940ffa463e29f45a1fcf76bbab43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissilePurpleOBJ.prefab using Guid(7a940ffa463e29f45a1fcf76bbab43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c8428a804ceb1f4d4b20709aee8e3b') in 0.019766 seconds
+  Import took 0.026688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileGreenOBJ.prefab
+  artifactKey: Guid(5487e4370aac82740a28d3d50702bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileGreenOBJ.prefab using Guid(5487e4370aac82740a28d3d50702bade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06253384bf0ad7852cd5e838a0058884') in 0.020097 seconds
+  Import took 0.027007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissilePurpleOBJ.prefab
+  artifactKey: Guid(c60d730ac37c9f74aaf5c213a29838d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissilePurpleOBJ.prefab using Guid(c60d730ac37c9f74aaf5c213a29838d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada9e74cdbb1179689fa94dedefca9c9') in 0.024964 seconds
+  Import took 0.032562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissilePinkOBJ.prefab
+  artifactKey: Guid(d29d9e2037b34474a812003bef6abfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissilePinkOBJ.prefab using Guid(d29d9e2037b34474a812003bef6abfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314c8b8de7e25a186bae82d02375a447') in 0.023497 seconds
+  Import took 0.030449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileBlueOBJ.prefab
+  artifactKey: Guid(1de70698d5d25fc4dbb163fecefd99f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Rocket/RocketMissileBlueOBJ.prefab using Guid(1de70698d5d25fc4dbb163fecefd99f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf37147aaff070994d443da540ae4e7') in 0.023633 seconds
+  Import took 0.031471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissilePinkOBJ.prefab
+  artifactKey: Guid(741daa0843f1bdf46b9e745f4a2d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissilePinkOBJ.prefab using Guid(741daa0843f1bdf46b9e745f4a2d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776c0c517b211749e655a2d4e12a57e8') in 0.022687 seconds
+  Import took 0.030250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileBlueOBJ.prefab
+  artifactKey: Guid(0ddb5748440c54e4f8f8490027b678df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileBlueOBJ.prefab using Guid(0ddb5748440c54e4f8f8490027b678df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a643a65c8b44d6730580d83134b8455') in 0.016381 seconds
+  Import took 0.023133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileRedOBJ.prefab
+  artifactKey: Guid(af249c2f113e18446a866a8ab2da0eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileRedOBJ.prefab using Guid(af249c2f113e18446a866a8ab2da0eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48b9f20c590ae83d58912195a4d8b6f') in 0.016876 seconds
+  Import took 0.023379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissilePinkOBJ.prefab
+  artifactKey: Guid(76d59c5dfdb0468488d91344b53eedf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissilePinkOBJ.prefab using Guid(76d59c5dfdb0468488d91344b53eedf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff1e775a1826a7399dc76fab333182d') in 0.016784 seconds
+  Import took 0.023789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileYellowOBJ.prefab
+  artifactKey: Guid(819a87ef5fe4f61448b83fd80b90bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Shadow/ShadowMissileYellowOBJ.prefab using Guid(819a87ef5fe4f61448b83fd80b90bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6e98e753f7e0fd3ec78e5b1726571c') in 0.018679 seconds
+  Import took 0.025780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissilePinkOBJ.prefab
+  artifactKey: Guid(28e7df735e48daa44a5e22b656c2696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissilePinkOBJ.prefab using Guid(28e7df735e48daa44a5e22b656c2696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8605e47c7f91397f94242bce2f9ed9e') in 0.017843 seconds
+  Import took 0.024760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileBlueOBJ.prefab
+  artifactKey: Guid(182249d914ff784498299a684152924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileBlueOBJ.prefab using Guid(182249d914ff784498299a684152924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcf8d3cb4ac892210298d20a830c313') in 0.017747 seconds
+  Import took 0.024536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileYellowOBJ.prefab
+  artifactKey: Guid(ce6ae2152b45bdb4c9537eb9d756dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileYellowOBJ.prefab using Guid(ce6ae2152b45bdb4c9537eb9d756dd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1d55dac64662024c9b8bfc707a0f91') in 0.018646 seconds
+  Import took 0.025856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissilePurpleOBJ.prefab
+  artifactKey: Guid(cec01caa978cfa04ba724adda2564076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissilePurpleOBJ.prefab using Guid(cec01caa978cfa04ba724adda2564076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ebad602ef0e6f0b19db92de5b8e10b') in 0.017935 seconds
+  Import took 0.024585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileYellowOBJ.prefab
+  artifactKey: Guid(653e8c720e035f74d8a38ad4dfd062bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileYellowOBJ.prefab using Guid(653e8c720e035f74d8a38ad4dfd062bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59043a9764ecb905f4021abb0e77a41') in 0.018334 seconds
+  Import took 0.025904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileGreenOBJ.prefab
+  artifactKey: Guid(42463fa736a2be64593e655478b8f7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sniper/SniperMissileGreenOBJ.prefab using Guid(42463fa736a2be64593e655478b8f7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07e67aa85da6b972900c9ad9138b4f5') in 0.017490 seconds
+  Import took 0.024454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileYellowOBJ.prefab
+  artifactKey: Guid(cb45cf19aaffb1546be80768cdd3f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileYellowOBJ.prefab using Guid(cb45cf19aaffb1546be80768cdd3f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309e505269ae01e0f238e6837c308591') in 0.018480 seconds
+  Import took 0.025534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileGreenOBJ.prefab
+  artifactKey: Guid(0428a12984be5a941a055202e93e3447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileGreenOBJ.prefab using Guid(0428a12984be5a941a055202e93e3447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcef54644a28451c52a24b353527bc3') in 0.018226 seconds
+  Import took 0.025160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissilePurpleOBJ.prefab
+  artifactKey: Guid(8432bd542a322ed40a4ec5e880eb2da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissilePurpleOBJ.prefab using Guid(8432bd542a322ed40a4ec5e880eb2da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ae8ca5ab8757126a1cb5a3853f3816') in 0.022726 seconds
+  Import took 0.029432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileGreenOBJ.prefab
+  artifactKey: Guid(4a59754909828c648ae428153fed8f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Proton/ProtonMissileGreenOBJ.prefab using Guid(4a59754909828c648ae428153fed8f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56978c872ee83d17305a7dd112d5af11') in 0.020338 seconds
+  Import took 0.027871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidLavaMissileOBJ.prefab
+  artifactKey: Guid(d98cb460a1c17de41b551f151c778d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Liquid/LiquidLavaMissileOBJ.prefab using Guid(d98cb460a1c17de41b551f151c778d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea4141042708ec5bda686f33c414823') in 0.018087 seconds
+  Import took 0.024518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileRedOBJ.prefab
+  artifactKey: Guid(f38a9f49f1714eb4e917e4db08ff3e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Spike/SpikeMissileRedOBJ.prefab using Guid(f38a9f49f1714eb4e917e4db08ff3e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de753903263c8e36ac3d056c00f62aae') in 0.018514 seconds
+  Import took 0.025223 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.2 MB.
+System memory in use after: 126.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3334.
+Total: 3.241000 ms (FindLiveObjects: 0.405800 ms CreateObjectMapping: 0.144600 ms MarkObjects: 2.644100 ms  DeleteObjects: 0.045400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.526898 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8dcedec9248cab23f33a12e6394aaf') in 0.416042 seconds
+  Import took 0.426038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.960553 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040334c9d3a0b26a1831d8e18ec5b291') in 0.097601 seconds
+  Import took 0.109043 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.2 MB.
+System memory in use after: 126.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 4.358400 ms (FindLiveObjects: 0.469100 ms CreateObjectMapping: 0.450000 ms MarkObjects: 3.406100 ms  DeleteObjects: 0.031500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.095406 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5752329e4a5f2298ed7f45fc80a2f9') in 0.246289 seconds
+  Import took 0.258901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.832349 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddbb7a4793e5a830daafc928cdf5495') in 0.254214 seconds
+  Import took 0.272880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.982919 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f77b4ccaa563092ba6a308b1434a71a') in 0.180866 seconds
+  Import took 0.198637 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.656 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3412.
+Total: 6.243600 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.202500 ms MarkObjects: 5.658800 ms  DeleteObjects: 0.054500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 779.684616 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3da2bdbe69427f638ca04da4306aa86') in 0.469733 seconds
+  Import took 0.482320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.500254 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfb0c5540f1bf425d16ebb44e651572') in 0.090904 seconds
+  Import took 0.101842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.322471 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fb300b2c4dd960c158c94502d1d1c7') in 0.092065 seconds
+  Import took 0.103924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.969236 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc3f4b5d0d5e84aafe20ddbf5331ffe') in 0.088099 seconds
+  Import took 0.099308 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.247 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3451.
+Total: 4.267300 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.132200 ms MarkObjects: 3.767800 ms  DeleteObjects: 0.027600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.743252 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b073f1299c4a0f5fed747e9dcba27d6') in 0.410372 seconds
+  Import took 0.421154 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.656 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3490.
+Total: 5.475800 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.189100 ms MarkObjects: 4.883300 ms  DeleteObjects: 0.033700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.543261 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1689e1afdedaf09b79f8a1f6da526dd3') in 0.412679 seconds
+  Import took 0.429588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.553826 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e568fd5425ef6bb59cab29f4cc2ecbe') in 0.082232 seconds
+  Import took 0.096479 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.542 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3529.
+Total: 3.751700 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.134500 ms MarkObjects: 3.206500 ms  DeleteObjects: 0.057100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.941369 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56bbf391e68a7443d7da442976044f8') in 0.353256 seconds
+  Import took 0.364643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558f5fbd0ec2dac3ddf45467696c190f') in 0.065707 seconds
+  Import took 0.081123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aeb48ebd6e8ceb15972d124986b7d54') in 0.104266 seconds
+  Import took 0.115794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f730548f6037eadcaeab955b669f6888') in 0.084981 seconds
+  Import took 0.095520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77cc5c88eaa52ae745175e3957fc1f4') in 0.093647 seconds
+  Import took 0.104592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.072651 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02b9f9db5efdfa6292c0d9b15152480') in 0.100726 seconds
+  Import took 0.113747 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 3.556300 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.178900 ms MarkObjects: 2.960700 ms  DeleteObjects: 0.058500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.058675 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b441b74720d77a2a5893d2776a1fe540') in 0.400644 seconds
+  Import took 0.411932 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.672 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 3.190700 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.169800 ms MarkObjects: 2.647400 ms  DeleteObjects: 0.029100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3610.
+Total: 3.579000 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.196700 ms MarkObjects: 2.911500 ms  DeleteObjects: 0.023300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.095899 seconds.
+  path: Assets/Prefabs/Tower Cannon.prefab
+  artifactKey: Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Cannon.prefab using Guid(307fb58a2c3d2d247971700aa751e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4079e4b5c94a03e9b5d17eca4ff9bd3f') in 0.340672 seconds
+  Import took 0.352322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(146947fdc9f85fd4085e66c94ca311f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd026649517e99f4ba9c198b7826af0d9') in 0.070139 seconds
+  Import took 0.080901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1557777180d958c47a51477482861da6') in 0.093829 seconds
+  Import took 0.106306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bf009e22626b74924c2980114d595b') in 0.090206 seconds
+  Import took 0.100928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Prefabs/Tower LaserPurps.prefab
+  artifactKey: Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b0966942c577fa1cdb75da9365ae5') in 0.099911 seconds
+  Import took 0.113864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.281956 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4781c6e07b90076099430ce3cc3fd851') in 0.096807 seconds
+  Import took 0.115467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.314206 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5765e73447729d475fa39ea52c2d8558') in 0.090717 seconds
+  Import took 0.102384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284357 seconds.
+  path: Assets/Prefabs/Tower Basic 1.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic 1.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d5d6390181bd48afc8f4931bb7eecc') in 0.081903 seconds
+  Import took 0.092435 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3649.
+Total: 3.979300 ms (FindLiveObjects: 0.596300 ms CreateObjectMapping: 0.216300 ms MarkObjects: 3.094600 ms  DeleteObjects: 0.070900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3652.
+Total: 4.434900 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.254000 ms MarkObjects: 3.797400 ms  DeleteObjects: 0.042700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3655.
+Total: 3.193500 ms (FindLiveObjects: 0.354400 ms CreateObjectMapping: 0.125800 ms MarkObjects: 2.691900 ms  DeleteObjects: 0.020100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004885 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3658.
+Total: 3.901500 ms (FindLiveObjects: 0.395200 ms CreateObjectMapping: 0.182900 ms MarkObjects: 3.297800 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.156497 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624915b194317f2c82575cb6637d5b6f') in 0.373504 seconds
+  Import took 0.387379 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.094 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3697.
+Total: 17.854200 ms (FindLiveObjects: 3.390600 ms CreateObjectMapping: 0.326500 ms MarkObjects: 14.101400 ms  DeleteObjects: 0.034200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.014747 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255f954c76d0ec6cdfa1c8f8d5157652') in 0.397804 seconds
+  Import took 0.410617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009251 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255f954c76d0ec6cdfa1c8f8d5157652') in 0.099560 seconds
+  Import took 0.112590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.048102 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileGreenOBJ.prefab
+  artifactKey: Guid(57ffc5df08a5f1346b3bd1266143ca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileGreenOBJ.prefab using Guid(57ffc5df08a5f1346b3bd1266143ca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbe7bb050125e74fabeb971fb041454') in 0.017648 seconds
+  Import took 0.028178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.702668 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePinkOBJ.prefab
+  artifactKey: Guid(a31974a07e9503e4ba41340697f314ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePinkOBJ.prefab using Guid(a31974a07e9503e4ba41340697f314ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abb533df3846c51e408f75915f8d704') in 0.023457 seconds
+  Import took 0.031456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.346251 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePurpleOBJ.prefab
+  artifactKey: Guid(f8c00f6f38893ae4eb0d3092e483e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissilePurpleOBJ.prefab using Guid(f8c00f6f38893ae4eb0d3092e483e718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74709e413939f78c07e0961ebd2ea056') in 0.049950 seconds
+  Import took 0.122808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.077301 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileRedOBJ.prefab
+  artifactKey: Guid(855ce7f43c7a9a144bcd5ed910dbedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileRedOBJ.prefab using Guid(855ce7f43c7a9a144bcd5ed910dbedbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3093c39b09d8b7b21890028377c647c1') in 0.053475 seconds
+  Import took 0.077672 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.664 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 128.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3736.
+Total: 6.764600 ms (FindLiveObjects: 1.302000 ms CreateObjectMapping: 0.210200 ms MarkObjects: 5.204300 ms  DeleteObjects: 0.046400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.709522 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileYellowOBJ.prefab
+  artifactKey: Guid(78b461ab9182fbc40ae9e9607ccdd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Sparkle/SparkleMissileYellowOBJ.prefab using Guid(78b461ab9182fbc40ae9e9607ccdd768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33eff117ab76ecfc6f0cbb44f02e33b') in 0.051643 seconds
+  Import took 0.060316 seconds .
+

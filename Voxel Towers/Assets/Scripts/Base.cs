@@ -37,6 +37,10 @@ public class Base : MonoBehaviour
     private void Update()
     {
         UpdateHeathBar();
+        if (Input.GetKey(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
        if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
        
           if (debugUI.gameObject.activeInHierarchy == true)

@@ -13,7 +13,10 @@ namespace VoxelArsenal
         [Range(0f, 1f)] // This is an offset that moves the impact effect slightly away from the point of impact to reduce clipping of the impact effect
         public float collideOffset = 0.15f;
         public float bulletDamage = 1f;
+        public float speedDamage = 0f;
         public float BulletDamage  { get {return bulletDamage; } }
+        public float SpeedDamage  { get {return speedDamage; } }
+
         void Start()
         {
             
