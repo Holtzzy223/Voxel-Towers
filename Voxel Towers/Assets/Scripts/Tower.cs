@@ -125,10 +125,9 @@ public class Tower : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if(isSloth == false)
-        {
+     
             AimWeapon();
-        }
+        
     }
 
     private void OnMouseOver()
@@ -167,10 +166,9 @@ public class Tower : MonoBehaviour
     {
       
         targetDistance = Vector3.Distance(transform.position, target.position);
-        if (isSloth==false)
-        {
-            weapon.LookAt(target);
-        }
+     
+        weapon.LookAt(target);
+        
 
         if (targetDistance <= range)
         {
@@ -350,10 +348,12 @@ public class Tower : MonoBehaviour
     void SlothTower()
     {
 
-
-        projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
-        projectile.transform.localScale = new Vector3(range, range, range);
-        
+        if (targetDistance <= range)
+        {
+            projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+            projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
+            projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
+        }
 
     }
 
