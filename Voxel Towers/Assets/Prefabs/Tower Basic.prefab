@@ -4888,6 +4888,9 @@ MonoBehaviour:
   weapon: {fileID: 3608462511913233174}
   range: 12
   damage: 2
+  damageMod: 1
+  speedDamage: 0
+  speedDamageMod: 0
   projectileParticle: {fileID: 806884979473033098}
   cost: 50
   upgradeCost: 0

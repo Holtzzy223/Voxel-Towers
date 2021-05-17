@@ -17,6 +17,7 @@ public class Tower : MonoBehaviour
     [SerializeField] float damageMod = 1f;
     [SerializeField] float speedDamage = 2f;
     [SerializeField] float speedDamageMod = 0f;
+    [SerializeField] bool isSloth = false;
     private float maxDamage = 15f;
     public float Damage { get { return damage; } }
     public float SpeedDamage { get { return speedDamage; } }
@@ -66,7 +67,7 @@ public class Tower : MonoBehaviour
 
     public List<ParticleCollisionEvent> collisionEvents;
 
-    private void OnEnable()
+    void OnEnable()
     {
         nameText.text = towerName;
         tierText.text = "Tier: " + (tier+1);
@@ -76,9 +77,12 @@ public class Tower : MonoBehaviour
         rangeSlider.value = range;
         speedSlider.maxValue = maxSpeed;
         speedSlider.value = speed;
-
+        if (isSloth == true)
+        {
+            InvokeRepeating("SlothTower", 2f, 1f);
+        }
     }
-
+   
     private void Start()
     {
 
@@ -87,7 +91,8 @@ public class Tower : MonoBehaviour
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
         projectiles.GetComponent<VoxelProjectileScript>().speedDamage = SpeedDamage;
-        
+ 
+
     }
 
     void Update()
@@ -115,11 +120,15 @@ public class Tower : MonoBehaviour
         sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
 
+
     }
     private void FixedUpdate()
     {
-        AimWeapon();
 
+        if(isSloth == false)
+        {
+            AimWeapon();
+        }
     }
 
     private void OnMouseOver()
@@ -158,7 +167,10 @@ public class Tower : MonoBehaviour
     {
       
         targetDistance = Vector3.Distance(transform.position, target.position);
-        weapon.LookAt(target);
+        if (isSloth==false)
+        {
+            weapon.LookAt(target);
+        }
 
         if (targetDistance <= range)
         {
@@ -183,9 +195,16 @@ public class Tower : MonoBehaviour
             }
             if (projectile == null)
             {
-                projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
-                projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
-                projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
+                if (isSloth==true)
+                {
+
+                }
+                else
+                {
+                    projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+                    projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
+                    projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
+                }
             }
         }
 
@@ -244,7 +263,7 @@ public class Tower : MonoBehaviour
         if (bank.CurrentBalance >= upgradeCost && tier != tierMax)
         {
             damage +=damageBuff*damageMod;
-            speedDamage += 0.1f*speedDamageMod;
+            //speedDamage = speedDamage;
             range += rangeBuff;
             switch (tier)
             {
@@ -264,6 +283,8 @@ public class Tower : MonoBehaviour
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
                     break;
             }
+            projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+            projectiles.GetComponent<VoxelProjectileScript>().speedDamage = SpeedDamage;
             bank.Withdrawl(upgradeCost);
             tier++;
             //Time.timeScale = 1;
@@ -324,6 +345,15 @@ public class Tower : MonoBehaviour
         attackSlider.value = damage;
         rangeSlider.value = range*1.15f;
         speedSlider.value = speed*1.05f;
+
+    }
+    void SlothTower()
+    {
+
+
+        projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+        projectile.transform.localScale = new Vector3(range, range, range);
+        
 
     }
 

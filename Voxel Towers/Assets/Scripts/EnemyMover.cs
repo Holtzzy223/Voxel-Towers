@@ -6,6 +6,7 @@ public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
     public float speed = 1f;
+    float oldSpeed;
     [SerializeField] bool  pathRestartOnEnd = false;
     [SerializeField] bool  pathFinished;
     bool PathFinshed {get { return pathFinished; } }
@@ -20,6 +21,7 @@ public class EnemyMover : MonoBehaviour
     void OnEnable()
     {
         speed = enemy.GetComponent<EnemyStats>().currentSpeed;
+        oldSpeed = speed;
         pathFinished = false;
         FindPath();
         ReturnToStart();
@@ -80,7 +82,7 @@ public class EnemyMover : MonoBehaviour
     void ProcessHit(Collider other)
     {
         var damage = other.GetComponentInParent<VoxelArsenal.VoxelProjectileScript>().SpeedDamage;
-        var oldSpeed = speed;
+        
         if (other != null)
         {
 
