@@ -13,6 +13,7 @@ public class TesterFunctions : MonoBehaviour
     public TextMeshProUGUI healthValue;
     public TextMeshProUGUI speedValue;
     bool updatedUI = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +40,8 @@ public class TesterFunctions : MonoBehaviour
     }
     void UpdateDebugValues()
     {
-        var enemyStats = FindObjectOfType<EnemyStats>();
+       EnemyStats[] enemyStats = FindObjectsOfType<EnemyStats>();
+       EnemyMover[] enemyMover = FindObjectsOfType<EnemyMover>();
 
         var towerUI = FindObjectOfType<Tower>().onHoverUI;
         if (towerUI != null)
@@ -49,15 +51,18 @@ public class TesterFunctions : MonoBehaviour
                 Time.timeScale = timeSlider.value;
             }
         }
-        enemyStats.maxHP = healthSlider.value;
-        enemyStats.maxSpeed = speedSlider.value;
-        enemyStats.currentHP = healthSlider.value;
-        enemyStats.currentSpeed = speedSlider.value;
-        timeScaleValue.text = timeSlider.value.ToString();
-        healthValue.text = enemyStats.maxHP.ToString();
-        speedValue.text = enemyStats.maxSpeed.ToString();
+        for(int i = 0;i<enemyStats.Length;i++)
+        {
+            enemyStats[i].maxHP = healthSlider.value;
+            enemyMover[i].speed = speedSlider.value;
+            enemyStats[i].currentHP = healthSlider.value;
             
-        
+           
+        }
+        timeScaleValue.text = timeSlider.value.ToString();
+        healthValue.text = FindObjectOfType<EnemyStats>().maxHP.ToString();
+        speedValue.text = FindObjectOfType<EnemyMover>().speed.ToString();
+
 
     }
   
