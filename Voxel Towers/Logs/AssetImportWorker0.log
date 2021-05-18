@@ -641,3 +641,421 @@ Received Import Request.
 Start importing Assets/Prefabs/Tower LaserPurps.prefab using Guid(3fb595b354187f944b5d1ccaf409e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e0f2b64fae9b97325965439ed4fe8c') in 0.188950 seconds
   Import took 0.215970 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1667.452888 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4710c55e6b0bf3467def546b333030a') in 0.131112 seconds
+  Import took 0.146659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.942334 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88749854aca4ca7b8315b46cbe3c6f04') in 0.112350 seconds
+  Import took 0.127265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.128118 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ba347e0ae53b26c910fab08e4a6008') in 0.096208 seconds
+  Import took 0.114734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.084645 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab
+  artifactKey: Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab using Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6445a745ee59027a1379ad6ecbe01b34') in 0.031297 seconds
+  Import took 0.038761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.298252 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab
+  artifactKey: Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab using Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104da183b9cf580d4778f0c4f08c3c6f') in 0.022376 seconds
+  Import took 0.030956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.685579 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab
+  artifactKey: Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissilePinkOBJ.prefab using Guid(e0795bc3f4191184086e327cd0315343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c7802109fc44cd05c9c3b4deca74b4') in 0.022101 seconds
+  Import took 0.031561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.714460 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab
+  artifactKey: Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab using Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2142a213aaada13a7697076911065fae') in 0.047816 seconds
+  Import took 0.057655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953442 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab
+  artifactKey: Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab using Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2bb759a2c8badb7dc17785d75a8208') in 0.024143 seconds
+  Import took 0.032976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008722 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab
+  artifactKey: Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab using Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2bb759a2c8badb7dc17785d75a8208') in 0.030127 seconds
+  Import took 0.060009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.952580 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab
+  artifactKey: Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab using Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8d741ef9698e737d6650be4c369a11') in 0.026780 seconds
+  Import took 0.037153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008141 seconds.
+  path: Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab
+  artifactKey: Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voxel Arsenal/Demo/Prefabs/Missiles/Ring/RingMissileRedOBJ.prefab using Guid(bfee49702d7fd59458023439e1c206e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8d741ef9698e737d6650be4c369a11') in 0.030107 seconds
+  Import took 0.047302 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.440 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3295.
+Total: 8.015400 ms (FindLiveObjects: 0.957100 ms CreateObjectMapping: 0.239100 ms MarkObjects: 6.784100 ms  DeleteObjects: 0.033100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.781610 seconds.
+  path: Assets/Prefabs/Tower Basic.prefab
+  artifactKey: Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Basic.prefab using Guid(ba9c1eedb125dd84c8e3bf3769b506e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf616f1e8a0903231c15d63cfd1235eb') in 0.405199 seconds
+  Import took 0.426430 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.053 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.7 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3334.
+Total: 5.649400 ms (FindLiveObjects: 0.558600 ms CreateObjectMapping: 0.264700 ms MarkObjects: 4.793300 ms  DeleteObjects: 0.031100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.251137 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f71c9e7208dd8652f1a94cf7c28f393') in 0.506838 seconds
+  Import took 0.528609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.117335 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96fa5559cf82b79daba15dbdfeec254') in 0.123202 seconds
+  Import took 0.132054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871368 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c98c5f369d732b0af93de05b0c6c5e2') in 0.085845 seconds
+  Import took 0.095664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.640370 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1511855fc304e8f8937446da0e490946') in 0.120092 seconds
+  Import took 0.135420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.466622 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb45f85b15fa2e62ea1d86971d58ba3') in 0.085162 seconds
+  Import took 0.095044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.699 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 6.380500 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.188500 ms MarkObjects: 5.781600 ms  DeleteObjects: 0.047100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 3.254000 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.143400 ms MarkObjects: 2.759600 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3379.
+Total: 3.320800 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.141000 ms MarkObjects: 2.829600 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002978 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.668 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 3.077200 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 0.244400 ms MarkObjects: 2.419700 ms  DeleteObjects: 0.018200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 951.643660 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6573ed8197f89a5c8be8a8c84330db16') in 0.367430 seconds
+  Import took 0.387432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.032069 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8883b37914bb2c1ba512fa7fa648693') in 0.083740 seconds
+  Import took 0.102361 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3421.
+Total: 3.122700 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.138600 ms MarkObjects: 2.590300 ms  DeleteObjects: 0.050400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.435023 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b10eb3d1fb5c13af64dd399ec6b7a65') in 0.360104 seconds
+  Import took 0.380008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113564 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f748df65e172bb2cf3b44d746e71938') in 0.087051 seconds
+  Import took 0.115042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.139198 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29feba1342026a8fc7da7a291a281978') in 0.085457 seconds
+  Import took 0.101182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3460.
+Total: 3.158200 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.616400 ms  DeleteObjects: 0.030000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.441 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3463.
+Total: 12.658300 ms (FindLiveObjects: 0.520200 ms CreateObjectMapping: 0.222700 ms MarkObjects: 11.875500 ms  DeleteObjects: 0.037700 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.1 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3463.
+Total: 4.076800 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.176800 ms MarkObjects: 3.510800 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3466.
+Total: 2.842000 ms (FindLiveObjects: 0.328500 ms CreateObjectMapping: 0.140200 ms MarkObjects: 2.353500 ms  DeleteObjects: 0.018400 ms)
+

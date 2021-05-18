@@ -90,7 +90,7 @@ public class Tower : MonoBehaviour
         projectiles.GetComponent<VoxelProjectileScript>().speedDamage = SpeedDamage;
         if (isSloth == true)
         {
-            InvokeRepeating("SlothTower", 1f, 0.5f);
+            InvokeRepeating("SlothTower", Random.Range(0.5f,1.5f), 1f);
         }
 
     }
@@ -263,7 +263,7 @@ public class Tower : MonoBehaviour
         if (bank.CurrentBalance >= upgradeCost && tier != tierMax)
         {
             damage +=damageBuff*damageMod;
-            //speedDamage = speedDamage;
+            speedDamage += 0.05f*speedDamageMod;
             range += rangeBuff;
             switch (tier)
             {
@@ -350,13 +350,12 @@ public class Tower : MonoBehaviour
     void SlothTower()
     {
 
-            if (projectile == null)
-            {
+    
                 projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
-                                                                                                                  //projectile.transform.localScale = new Vector3(range, range, range);
+                                                                                                            //projectile.transform.localScale = new Vector3(range, range, range);
                 projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
                 projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
-            }
+            
         
 
     }
