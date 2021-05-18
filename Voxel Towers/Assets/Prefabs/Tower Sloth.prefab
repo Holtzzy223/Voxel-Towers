@@ -120,13 +120,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947013573753229545}
-  m_LocalRotation: {x: -0.22497913, y: -0, z: -0, w: 0.9743636}
-  m_LocalPosition: {x: -0.13, y: 3.9, z: 1.76}
+  m_LocalRotation: {x: 0.2249791, y: 0, z: 0, w: 0.9743636}
+  m_LocalPosition: {x: -0.13, y: 3.5, z: 1.941}
   m_LocalScale: {x: 1, y: 1, z: 1.3199}
   m_Children: []
   m_Father: {fileID: 3608462511913233174}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -26.003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 26.0033, y: 0, z: 0}
 --- !u!198 &806884979473033098
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -5271,14 +5271,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerName: Sloth Turret
   weapon: {fileID: 8000883812667479311}
-  range: 12
+  range: 0
   damage: 0
   damageMod: 0
-  speedDamage: 0.1
+  speedDamage: 0.05
   speedDamageMod: 1
   isSloth: 1
   projectileParticle: {fileID: 806884979473033098}
-  cost: 10
+  cost: 100
   upgradeCost: 0
   audioSource: {fileID: 0}
   fire: {fileID: 0}
@@ -5286,18 +5286,18 @@ MonoBehaviour:
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   hilightMesh: {fileID: -2432090755550338912, guid: b1e854b597acc2f49ac9c735d498e1ad, type: 3}
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
-  projectiles: {fileID: 1327142519841044, guid: d29d9e2037b34474a812003bef6abfee, type: 3}
+  projectiles: {fileID: 1327142519841044, guid: d725b8551b7c0f54aa9d9cf4f6504abd, type: 3}
   upgradeProjectiles:
   - {fileID: 1327142519841044, guid: d29d9e2037b34474a812003bef6abfee, type: 3}
   - {fileID: 1327142519841044, guid: d29d9e2037b34474a812003bef6abfee, type: 3}
   - {fileID: 1327142519841044, guid: d29d9e2037b34474a812003bef6abfee, type: 3}
   upgradeProjectileSpeeds:
-  - 800
-  - 1000
-  - 1200
+  - 250
+  - 300
+  - 350
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
-  speed: 1000
+  speed: 200
   onHoverUI: {fileID: 2135708554184716421}
   costText: {fileID: 5370146826400412012}
   sellText: {fileID: 7376528425948367711}

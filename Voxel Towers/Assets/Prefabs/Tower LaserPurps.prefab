@@ -4887,8 +4887,11 @@ MonoBehaviour:
   towerName: Laser Turret
   weapon: {fileID: 3608462511913233174}
   range: 17
-  damage: 3
+  damage: 2
+  damageMod: 1
   speedDamage: 0
+  speedDamageMod: 0
+  isSloth: 0
   projectileParticle: {fileID: 806884979473033098}
   cost: 75
   upgradeCost: 0

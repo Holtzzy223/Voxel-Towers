@@ -77,21 +77,21 @@ public class Tower : MonoBehaviour
         rangeSlider.value = range;
         speedSlider.maxValue = maxSpeed;
         speedSlider.value = speed;
-        if (isSloth == true)
-        {
-            InvokeRepeating("SlothTower", 2f, 1f);
-        }
+
     }
    
     private void Start()
     {
 
-        
+
 
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
         projectiles.GetComponent<VoxelProjectileScript>().speedDamage = SpeedDamage;
- 
+        if (isSloth == true)
+        {
+            InvokeRepeating("SlothTower", 1f, 0.5f);
+        }
 
     }
 
@@ -211,12 +211,14 @@ public class Tower : MonoBehaviour
     }
     void DrawRange()
     {
-        float zDrawOffset = 0.75f;
-        Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
-        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
-         
-        Graphics.DrawMesh(mesh, trsMatrix, material, 1);
+        if (isSloth == false)
+        {
+            float zDrawOffset = 0.75f;
+            Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
+            Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
 
+            Graphics.DrawMesh(mesh, trsMatrix, material, 1);
+        }
     }
     void DrawHighLight() 
     {
@@ -348,12 +350,14 @@ public class Tower : MonoBehaviour
     void SlothTower()
     {
 
-        if (targetDistance <= range)
-        {
-            projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
-            projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
-            projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
-        }
+            if (projectile == null)
+            {
+                projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
+                                                                                                                  //projectile.transform.localScale = new Vector3(range, range, range);
+                projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
+                projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
+            }
+        
 
     }
 
