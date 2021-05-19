@@ -516,3 +516,98 @@ Received Import Request.
 Start importing Assets/Scenes/Scene3.unity using Guid(4ac4c17c355e3c248b3cb4c8c010b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd97f121c8c25bf2cd6965b6509a543f') in 0.006454 seconds
   Import took 0.013876 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 328.290279 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b7a9ee60ffab84953df51f8cb2202c') in 0.476592 seconds
+  Import took 0.502225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.686381 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947f944e106ca1efb28873da43bcd44a') in 0.173382 seconds
+  Import took 0.198892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.875879 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ff4606a1f93445348ea7762ece540c') in 0.206090 seconds
+  Import took 0.243954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.513778 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9871e8e84434ecc3030a1f4c5bf1d257') in 0.529576 seconds
+  Import took 0.557677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.204676 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab2354446d5c322d538a52c941e3362') in 0.236281 seconds
+  Import took 0.260916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.793504 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aded98512ba9be929d392c6cf16791') in 0.178691 seconds
+  Import took 0.207323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.520879 seconds.
+  path: Assets/Prefabs/(0, 0).prefab
+  artifactKey: Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/(0, 0).prefab using Guid(f187d0fed0ee4d64fb86b197e3a8ddf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219969c946f17a6126cf385f7c4ed0fb') in 0.160917 seconds
+  Import took 0.185253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.626941 seconds.
+  path: Assets/Scenes/Scene3.unity
+  artifactKey: Guid(4ac4c17c355e3c248b3cb4c8c010b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene3.unity using Guid(4ac4c17c355e3c248b3cb4c8c010b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3b2c4609c01f826f67ce97efa8149') in 0.018865 seconds
+  Import took 0.025530 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.520 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3178.
+Total: 3.885100 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.200200 ms MarkObjects: 3.024100 ms  DeleteObjects: 0.058000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.425542 seconds.
+  path: Assets/Prefabs/Tower Sloth.prefab
+  artifactKey: Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower Sloth.prefab using Guid(5829c5bc7de33544f8b9df903e7d39f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983917518a7c4143b14f52a5633bc70b') in 0.455670 seconds
+  Import took 0.515770 seconds .
+

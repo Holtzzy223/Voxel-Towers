@@ -5274,7 +5274,7 @@ MonoBehaviour:
   range: 0
   damage: 0
   damageMod: 0
-  speedDamage: 0.1
+  speedDamage: 0.065
   speedDamageMod: 1
   isSloth: 1
   projectileParticle: {fileID: 806884979473033098}
