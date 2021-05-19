@@ -55,6 +55,7 @@ public class Timer : MonoBehaviour
                     {
                         FindObjectOfType<PlayerBank>().Deposit(50);
                     }
+
                     timeRemaining = waveTimer * spawnTimer;
                 }
                 if (isAlarmTimer)

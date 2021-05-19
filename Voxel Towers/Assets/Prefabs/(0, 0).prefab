@@ -362,6 +362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FogBright (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1558129553879500, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4229706886185794, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -423,6 +427,10 @@ PrefabInstance:
     - target: {fileID: 1558129553879500, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
       propertyPath: m_Name
       value: FogBright
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558129553879500, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4229706886185794, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
       propertyPath: m_RootOrder
@@ -526,6 +534,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: d135ff9fb9e59a049a25c57cf9c29401, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -8469494145858465668, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
     - target: {fileID: 919132149155446097, guid: d135ff9fb9e59a049a25c57cf9c29401, type: 3}
       propertyPath: m_Name
       value: path90
@@ -588,6 +600,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 271e60c7637242940944cd6fb87e743a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -8469494145858465668, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
     - target: {fileID: 919132149155446097, guid: 271e60c7637242940944cd6fb87e743a, type: 3}
       propertyPath: m_Name
       value: path
@@ -650,6 +666,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: ea045bd341655c2449fc77d300291227, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -8469494145858465668, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
     - target: {fileID: 919132149155446097, guid: ea045bd341655c2449fc77d300291227, type: 3}
       propertyPath: m_Name
       value: GrassElevated

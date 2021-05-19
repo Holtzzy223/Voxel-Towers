@@ -5292,12 +5292,12 @@ MonoBehaviour:
   - {fileID: 1327142519841044, guid: 00d522ee3ed6056458636e905b5be7ff, type: 3}
   - {fileID: 1327142519841044, guid: bfee49702d7fd59458023439e1c206e2, type: 3}
   upgradeProjectileSpeeds:
-  - 350
-  - 500
+  - 450
+  - 550
   - 650
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
-  speed: 250
+  speed: 350
   onHoverUI: {fileID: 2135708554184716421}
   costText: {fileID: 5370146826400412012}
   sellText: {fileID: 7376528425948367711}

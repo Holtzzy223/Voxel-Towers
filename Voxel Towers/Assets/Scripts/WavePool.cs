@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class WavePool : MonoBehaviour
 {
     [SerializeField] int enemiesPerWave;
-    private float waveCount = 0;
-    public float WaveCount { get { return waveCount; } }
+    private int waveCount = 0;
+    public int WaveCount { get { return waveCount; } }
     public int EnemiesPerWave { get { return enemiesPerWave; } }
     [SerializeField] float waveTimer;
     public float WaveTimer { get { return waveTimer; } }
@@ -18,6 +19,7 @@ public class WavePool : MonoBehaviour
     public GameObject[] waves;
     public TextMeshProUGUI waveText;
     public TextMeshProUGUI waveTimerText;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -47,8 +49,30 @@ public class WavePool : MonoBehaviour
                 
                 yield return new WaitForSeconds(waveTimer*spawnTimer);
             }
+            
         }
-
+        if (waveCount == waves.Length)
+        {
+            var sceneCurrent = SceneManager.GetActiveScene();
+            switch (sceneCurrent.name)
+            {
+                case "Scene1":
+                    SceneManager.LoadScene("Scene2");
+                    break;
+                case "Scene2":
+                    SceneManager.LoadScene("Scene3");
+                    break;
+                case "Scene3":
+                    SceneManager.LoadScene("Scene4");
+                    break;
+                case "Scene4":
+                    SceneManager.LoadScene("Scene5");
+                    break;
+               // case "Scene5":
+               //     SceneManager.LoadScene("GameWinScene");
+               //     break;
+            }
+        }
 
 
     }

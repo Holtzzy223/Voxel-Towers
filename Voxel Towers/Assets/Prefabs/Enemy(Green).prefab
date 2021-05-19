@@ -173,11 +173,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beec15cf559166645b0e89c13bfe8aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHP: 70
+  baseHP: 60
   currentHP: 0
   maxHP: 0
   isBreaker: 0
-  baseSpeed: 0.25
+  baseSpeed: 0.75
   currentSpeed: 0
   maxSpeed: 0
   healthBar: {fileID: 3494253447243063906}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c367f0304cc984c4784ff3df27befc6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killReward: 15
+  killReward: 25
   damageToBase: 30
 --- !u!114 &8898076551116157396
 MonoBehaviour:
