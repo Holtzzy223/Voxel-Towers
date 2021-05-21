@@ -512,3 +512,4 @@ Received Import Request.
 Start importing Assets/Scripts/Tile.cs using Guid(1e805b7a445832343af7d52c7009f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512a7067551f86418363a7bac772412') in 0.008282 seconds
   Import took 0.015063 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

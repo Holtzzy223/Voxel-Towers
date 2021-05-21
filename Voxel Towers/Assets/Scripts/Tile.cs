@@ -7,6 +7,7 @@ public class Tile : MonoBehaviour
     
     [SerializeField] Tower[] towers;
     GridManager gridManager;
+    Pathfinder pathfinder;
     Vector2Int coords = new Vector2Int();
     public bool isPlaceable = true;
     public GameObject grassMesh;
@@ -24,6 +25,7 @@ public class Tile : MonoBehaviour
     private void Awake()
     {
         gridManager = FindObjectOfType<GridManager>();
+        pathfinder = FindObjectOfType<Pathfinder>();
     }
     private void Start()
     {
@@ -49,7 +51,7 @@ public class Tile : MonoBehaviour
     private void OnMouseOver()
     {
         DrawHighLight();
-        if (towerUI.ButtonChoice != -1 && isPlaceable)
+        if (towerUI.ButtonChoice != -1 && gridManager.GetNode(coords).isTraversable)
         {
             DrawTowerMesh();
             DrawTowerRange();
@@ -66,10 +68,11 @@ public class Tile : MonoBehaviour
     }
     public void PlaceTower()
     {
-        if (isPlaceable && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1 )
+        if (gridManager.GetNode(coords).isTraversable && !pathfinder.WillBlockPath(coords) && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1 )
         {
             bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
             isPlaceable = !isPlaced;
+            gridManager.BlockNode(coords);
             towerUI.ButtonChoice = -1;
         }
         Cursor.visible = true;

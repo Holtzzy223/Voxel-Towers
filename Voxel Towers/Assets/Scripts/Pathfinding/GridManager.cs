@@ -29,6 +29,17 @@ public class GridManager : MonoBehaviour
             grid[coords].isTraversable = false;
         }
     }
+
+    public void ResetNodes()
+    {
+        foreach (KeyValuePair<Vector2Int, Node> entry in grid)
+        {
+            entry.Value.connectedNode = null;
+            entry.Value.isExplored = false;
+            entry.Value.isPath = false;
+        }
+    }
+
     public Vector2Int GetCoordsFromPos(Vector3 pos)
     {
         Vector2Int coords = new Vector2Int();
