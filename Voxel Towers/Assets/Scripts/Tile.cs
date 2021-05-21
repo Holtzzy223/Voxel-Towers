@@ -6,6 +6,8 @@ public class Tile : MonoBehaviour
 {
     
     [SerializeField] Tower[] towers;
+    GridManager gridManager;
+    Vector2Int coords = new Vector2Int();
     public bool isPlaceable = true;
     public GameObject grassMesh;
     public GameObject pathMesh;
@@ -18,10 +20,22 @@ public class Tile : MonoBehaviour
 
 
     public bool IsPlaceable { get   { return isPlaceable;}}
+
+    private void Awake()
+    {
+        gridManager = FindObjectOfType<GridManager>();
+    }
     private void Start()
     {
-     towerUI = FindObjectOfType<TowerUI>(); 
-     
+        towerUI = FindObjectOfType<TowerUI>();
+        if (gridManager != null)
+        {
+            coords = gridManager.GetCoordsFromPos(transform.position);
+            if (!isPlaceable)
+            {
+                gridManager.BlockNode(coords);
+            }
+        }
      ///  GameObject parentObject = GetComponentInParent<GameObject>();
      ///  if (parentObject != null)
      ///  {

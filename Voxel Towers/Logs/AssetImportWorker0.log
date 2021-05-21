@@ -481,3 +481,34 @@ System memory in use after: 123.6 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3092.
 Total: 2.463400 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.134400 ms MarkObjects: 1.984100 ms  DeleteObjects: 0.030900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001933 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2446 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3095.
+Total: 3.091300 ms (FindLiveObjects: 0.623000 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.260500 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1447.922198 seconds.
+  path: Assets/Scripts/Tile.cs
+  artifactKey: Guid(1e805b7a445832343af7d52c7009f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tile.cs using Guid(1e805b7a445832343af7d52c7009f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512a7067551f86418363a7bac772412') in 0.008282 seconds
+  Import took 0.015063 seconds .
+
