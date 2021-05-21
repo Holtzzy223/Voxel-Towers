@@ -10,7 +10,7 @@ public class CoordLabeler : MonoBehaviour
 {
     TextMeshPro label;
     Vector2Int coords = new Vector2Int();
-    Waypoint waypoint;
+    Tile waypoint;
     Color defColor = Color.white;
     Color blockedColor = Color.red;
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class CoordLabeler : MonoBehaviour
     {
       // label = GetComponent<TextMeshPro>();
       // label.enabled = false;
-      // waypoint = GetComponentInParent<Waypoint>();
+      // waypoint = GetComponentInParent<Tile>();
       // DisplayCoords();
     }
 

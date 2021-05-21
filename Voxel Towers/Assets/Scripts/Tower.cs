@@ -299,11 +299,11 @@ public class Tower : MonoBehaviour
         var towerValue = Mathf.FloorToInt(cost * (tier+1) * 0.5f);
         bank.Deposit(towerValue);
         
-        Waypoint[] waypoints = FindObjectsOfType<Waypoint>();
+        Tile[] waypoints = FindObjectsOfType<Tile>();
         Transform closestPoint = null;
         float maxDistance = Mathf.Infinity;
 
-        foreach (Waypoint waypoint in waypoints)
+        foreach (Tile waypoint in waypoints)
         {
             targetDistance = Vector3.Distance(transform.position, waypoint.transform.position);
             if (targetDistance < maxDistance)
@@ -313,7 +313,7 @@ public class Tower : MonoBehaviour
             }
         }
         var targetPoint = closestPoint;
-        closestPoint.gameObject.GetComponent<Waypoint>().isPlaceable = true;
+        closestPoint.gameObject.GetComponent<Tile>().isPlaceable = true;
         Time.timeScale = 1;
         onHoverUI.SetActive(false);
         gameObject.SetActive(false);
