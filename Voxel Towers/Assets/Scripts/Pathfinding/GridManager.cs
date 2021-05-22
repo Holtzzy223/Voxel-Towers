@@ -6,7 +6,7 @@ using UnityEngine;
 public class GridManager : MonoBehaviour
 {
     public Vector2Int gridSize;
-    public int sceneGridSize = 10;
+    public int sceneGridSize = 5;
     Dictionary<Vector2Int, Node> grid = new Dictionary<Vector2Int, Node>();
     public Dictionary<Vector2Int, Node> Grid { get{ return grid; } }
     private void Awake()
