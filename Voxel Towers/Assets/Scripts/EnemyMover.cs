@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMover : MonoBehaviour
 {
-    [SerializeField] List<Tile> path = new List<Tile>();
+    List<Node> path = new List<Node>();
     public float speed = 1f;
     float oldSpeed;
     [SerializeField] bool  pathRestartOnEnd = false;
@@ -12,14 +12,19 @@ public class EnemyMover : MonoBehaviour
     bool PathFinshed {get { return pathFinished; } }
     Enemy enemy;
     Base playerBase;
+    GridManager gridManager;
+    Pathfinder pathfinder;
     private void Awake()
     {
         enemy = GetComponentInChildren<Enemy>();
+       
         Debug.LogError(enemy.ToString());
     }
     // Start is called before the first frame update
     void OnEnable()
     {
+        pathfinder = FindObjectOfType<Pathfinder>();
+        gridManager = FindObjectOfType<GridManager>();
         speed = enemy.GetComponent<EnemyStats>().currentSpeed;
         oldSpeed = speed;
         pathFinished = false;
@@ -32,30 +37,24 @@ public class EnemyMover : MonoBehaviour
     void FindPath()
     {
         path.Clear();
-        GameObject parent = GameObject.FindGameObjectWithTag("Path");
-        foreach (Transform child in parent.transform)
-        {
-            path.Add(child.GetComponent<Tile>());
-            child.GetComponentInParent<Tile>().isPlaceable = false;
-        }
-        
+        path = pathfinder.GetNewPath();
     }
     void ReturnToStart() 
     {
-        transform.position = path[0].transform.position;
+        transform.position = gridManager.GetPosFromCoords(pathfinder.StartCoords);
     
     }
     IEnumerator FollowPath()
     {
         
-        foreach (Tile waypoint in path)
+        for (int i = 0; i < path.Count; i++)
         {
             var offset = new Vector3(0, 1, 0);
             Vector3 startPos = transform.position;
-            Vector3 endPos = waypoint.transform.position+offset;
+            Vector3 endPos = gridManager.GetPosFromCoords(path[i].coords);
             float travelPercent = 0f;
             transform.LookAt(endPos);
-            Debug.Log(waypoint.name);
+            Debug.Log(path.Count);
             while (travelPercent < 1)
             {
                 travelPercent += Mathf.Abs(speed)*Time.deltaTime;

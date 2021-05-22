@@ -6,7 +6,11 @@ using UnityEngine;
 public class Pathfinder : MonoBehaviour
 {
     [SerializeField] Vector2Int startCoords;
+    public Vector2Int StartCoords { get { return startCoords; } }
+   
+
     [SerializeField] Vector2Int destinationCoords;
+    public Vector2Int DestinationCoords { get { return destinationCoords; } }
     Node startNode;
     Node destinationNode;
     Node currentSearchNode;
@@ -24,6 +28,10 @@ public class Pathfinder : MonoBehaviour
         if (gridManager != null)
         {
             grid = gridManager.Grid;
+            startNode = grid[startCoords];
+            destinationNode = grid[destinationCoords];
+            startNode.isTraversable = true;
+            destinationNode.isTraversable = true;
         }
 
     }
@@ -36,7 +44,7 @@ public class Pathfinder : MonoBehaviour
         GetNewPath();
     }
 
-    public List<Node> GetNewPath() 
+    public List<Node> GetNewPath()
     {
         gridManager.ResetNodes();
         BreadthFirstSearch();
@@ -68,6 +76,8 @@ public class Pathfinder : MonoBehaviour
     
     void BreadthFirstSearch()
     {
+        startNode.isTraversable = true;
+        destinationNode.isTraversable = true;
         map.Clear();
         reached.Clear();
         bool isRunning = true;
@@ -93,11 +103,15 @@ public class Pathfinder : MonoBehaviour
         path.Add(currentNode);
         currentNode.isPath = true;
 
-        while (currentNode.connectedNode != null)
+        while (currentNode != null)
         {
             currentNode = currentNode.connectedNode;
-            path.Add(currentNode);
-            currentNode.isPath = true;
+            if (currentNode != null)
+            {
+                currentNode.isPath = true;
+                path.Add(currentNode);
+                
+            }
         }
         path.Reverse();
         
