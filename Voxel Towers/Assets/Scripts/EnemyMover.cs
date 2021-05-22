@@ -28,16 +28,26 @@ public class EnemyMover : MonoBehaviour
         speed = enemy.GetComponent<EnemyStats>().currentSpeed;
         oldSpeed = speed;
         pathFinished = false;
-        FindPath();
         ReturnToStart();
-        StartCoroutine(FollowPath());
+        FindPath(true);
     }
 
     // Update is called once per frame
-    void FindPath()
+    void FindPath(bool resetPath)
     {
+        Vector2Int coords = new Vector2Int();
+        if (resetPath)
+        {
+            coords = pathfinder.StartCoords;
+        }
+        else
+        {
+            coords = gridManager.GetCoordsFromPos(transform.position);
+        }
+        StopAllCoroutines();
         path.Clear();
-        path = pathfinder.GetNewPath();
+        path = pathfinder.GetNewPath(coords);
+        StartCoroutine(FollowPath());
     }
     void ReturnToStart() 
     {
@@ -47,7 +57,7 @@ public class EnemyMover : MonoBehaviour
     IEnumerator FollowPath()
     {
         
-        for (int i = 0; i < path.Count; i++)
+        for (int i = 1; i < path.Count; i++)
         {
             var offset = new Vector3(0, 1, 0);
             Vector3 startPos = transform.position;

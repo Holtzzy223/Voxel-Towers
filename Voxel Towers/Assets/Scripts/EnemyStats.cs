@@ -20,15 +20,11 @@ public class EnemyStats : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-        healthBar.maxValue = maxHP;
-        healthBar.value = healthBar.maxValue;
+       
         //int health per wave at base * wave count 
         WavePool wavePool = FindObjectOfType<WavePool>();
         UpdateStats(wavePool);
-        healthSlider  = FindObjectOfType<TesterFunctions>().healthSlider;
-        speedSlider = FindObjectOfType<TesterFunctions>().speedSlider;
-        healthSlider.onValueChanged.AddListener(delegate { UpdateDebugStats(); });
-        speedSlider.onValueChanged.AddListener(delegate { UpdateDebugStats(); });
+
 
     }
 
@@ -61,14 +57,7 @@ public class EnemyStats : MonoBehaviour
         }
     }
     // Update is called once per frame
-    void UpdateDebugStats()
-    {
-        maxHP = healthSlider.value;
-        maxSpeed = speedSlider.value;
-        currentHP = maxHP;
-        currentSpeed = maxSpeed;
-        FindObjectOfType<EnemyMover>().speed = currentSpeed;
-    }
+
     private void UpdateHeathBar()
     {
 

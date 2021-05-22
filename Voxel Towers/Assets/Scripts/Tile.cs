@@ -66,6 +66,7 @@ public class Tile : MonoBehaviour
             if ((menu == null || menu.activeInHierarchy == false)&&isPlaceable)
             {
                 PlaceTower();
+                
             }
         }
        
@@ -79,7 +80,7 @@ public class Tile : MonoBehaviour
         if (gridManager.GetNode(coords).isTraversable && !pathfinder.WillBlockPath(coords) && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1 )
         {
             bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
-            gridManager.BlockNode(coords);
+            pathfinder.NotifyRecievers();
             isPlaceable = !isPlaced;
             towerUI.ButtonChoice = -1;
         }
