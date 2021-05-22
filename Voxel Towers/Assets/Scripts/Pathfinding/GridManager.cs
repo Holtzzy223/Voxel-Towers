@@ -6,7 +6,7 @@ using UnityEngine;
 public class GridManager : MonoBehaviour
 {
     public Vector2Int gridSize;
-    public int sceneGridSize = 5;
+    public int sceneGridSize;
     Dictionary<Vector2Int, Node> grid = new Dictionary<Vector2Int, Node>();
     public Dictionary<Vector2Int, Node> Grid { get{ return grid; } }
     private void Awake()
@@ -43,8 +43,8 @@ public class GridManager : MonoBehaviour
     public Vector2Int GetCoordsFromPos(Vector3 pos)
     {
         Vector2Int coords = new Vector2Int();
-        coords.x = Mathf.RoundToInt(pos.x / sceneGridSize);
-        coords.x = Mathf.RoundToInt(pos.z / sceneGridSize);
+        coords.x = Mathf.RoundToInt(pos.x /sceneGridSize);
+        coords.y = Mathf.RoundToInt(pos.z /sceneGridSize);
         return coords;
     }
     
