@@ -24,15 +24,17 @@ public class Tile : MonoBehaviour
 
     private void Awake()
     {
+
         gridManager = FindObjectOfType<GridManager>();
         pathfinder = FindObjectOfType<Pathfinder>();
+
     }
     private void Update()
     {
-        if (!isPlaceable)
-        {
-            gridManager.BlockNode(coords);
-        }
+      // if (!isPlaceable)
+      // {
+      //     gridManager.BlockNode(coords);
+      // }
     }
     private void Start()
     {
@@ -40,10 +42,14 @@ public class Tile : MonoBehaviour
         if (gridManager != null)
         {
             coords = gridManager.GetCoordsFromPos(transform.position);
-            if (!isPlaceable)
+            if (coords == pathfinder.StartCoords||coords == pathfinder.DestinationCoords)
             {
-                gridManager.BlockNode(coords);
+                isPlaceable = false;
             }
+         // if (!isPlaceable)
+         // {
+         //     gridManager.BlockNode(coords);
+         // }
         }
      ///  GameObject parentObject = GetComponentInParent<GameObject>();
      ///  if (parentObject != null)
@@ -63,7 +69,7 @@ public class Tile : MonoBehaviour
         {
             DrawTowerMesh();
             DrawTowerRange();
-            if ((menu == null || menu.activeInHierarchy == false)&&isPlaceable)
+            if ((menu == null || menu.activeInHierarchy == false) && isPlaceable)
             {
                 PlaceTower();
                 
@@ -80,6 +86,7 @@ public class Tile : MonoBehaviour
         if (gridManager.GetNode(coords).isTraversable && !pathfinder.WillBlockPath(coords) && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1 )
         {
             bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
+            gridManager.BlockNode(coords);
             pathfinder.NotifyRecievers();
             isPlaceable = !isPlaced;
             towerUI.ButtonChoice = -1;

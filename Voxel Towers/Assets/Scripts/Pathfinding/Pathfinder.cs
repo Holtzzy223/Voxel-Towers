@@ -82,8 +82,8 @@ public class Pathfinder : MonoBehaviour
     
     void BreadthFirstSearch(Vector2Int coords)
     {
-        startNode.isTraversable = true;
-        destinationNode.isTraversable = true;
+        //startNode.isTraversable = true;
+        //destinationNode.isTraversable = true;
         map.Clear();
         reached.Clear();
         bool isRunning = true;
