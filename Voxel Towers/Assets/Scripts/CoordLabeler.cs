@@ -25,10 +25,12 @@ public class CoordLabeler : MonoBehaviour
        waypoint = GetComponentInParent<Tile>();
       
        DisplayCoords();
+       
     }
     private void Start()
     {
         gridManager = FindObjectOfType<GridManager>();
+       
     }
     // Update is called once per frame
     void Update()
@@ -38,7 +40,7 @@ public class CoordLabeler : MonoBehaviour
            DisplayCoords();
            UpdateName();
        }
-       DebugDisplay();
+        DebugDisplay();
     } 
 
    void DisplayCoords() 
@@ -47,24 +49,26 @@ public class CoordLabeler : MonoBehaviour
      coords.x = Mathf.RoundToInt(transform.parent.position.x /FindObjectOfType<GridManager>().sceneGridSize);
      coords.y = Mathf.RoundToInt(transform.parent.position.z /FindObjectOfType<GridManager>().sceneGridSize);
      label.text = coords.x + "," + coords.y;
-   }
+     label.enabled = !label.IsActive();
+    }
    void UpdateName()
    {
        transform.parent.name = coords.ToString();
    }
-   void DebugDisplay() 
+   public void DebugDisplay() 
    {
         node = gridManager.GetNode(coords);
+        
         if (node != null)
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
-            if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
-            {
-                label.enabled = !label.IsActive();
-            }
+          // if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.G))
+          // {
+                
+           // }
             if (node.isTraversable)
             {
                 label.color = defColor;
@@ -73,10 +77,17 @@ public class CoordLabeler : MonoBehaviour
             {
 
                 label.color = pathColor;
+                waypoint.grassMesh.SetActive(false);
+                waypoint.pathMesh.SetActive(true);
             }
             if (!node.isTraversable)
             {
                 label.color = blockedColor;
+            }
+            if (!node.isPath)
+            {
+                waypoint.pathMesh.SetActive(false);
+                waypoint.grassMesh.SetActive(true);
             }
         }
     //  if (node.isExplored)

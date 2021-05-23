@@ -33,20 +33,26 @@ public class Tile : MonoBehaviour
     {
         towerUI = FindObjectOfType<TowerUI>();
         coords = gridManager.GetCoordsFromPos(transform.position);
-       // if (coords == pathfinder.StartCoords)
-       // {
-       //     isPlaceable = false;
-       //
-       // }
-        
-     ///  GameObject parentObject = GetComponentInParent<GameObject>();
-     ///  if (parentObject != null)
-     ///  {
-     ///      if (parentObject.name.ToLower() == "path")
-     ///      { 
-     ///          
-     ///      }
-     ///  }
+        if (pathfinder.IsInPath(coords))
+        {
+            grassMesh.gameObject.SetActive(false);
+            pathMesh.gameObject.SetActive(true);
+        }
+
+        // if (coords == pathfinder.StartCoords)
+        // {
+        //     isPlaceable = false;
+        //
+        // }
+
+        ///  GameObject parentObject = GetComponentInParent<GameObject>();
+        ///  if (parentObject != null)
+        ///  {
+        ///      if (parentObject.name.ToLower() == "path")
+        ///      { 
+        ///          
+        ///      }
+        ///  }
     }
     private void Update()
     {
