@@ -66,7 +66,7 @@ public class Tower : MonoBehaviour
     public Slider speedSlider;
 
     public List<ParticleCollisionEvent> collisionEvents;
-
+    GridManager gridManager;
     void OnEnable()
     {
         nameText.text = towerName;
@@ -77,7 +77,7 @@ public class Tower : MonoBehaviour
         rangeSlider.value = range;
         speedSlider.maxValue = maxSpeed;
         speedSlider.value = speed;
-
+        gridManager = FindObjectOfType<GridManager>();
     }
    
     private void Start()
@@ -164,19 +164,21 @@ public class Tower : MonoBehaviour
     }
     void AimWeapon()
     {
-      
-        targetDistance = Vector3.Distance(transform.position, target.position);
-     
-        weapon.LookAt(target);
-        
+        if (target != null)
+        {
+            targetDistance = Vector3.Distance(transform.position, target.position);
 
-        if (targetDistance <= range)
-        {
-           Attack(true);
-        }
-        else
-        {
-            Attack(false);
+            weapon.LookAt(target);
+
+
+            if (targetDistance <= range)
+            {
+                Attack(true);
+            }
+            else
+            {
+                Attack(false);
+            }
         }
     }
     void Attack(bool isActive)
@@ -312,6 +314,8 @@ public class Tower : MonoBehaviour
         }
         var targetPoint = closestPoint;
         closestPoint.gameObject.GetComponent<Tile>().isPlaceable = true;
+        gridManager.ClearNode(gridManager.GetCoordsFromPos(closestPoint.position));
+        FindObjectOfType<Pathfinder>().NotifyRecievers();
         Time.timeScale = 1;
         onHoverUI.SetActive(false);
         gameObject.SetActive(false);

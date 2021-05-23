@@ -29,6 +29,13 @@ public class GridManager : MonoBehaviour
             grid[coords].isTraversable = false;
         }
     }
+    public void ClearNode(Vector2Int coords)
+    {
+        if (grid.ContainsKey(coords))
+        {
+            grid[coords].isTraversable = true;
+        }
+    }
 
     public void ResetNodes()
     {

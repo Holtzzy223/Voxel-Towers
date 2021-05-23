@@ -4886,8 +4886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerName: Laser Turret
   weapon: {fileID: 3608462511913233174}
-  range: 17
-  damage: 2
+  range: 15
+  damage: 3
   damageMod: 1
   speedDamage: 0
   speedDamageMod: 0
@@ -4913,6 +4913,7 @@ MonoBehaviour:
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
   speed: 1000
+  projectile: {fileID: 0}
   onHoverUI: {fileID: 3863800488695430526}
   costText: {fileID: 7114541281825733783}
   sellText: {fileID: 5648573907840779940}

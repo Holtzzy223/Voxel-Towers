@@ -2330,12 +2330,7 @@ MonoBehaviour:
   - {fileID: 6339983290965448649, guid: 726c9c20f9cccfe40a65c01cc86ef2c2, type: 3}
   - {fileID: 6339983290965448649, guid: ab5605fb031aeca49a30145951ca59f6, type: 3}
   - {fileID: 6339983290965448649, guid: 726c9c20f9cccfe40a65c01cc86ef2c2, type: 3}
-  - {fileID: 6339983290965448649, guid: ab5605fb031aeca49a30145951ca59f6, type: 3}
-  - {fileID: 6339983290965448649, guid: 06368f56205b00142b9160c21c79ed93, type: 3}
   - {fileID: 6339983290965448649, guid: 726c9c20f9cccfe40a65c01cc86ef2c2, type: 3}
-  - {fileID: 6339983290965448649, guid: 726c9c20f9cccfe40a65c01cc86ef2c2, type: 3}
-  - {fileID: 6339983290965448649, guid: ab5605fb031aeca49a30145951ca59f6, type: 3}
-  - {fileID: 6339983290965448649, guid: ab5605fb031aeca49a30145951ca59f6, type: 3}
   - {fileID: 6339983290965448649, guid: ab5605fb031aeca49a30145951ca59f6, type: 3}
   waveText: {fileID: 538787461}
   waveTimerText: {fileID: 0}

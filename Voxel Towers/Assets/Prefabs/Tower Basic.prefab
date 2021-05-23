@@ -4887,7 +4887,7 @@ MonoBehaviour:
   towerName: Basic Turret
   weapon: {fileID: 3608462511913233174}
   range: 12
-  damage: 1.5
+  damage: 2
   damageMod: 1
   speedDamage: 0
   speedDamageMod: 0
@@ -4913,6 +4913,7 @@ MonoBehaviour:
   spawnPosition: {fileID: 2303536799236407313}
   currentProjectile: 0
   speed: 1100
+  projectile: {fileID: 0}
   onHoverUI: {fileID: 2135708554184716421}
   costText: {fileID: 5370146826400412012}
   sellText: {fileID: 7376528425948367711}
