@@ -30,8 +30,8 @@ public class Pathfinder : MonoBehaviour
             grid = gridManager.Grid;
             startNode = grid[startCoords];
             destinationNode = grid[destinationCoords];
-           //startNode.isTraversable = true;
-           //destinationNode.isTraversable = true;
+            startNode.isTraversable = true;
+            destinationNode.isTraversable = true;
         }
 
     }
@@ -133,7 +133,10 @@ public class Pathfinder : MonoBehaviour
             grid[coords].isTraversable = false;
             List<Node> newPath = GetNewPath();
             grid[coords].isTraversable = prevState;
-
+            if (coords == startCoords || coords == destinationCoords)
+            {
+                return true;
+            }
             if (newPath.Count <= 1)
             {
                 GetNewPath();

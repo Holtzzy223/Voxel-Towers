@@ -27,22 +27,17 @@ public class Tile : MonoBehaviour
 
         gridManager = FindObjectOfType<GridManager>();
         pathfinder = FindObjectOfType<Pathfinder>();
-
     }
-    private void Update()
-    {
-        if (pathfinder.WillBlockPath(coords))
-        {
-            isPlaceable = false;
-        }
-        
 
-    }
     private void Start()
     {
         towerUI = FindObjectOfType<TowerUI>();
         coords = gridManager.GetCoordsFromPos(transform.position);
-
+       // if (coords == pathfinder.StartCoords)
+       // {
+       //     isPlaceable = false;
+       //
+       // }
         
      ///  GameObject parentObject = GetComponentInParent<GameObject>();
      ///  if (parentObject != null)
@@ -52,6 +47,15 @@ public class Tile : MonoBehaviour
      ///          
      ///      }
      ///  }
+    }
+    private void Update()
+    {
+        if (pathfinder.WillBlockPath(coords))
+        {
+            isPlaceable = false;
+        }
+
+
     }
 
     private void OnMouseOver()
