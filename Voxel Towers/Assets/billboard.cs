@@ -14,6 +14,6 @@ public class billboard : MonoBehaviour
     void LateUpdate()
     {
         //look into this
-       // transform.LookAt(new Vector3(-Camera.main.transform.position.x, -Camera.main.transform.position.z));
+       transform.LookAt(FindObjectOfType<Camera>().transform);
     }
 }

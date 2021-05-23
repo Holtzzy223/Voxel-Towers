@@ -28,7 +28,12 @@ namespace VoxelArsenal
                 Destroy(muzzleParticle, 1.5f); // 2nd parameter is lifetime of effect in seconds
             }
         }
-		
+        private void OnBecameInvisible()
+        {
+            Destroy(gameObject);
+
+           // parentTower.projectile = null;
+        }
         void FixedUpdate()
         {	
 			if (GetComponent<Rigidbody>().velocity.magnitude != 0)
@@ -76,4 +81,5 @@ namespace VoxelArsenal
             }
         }
     }
+    
 }

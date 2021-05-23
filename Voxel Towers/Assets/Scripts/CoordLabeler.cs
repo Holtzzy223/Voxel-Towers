@@ -49,7 +49,7 @@ public class CoordLabeler : MonoBehaviour
      coords.x = Mathf.RoundToInt(transform.parent.position.x /FindObjectOfType<GridManager>().sceneGridSize);
      coords.y = Mathf.RoundToInt(transform.parent.position.z /FindObjectOfType<GridManager>().sceneGridSize);
      label.text = coords.x + "," + coords.y;
-     label.enabled = !label.IsActive();
+     //label.enabled = !label.IsActive();
     }
    void UpdateName()
    {

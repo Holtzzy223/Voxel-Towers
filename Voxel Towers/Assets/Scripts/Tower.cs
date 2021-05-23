@@ -50,7 +50,7 @@ public class Tower : MonoBehaviour
     public int currentProjectile = 0;
     public float speed;
     private float maxSpeed = 1700;
-    GameObject projectile;
+    public GameObject projectile;
     private int tier = 0;
     private int tierMax = 3;
     public GameObject onHoverUI;
