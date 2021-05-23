@@ -30,8 +30,8 @@ public class Pathfinder : MonoBehaviour
             grid = gridManager.Grid;
             startNode = grid[startCoords];
             destinationNode = grid[destinationCoords];
-            startNode.isTraversable = true;
-            destinationNode.isTraversable = true;
+           //startNode.isTraversable = true;
+           //destinationNode.isTraversable = true;
         }
 
     }
@@ -82,8 +82,8 @@ public class Pathfinder : MonoBehaviour
     
     void BreadthFirstSearch(Vector2Int coords)
     {
-        //startNode.isTraversable = true;
-        //destinationNode.isTraversable = true;
+        startNode.isTraversable = true;
+        destinationNode.isTraversable = true;
         map.Clear();
         reached.Clear();
         bool isRunning = true;
@@ -130,6 +130,7 @@ public class Pathfinder : MonoBehaviour
         if (grid.ContainsKey(coords))
         {
             bool prevState = grid[coords].isTraversable;
+            grid[coords].isTraversable = false;
             List<Node> newPath = GetNewPath();
             grid[coords].isTraversable = prevState;
 

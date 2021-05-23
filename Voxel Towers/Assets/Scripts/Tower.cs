@@ -234,11 +234,13 @@ public class Tower : MonoBehaviour
     public bool CreateTower(Tower tower, Vector3 position) 
     {
         PlayerBank bank = FindObjectOfType<PlayerBank>();
+        Pathfinder pathfinder = FindObjectOfType<Pathfinder>();
+        GridManager gridManager = FindObjectOfType<GridManager>();
         if (bank == null)
         {
             return false;
         }
-        if (bank.CurrentBalance >= cost)
+        if (bank.CurrentBalance >= cost )
         {
             Instantiate(tower, position, Quaternion.identity);
             bank.Withdrawl(cost);

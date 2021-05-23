@@ -31,26 +31,19 @@ public class Tile : MonoBehaviour
     }
     private void Update()
     {
-      // if (!isPlaceable)
-      // {
-      //     gridManager.BlockNode(coords);
-      // }
+        if (pathfinder.WillBlockPath(coords))
+        {
+            isPlaceable = false;
+        }
+        
+
     }
     private void Start()
     {
         towerUI = FindObjectOfType<TowerUI>();
-        if (gridManager != null)
-        {
-            coords = gridManager.GetCoordsFromPos(transform.position);
-            if (coords == pathfinder.StartCoords||coords == pathfinder.DestinationCoords)
-            {
-                isPlaceable = false;
-            }
-         // if (!isPlaceable)
-         // {
-         //     gridManager.BlockNode(coords);
-         // }
-        }
+        coords = gridManager.GetCoordsFromPos(transform.position);
+
+        
      ///  GameObject parentObject = GetComponentInParent<GameObject>();
      ///  if (parentObject != null)
      ///  {
@@ -65,14 +58,16 @@ public class Tile : MonoBehaviour
     {
         var menu = GameObject.FindGameObjectWithTag("Upgrade");
         DrawHighLight();
-        if (towerUI.ButtonChoice != -1 && gridManager.GetNode(coords).isTraversable)
+        if (towerUI.ButtonChoice != -1 && !pathfinder.WillBlockPath(coords))
         {
             DrawTowerMesh();
             DrawTowerRange();
-            if ((menu == null || menu.activeInHierarchy == false) && isPlaceable)
+            if ((menu == null || menu.activeInHierarchy == false) )
             {
-                PlaceTower();
-                
+                if (Input.GetMouseButtonDown(0))
+                {
+                    PlaceTower();
+                }
             }
         }
        
@@ -83,13 +78,20 @@ public class Tile : MonoBehaviour
     }
     public void PlaceTower()
     {
-        if (gridManager.GetNode(coords).isTraversable && !pathfinder.WillBlockPath(coords) && Input.GetMouseButtonDown(0) && towerUI.ButtonChoice != -1 )
+        if (gridManager.GetNode(coords).isTraversable && towerUI.ButtonChoice != -1)
         {
-            bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice],transform.position);
-            gridManager.BlockNode(coords);
-            pathfinder.NotifyRecievers();
-            isPlaceable = !isPlaced;
-            towerUI.ButtonChoice = -1;
+            if (!pathfinder.WillBlockPath(coords))
+            {
+                bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice], transform.position);
+          
+                isPlaceable = !isPlaced;
+                if (isPlaced)
+                {
+                    gridManager.BlockNode(coords);
+                    pathfinder.NotifyRecievers();
+                }
+                towerUI.ButtonChoice = -1;
+            } 
         }
         Cursor.visible = true;
     }
