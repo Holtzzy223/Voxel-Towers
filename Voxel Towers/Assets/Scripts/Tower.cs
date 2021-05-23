@@ -193,11 +193,7 @@ public class Tower : MonoBehaviour
             }
             if (projectile == null)
             {
-                if (isSloth==true)
-                {
-
-                }
-                else
+                if (!isSloth)
                 {
                     projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
                     projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target

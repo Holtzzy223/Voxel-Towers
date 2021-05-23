@@ -23,10 +23,13 @@ public class CoordLabeler : MonoBehaviour
        label = GetComponent<TextMeshPro>();
        label.enabled = false;
        waypoint = GetComponentInParent<Tile>();
-       gridManager = FindObjectOfType<GridManager>();
+      
        DisplayCoords();
     }
-
+    private void Start()
+    {
+        gridManager = FindObjectOfType<GridManager>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -52,31 +55,35 @@ public class CoordLabeler : MonoBehaviour
    void DebugDisplay() 
    {
         node = gridManager.GetNode(coords);
-       if (Input.GetKeyDown(KeyCode.R))
-       {
-           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-       }
-       if (Input.GetKey(KeyCode.LeftControl)&& Input.GetKeyDown(KeyCode.D))
-       {
-           label.enabled = !label.IsActive();
-       }
-       if (node.isTraversable)
-       {
-           label.color = defColor;
-       }
-       if (node.isPath)
-       {
-            
-            label.color = pathColor; 
-       }
+        if (node != null)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
+            {
+                label.enabled = !label.IsActive();
+            }
+            if (node.isTraversable)
+            {
+                label.color = defColor;
+            }
+            if (node.isPath)
+            {
+
+                label.color = pathColor;
+            }
+            if (!node.isTraversable)
+            {
+                label.color = blockedColor;
+            }
+        }
     //  if (node.isExplored)
     //  {
     //      // label.color = exploredColor;
     //  }
-       if (!node.isTraversable)
-       {
-            label.color = blockedColor;
-       }
+      
  
    }
 }

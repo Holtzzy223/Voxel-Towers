@@ -54,6 +54,11 @@ public class Tile : MonoBehaviour
         {
             isPlaceable = false;
         }
+        if (pathfinder.IsInPath(coords))
+        {
+            grassMesh.gameObject.SetActive(false);
+            pathMesh.gameObject.SetActive(true);
+        }
 
 
     }

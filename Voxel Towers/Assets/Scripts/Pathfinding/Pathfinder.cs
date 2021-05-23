@@ -145,6 +145,12 @@ public class Pathfinder : MonoBehaviour
         }
         return false;
     }
+    public bool IsInPath(Vector2Int coords)
+    {
+            bool isInPath = grid[coords].isPath;
+            return isInPath;
+    
+    }
     public void NotifyRecievers() 
     {
         BroadcastMessage("FindPath",false,SendMessageOptions.DontRequireReceiver);

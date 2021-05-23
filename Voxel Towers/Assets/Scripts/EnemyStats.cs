@@ -20,7 +20,8 @@ public class EnemyStats : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-       
+        healthBar.maxValue = maxHP;
+        healthBar.value = healthBar.maxValue;
         //int health per wave at base * wave count 
         WavePool wavePool = FindObjectOfType<WavePool>();
         UpdateStats(wavePool);
@@ -69,15 +70,19 @@ public class EnemyStats : MonoBehaviour
     void ProcessHit(Collider other) 
     {
         var damage = other.GetComponentInParent<VoxelArsenal.VoxelProjectileScript>().BulletDamage;
+       
         if (other != null)
         {
             currentHP -= damage;
+            UpdateHeathBar();
+            Debug.LogError("Hit by bullet " + other.name + "  damage: " + damage);
+            
         }
         else
         {
             Debug.LogError("Collider is Null!");
         }
-        UpdateHeathBar();
+        
         if (currentHP <= 0)
         {
             if (isBreaker == true)
@@ -103,7 +108,7 @@ public class EnemyStats : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.LogError("Hit by bullet " + other.name);
+       
         ProcessHit(other);
     }
 }

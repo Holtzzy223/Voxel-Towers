@@ -68,7 +68,7 @@ public class EnemyMover : MonoBehaviour
             while (travelPercent < 1)
             {
                 travelPercent += Mathf.Abs(speed)*Time.deltaTime;
-                transform.position = Vector3.Lerp(startPos, endPos+offset, travelPercent);
+                transform.position = Vector3.Lerp(startPos+offset, endPos+offset, travelPercent);
                 yield return new WaitForFixedUpdate();
             }
         }
@@ -95,7 +95,7 @@ public class EnemyMover : MonoBehaviour
         if (other != null)
         {
 
-            speed = Mathf.Clamp(speed,0f, speed-damage); ;
+            speed = Mathf.Clamp(speed,0f, speed-damage); 
         }
         else
         {
@@ -107,7 +107,7 @@ public class EnemyMover : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.LogError("Hit by bullet " + other.name);
+       
         ProcessHit(other);
     }
     
