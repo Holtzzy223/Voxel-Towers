@@ -5271,12 +5271,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerName: Sloth Turret
   weapon: {fileID: 8000883812667479311}
+  isCannon: 0
+  isSloth: 1
+  isBeamWeapon: 0
   range: 0
   damage: 0
   damageMod: 0
   speedDamage: 0.09
   speedDamageMod: 1
-  isSloth: 1
   projectileParticle: {fileID: 806884979473033098}
   cost: 100
   upgradeCost: 0
@@ -5310,6 +5312,12 @@ MonoBehaviour:
   attackSlider: {fileID: 824964230248477606}
   rangeSlider: {fileID: 3628948279641202498}
   speedSlider: {fileID: 5262195327826690641}
+  beamLineRendererPrefab: []
+  beamStartPrefab: []
+  beamEndPrefab: []
+  beamEndOffset: 1
+  textureScrollSpeed: 8
+  textureLengthScale: 3
 --- !u!65 &1179440067350909180
 BoxCollider:
   m_ObjectHideFlags: 0

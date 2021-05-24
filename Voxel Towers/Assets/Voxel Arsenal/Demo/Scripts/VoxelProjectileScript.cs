@@ -31,7 +31,7 @@ namespace VoxelArsenal
         private void OnBecameInvisible()
         {
             if(!isBeam)
-            Destroy(gameObject);
+                Destroy(gameObject);
 
            // parentTower.projectile = null;
         }

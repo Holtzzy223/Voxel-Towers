@@ -4886,10 +4886,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerName: Basic Turret
   weapon: {fileID: 3608462511913233174}
-  range: 12
-  isCannon: 0
+  isCannon: 1
   isSloth: 0
-  isBeamWeapon: 1
+  isBeamWeapon: 0
+  range: 12
   damage: 2
   damageMod: 1
   speedDamage: 0

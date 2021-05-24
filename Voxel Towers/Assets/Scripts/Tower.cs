@@ -104,11 +104,14 @@ public class Tower : MonoBehaviour
         if (isBeamWeapon)
         {
             CreateBeam();
+            beamEnd.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+            DeactivateBeam();
         }
 
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
         projectiles.GetComponent<VoxelProjectileScript>().speedDamage = SpeedDamage;
+        
         if (isSloth == true)
         {
             InvokeRepeating("SlothTower", Random.Range(0.5f,1.5f), 1f);
@@ -140,19 +143,7 @@ public class Tower : MonoBehaviour
         }
         sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
-       if (isBeamWeapon)
-       {
-            if (target == null)
-            {
-                DeactivateBeam();
-
-            }
-            if (target != null)
-            {
-                ActivateBeam();
-            }
-
-       }
+      
        
 
     }
@@ -164,7 +155,19 @@ public class Tower : MonoBehaviour
 
      
             AimWeapon();
-        
+            if (isBeamWeapon)
+            {
+                if (target == null)
+                {
+                    DeactivateBeam();
+
+                }
+                if (target != null && targetDistance <= range)
+                {
+                    ActivateBeam();
+                }
+
+            }
     }
 
     private void OnMouseOver()
@@ -315,16 +318,28 @@ public class Tower : MonoBehaviour
                     projectiles = upgradeProjectiles[0];
                     speed = upgradeProjectileSpeeds[0];
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    if (isBeamWeapon)
+                    {
+                        beamEnd.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    }
                     break;
                 case 1:
                     projectiles = upgradeProjectiles[1];
                     speed = upgradeProjectileSpeeds[1];
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    if (isBeamWeapon)
+                    {
+                        beamEnd.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    }
                     break;
                 case 2:
                     projectiles = upgradeProjectiles[2];
                     speed = upgradeProjectileSpeeds[2];
                     projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    if (isBeamWeapon)
+                    {
+                        beamEnd.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
+                    }
                     break;
             }
             projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;

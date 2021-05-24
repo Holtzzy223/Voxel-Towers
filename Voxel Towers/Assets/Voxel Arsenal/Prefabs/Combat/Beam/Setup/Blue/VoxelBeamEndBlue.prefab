@@ -4903,8 +4903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 973d5c7758cf2cc42aec43c5b8e597f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impactParticle: {fileID: 1954126109089118}
-  projectileParticle: {fileID: 1555094076649100}
+  impactParticle: {fileID: 0}
+  projectileParticle: {fileID: 0}
   muzzleParticle: {fileID: 0}
   colliderRadius: 1
   collideOffset: 0.15
