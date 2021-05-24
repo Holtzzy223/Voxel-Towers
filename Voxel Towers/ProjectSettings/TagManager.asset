@@ -9,6 +9,8 @@ TagManager:
   - Missile
   - Upgrade
   - Sloth
+  - Undefined
+  - Beam
   layers:
   - Default
   - TransparentFX

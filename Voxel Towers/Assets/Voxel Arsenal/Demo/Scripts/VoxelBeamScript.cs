@@ -129,6 +129,7 @@ public class VoxelBeamScript : MonoBehaviour {
 
     void ShootBeamInDir(Vector3 start, Vector3 dir)
     {
+        
         line.positionCount = 2;
         line.SetPosition(0, start);
         beamStart.transform.position = start;
@@ -150,5 +151,12 @@ public class VoxelBeamScript : MonoBehaviour {
         line.sharedMaterial.mainTextureScale = new Vector2(distance / textureLengthScale, 1);
         line.sharedMaterial.mainTextureOffset -= new Vector2(Time.deltaTime * textureScrollSpeed, 0);
     }
+        void CreateBeam()
+        {
+            beamStart = Instantiate(beamStartPrefab[currentBeam], new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+            beamEnd = Instantiate(beamEndPrefab[currentBeam], new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+            beam = Instantiate(beamLineRendererPrefab[currentBeam], new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+            line = beam.GetComponent<LineRenderer>();
+        }
 }
 }

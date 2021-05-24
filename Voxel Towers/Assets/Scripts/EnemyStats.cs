@@ -70,7 +70,6 @@ public class EnemyStats : MonoBehaviour
     void ProcessHit(Collider other) 
     {
         var damage = other.GetComponentInParent<VoxelArsenal.VoxelProjectileScript>().BulletDamage;
-       
         if (other != null)
         {
             currentHP -= damage;
@@ -109,6 +108,10 @@ public class EnemyStats : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
        
+        ProcessHit(other);
+    }
+    private void OnTriggerStay(Collider other)
+    {
         ProcessHit(other);
     }
 }

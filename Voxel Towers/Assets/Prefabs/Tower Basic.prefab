@@ -4887,11 +4887,13 @@ MonoBehaviour:
   towerName: Basic Turret
   weapon: {fileID: 3608462511913233174}
   range: 12
+  isCannon: 0
+  isSloth: 0
+  isBeamWeapon: 1
   damage: 2
   damageMod: 1
   speedDamage: 0
   speedDamageMod: 0
-  isSloth: 0
   projectileParticle: {fileID: 806884979473033098}
   cost: 50
   upgradeCost: 0
@@ -4925,6 +4927,15 @@ MonoBehaviour:
   attackSlider: {fileID: 824964230248477606}
   rangeSlider: {fileID: 3628948279641202498}
   speedSlider: {fileID: 5262195327826690641}
+  beamLineRendererPrefab:
+  - {fileID: 1129184324333654, guid: a388f4c6b80bcaa409f54a677ae98d92, type: 3}
+  beamStartPrefab:
+  - {fileID: 1698488567475302, guid: 2d6d04380dfc81e469da8c6ebd52d28d, type: 3}
+  beamEndPrefab:
+  - {fileID: 1292607256580618, guid: 9f02f657aebe55741b928e7c5134fd6d, type: 3}
+  beamEndOffset: 1
+  textureScrollSpeed: 8
+  textureLengthScale: 3
 --- !u!65 &1179440067350909180
 BoxCollider:
   m_ObjectHideFlags: 0

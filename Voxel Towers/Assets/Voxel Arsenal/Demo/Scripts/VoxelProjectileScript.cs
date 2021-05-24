@@ -16,7 +16,7 @@ namespace VoxelArsenal
         public float speedDamage = 0f;
         public float BulletDamage  { get {return bulletDamage; } }
         public float SpeedDamage  { get {return speedDamage; } }
-
+        public bool isBeam = false;
         void Start()
         {
             
@@ -30,6 +30,7 @@ namespace VoxelArsenal
         }
         private void OnBecameInvisible()
         {
+            if(!isBeam)
             Destroy(gameObject);
 
            // parentTower.projectile = null;
@@ -74,10 +75,12 @@ namespace VoxelArsenal
                         Destroy(trail.gameObject, 2f); // Removes the trail after seconds
                     }
                 }
-
-                Destroy(projectileParticle, 3f); // Removes particle effect after delay
-                Destroy(impactP, 3.5f); // Removes impact effect after delay
-                Destroy(gameObject); // Removes the projectile
+                if (!isBeam)
+                {
+                    Destroy(projectileParticle, 3f); // Removes particle effect after delay
+                    Destroy(impactP, 3.5f); // Removes impact effect after delay
+                    Destroy(gameObject); // Removes the projectile
+                } 
             }
         }
     }

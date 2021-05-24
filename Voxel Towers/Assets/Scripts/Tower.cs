@@ -10,6 +10,9 @@ public class Tower : MonoBehaviour
     [Header("Tower")]
     [SerializeField] string towerName;
     [SerializeField] Transform weapon;
+    [SerializeField] bool isCannon = true;
+    [SerializeField] bool isSloth = false;
+    [SerializeField] bool isBeamWeapon = false;
     [SerializeField] float range = 10f;
     public float Range { get{ return range; } }
     private float maxRange = 30f;
@@ -17,7 +20,6 @@ public class Tower : MonoBehaviour
     [SerializeField] float damageMod = 1f;
     [SerializeField] float speedDamage = 2f;
     [SerializeField] float speedDamageMod = 0f;
-    [SerializeField] bool isSloth = false;
     private float maxDamage = 15f;
     public float Damage { get { return damage; } }
     public float SpeedDamage { get { return speedDamage; } }
@@ -64,7 +66,23 @@ public class Tower : MonoBehaviour
     public Slider attackSlider;
     public Slider rangeSlider;
     public Slider speedSlider;
+    [Header("Beams")]
+    [Header("Beam Prefabs")]
+    public GameObject[] beamLineRendererPrefab;
+    public GameObject[] beamStartPrefab;
+    public GameObject[] beamEndPrefab;
 
+    private int currentBeam = 0;
+
+    private GameObject beamStart;
+    private GameObject beamEnd;
+    private GameObject beam;
+    private LineRenderer line;
+
+    [Header("Adjustable Variables")]
+    public float beamEndOffset = 1f; //How far from the raycast hit point the end effect is positioned
+    public float textureScrollSpeed = 8f; //How fast the texture scrolls along the beam
+    public float textureLengthScale = 3; //Length of the beam texture
     public List<ParticleCollisionEvent> collisionEvents;
     GridManager gridManager;
     void OnEnable()
@@ -83,7 +101,10 @@ public class Tower : MonoBehaviour
     private void Start()
     {
 
-
+        if (isBeamWeapon)
+        {
+            CreateBeam();
+        }
 
         collisionEvents = new List<ParticleCollisionEvent>();
         projectiles.GetComponent<VoxelProjectileScript>().bulletDamage = Damage;
@@ -119,9 +140,25 @@ public class Tower : MonoBehaviour
         }
         sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
         FindClosestTarget();
+       if (isBeamWeapon)
+       {
+            if (target == null)
+            {
+                DeactivateBeam();
 
+            }
+            if (target != null)
+            {
+                ActivateBeam();
+            }
+
+       }
+       
 
     }
+
+
+
     private void FixedUpdate()
     {
 
@@ -173,6 +210,7 @@ public class Tower : MonoBehaviour
 
             if (targetDistance <= range)
             {
+
                 Attack(true);
             }
             else
@@ -195,13 +233,19 @@ public class Tower : MonoBehaviour
             }
             if (projectile == null)
             {
-                if (!isSloth)
+                if (isCannon)
                 {
                     projectile = Instantiate(projectiles, spawnPosition.position, Quaternion.identity) as GameObject; //Spawns the selected projectile
                     projectile.transform.LookAt(target); //Sets the projectiles rotation to look at the target
                     projectile.GetComponent<Rigidbody>().AddForce(projectile.transform.forward * speed); //Set the speed of the projectile by applying force to the rigidbody
                 }
+                if (isBeamWeapon)
+                {
+                    ShootBeamInDir(spawnPosition.position,target.position);
+
+                }
             }
+
         }
 
         //var emissionComp = projectileParticle.emission;
@@ -362,7 +406,58 @@ public class Tower : MonoBehaviour
         }
 
     }
+    //Beams 
+    void CreateBeam()
+    {
+        
+        
+        beamStart = Instantiate(beamStartPrefab[currentBeam],   transform.position  /*new Vector3(0, 0, 0)*/, Quaternion.identity) as GameObject;
+        beamEnd = Instantiate(beamEndPrefab[currentBeam],       transform.position/*new Vector3(0, 0, 0)*/, Quaternion.identity) as GameObject;
+        beam = Instantiate(beamLineRendererPrefab[currentBeam], transform.position/*new Vector3(0, 0, 0)*/, Quaternion.identity) as GameObject;
+        line = beam.GetComponent<LineRenderer>();
+    }
+
+    void ShootBeamInDir(Vector3 start, Vector3 dir)
+    {
+        
+        line.positionCount = 2;
+        line.SetPosition(0, start);
+        beamStart.transform.position = start;
+
+        Vector3 end = Vector3.zero;
+        RaycastHit hit;
+        if (Physics.Raycast(start, dir, out hit))
+            end = hit.point - (dir.normalized * beamEndOffset);
+        else
+            end = dir;
+;
+        beamEnd.transform.position = end;
+        line.SetPosition(1, end);
+
+        beamStart.transform.LookAt(beamEnd.transform.position);
+        beamEnd.transform.LookAt(beamStart.transform.position);
+
+        float distance = Vector3.Distance(start, end);
+        line.sharedMaterial.mainTextureScale = new Vector2(distance / textureLengthScale, 1);
+        line.sharedMaterial.mainTextureOffset -= new Vector2(Time.deltaTime * textureScrollSpeed, 0);
+    }
+
+    private void DeactivateBeam()
+    {
+        beamStart.SetActive(false);// Destroy(beamStart);
+        beamEnd.SetActive(false);// Destroy(beamEnd);
+        beam.SetActive(false);// Destroy(beam);
+        line.gameObject.SetActive(false);
+    }
+    private void ActivateBeam()
+    {
+        beamStart.SetActive(true);
+        beamEnd.SetActive(true);
+        beam.SetActive(true);
+        line.gameObject.SetActive(true);
+    }
 
 }
+
 
 
