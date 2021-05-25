@@ -4892,7 +4892,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 46
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!135 &1137809436
 SphereCollider:
@@ -4902,7 +4902,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013113278438126}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
@@ -4924,8 +4924,8 @@ MonoBehaviour:
   muzzleParticle: {fileID: 0}
   colliderRadius: 1
   collideOffset: 0.15
-  bulletDamage: 0.25
-  speedDamage: 0
+  bulletDamage: 0.6
+  speedDamage: 0.25
   isBeam: 0
   isTrap: 1
 --- !u!114 &8449629266845028688
@@ -4941,6 +4941,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 50
+  health: 10
+  isWall: 0
 --- !u!1 &1185970842898462
 GameObject:
   m_ObjectHideFlags: 0

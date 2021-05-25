@@ -133,6 +133,7 @@ MonoBehaviour:
   - {fileID: 4933393057370239132, guid: 5829c5bc7de33544f8b9df903e7d39f2, type: 3}
   traps:
   - {fileID: 8449629266845028688, guid: 9b5e314ca2bee3a44be337f8293b0497, type: 3}
+  - {fileID: -1010861214800314087, guid: 37bf593c6dd5dc449a47ce5508a17b9a, type: 3}
   coords: {x: 0, y: 0}
   isPlaceable: 1
   grassMesh: {fileID: 2183376101900200144}

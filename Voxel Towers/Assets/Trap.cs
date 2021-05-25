@@ -6,11 +6,17 @@ public class Trap : MonoBehaviour
 {
     public int cost = 50;
     public int health = 10;
+    public bool isWall = false;
+    PlayerBank bank;        
+    Pathfinder pathfinder;  
+    GridManager gridManager;
     // Start is called before the first frame update
     void Start()
     {
-        Trap trap = this;
-        
+      
+        pathfinder = FindObjectOfType<Pathfinder>();
+        gridManager = FindObjectOfType<GridManager>();
+
     }
 
     // Update is called once per frame
@@ -20,9 +26,7 @@ public class Trap : MonoBehaviour
     }
     public bool CreateTrap(Trap trap, Vector3 position)
     {
-        PlayerBank bank = FindObjectOfType<PlayerBank>();
-        Pathfinder pathfinder = FindObjectOfType<Pathfinder>();
-        GridManager gridManager = FindObjectOfType<GridManager>();
+        bank = FindObjectOfType<PlayerBank>();
         var offset = new Vector3(0, 1, 0);
         if (bank == null)
         {
@@ -30,9 +34,17 @@ public class Trap : MonoBehaviour
         }
         if (bank.CurrentBalance >= cost)
         {
-            Instantiate(trap, position+offset, Quaternion.Euler(-90,0,0));
+            if (!isWall)
+            {
+                Instantiate(trap, position + offset, Quaternion.Euler(-90, 0, 0));
+            }
+            if (isWall)
+            {
+                offset = new Vector3(0, 3, 0);
+                Instantiate(trap, position + offset, Quaternion.identity);
+            }
             bank.Withdrawl(cost);
-
+           
 
             return true;
         }
@@ -41,6 +53,32 @@ public class Trap : MonoBehaviour
             return false;
         }
 
+    }
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            float targetDistance = 0f;
+            KillSelf();
+            Tile[] waypoints = FindObjectsOfType<Tile>();
+            Transform closestPoint = null;
+            float maxDistance = Mathf.Infinity;
+
+            foreach (Tile waypoint in waypoints)
+            {
+                targetDistance = Vector3.Distance(transform.position, waypoint.transform.position);
+                if (targetDistance < maxDistance)
+                {
+                    closestPoint = waypoint.transform;
+                    maxDistance = targetDistance;
+                }
+            }
+            var targetPoint = closestPoint;
+            closestPoint.gameObject.GetComponent<Tile>().isPlaceable = true;
+            gridManager.ClearNode(gridManager.GetCoordsFromPos(closestPoint.position));
+            FindObjectOfType<Pathfinder>().NotifyRecievers();
+
+        }
     }
     void KillSelf()
     {
@@ -57,4 +95,4 @@ public class Trap : MonoBehaviour
     }
 
    
-}
+} 

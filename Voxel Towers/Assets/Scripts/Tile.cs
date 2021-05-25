@@ -106,18 +106,21 @@ public class Tile : MonoBehaviour
 
         void PlaceTrap()
         {
-            if (gridManager.GetNode(coords).isTraversable && towerUI.TrapChoice != -1)
+            if (isPlaceable)
             {
-                bool isPlaced = traps[towerUI.TrapChoice].CreateTrap(traps[towerUI.TrapChoice], transform.position);
+                if (gridManager.GetNode(coords).isTraversable && towerUI.TrapChoice != -1)
+                {
+                    bool isPlaced = traps[towerUI.TrapChoice].CreateTrap(traps[towerUI.TrapChoice], transform.position);
 
-                isPlaceable = !isPlaced;
-                // if (isPlaced)
-                // {
-                //     gridManager.BlockNode(coords);
-                //     pathfinder.NotifyRecievers();
-                // }
-                towerUI.TrapChoice = -1;
+                    isPlaceable = !isPlaced;
+                    if (isPlaced && traps[towerUI.TrapChoice].isWall)
+                    {
+                        gridManager.BlockNode(coords);
+                        pathfinder.NotifyRecievers();
+                    }
+                    towerUI.TrapChoice = -1;
 
+                }
             }
             Cursor.visible = true;
         }
