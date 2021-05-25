@@ -5,10 +5,12 @@ using UnityEngine;
 public class Trap : MonoBehaviour
 {
     public int cost = 50;
+    public int health = 10;
     // Start is called before the first frame update
     void Start()
     {
-        Trap trap = this;       
+        Trap trap = this;
+        
     }
 
     // Update is called once per frame
@@ -40,4 +42,19 @@ public class Trap : MonoBehaviour
         }
 
     }
+    void KillSelf()
+    {
+        Destroy(this.gameObject);
+    }
+    public void DamageTrap()
+    {
+        health--;
+        Debug.LogError("Trap loss health -1, total health = " + health);
+        if (health <= 0)
+        {
+            KillSelf();
+        }
+    }
+
+   
 }

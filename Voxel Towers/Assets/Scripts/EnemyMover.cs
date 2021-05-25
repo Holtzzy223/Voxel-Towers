@@ -109,6 +109,7 @@ public class EnemyMover : MonoBehaviour
     {
        
         ProcessHit(other);
+        other.gameObject.GetComponent<Trap>().DamageTrap();
     }
     
 }
