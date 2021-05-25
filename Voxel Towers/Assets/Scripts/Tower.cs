@@ -157,7 +157,7 @@ public class Tower : MonoBehaviour
             AimWeapon();
             if (isBeamWeapon)
             {
-                if (target == null)
+                if (target == null  || targetDistance > range)
                 {
                     DeactivateBeam();
 
