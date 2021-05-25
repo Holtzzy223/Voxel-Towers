@@ -11,6 +11,7 @@ TagManager:
   - Sloth
   - Undefined
   - Beam
+  - Trap
   layers:
   - Default
   - TransparentFX

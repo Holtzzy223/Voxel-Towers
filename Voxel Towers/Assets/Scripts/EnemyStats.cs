@@ -75,7 +75,10 @@ public class EnemyStats : MonoBehaviour
             currentHP -= damage;
             UpdateHeathBar();
             Debug.LogError("Hit by bullet " + other.name + "  damage: " + damage);
-            
+            if (other.gameObject.CompareTag("Trap"))
+            {
+                damage = 1;
+            }
         }
         else
         {

@@ -17,9 +17,10 @@ namespace VoxelArsenal
         public float BulletDamage  { get {return bulletDamage; } }
         public float SpeedDamage  { get {return speedDamage; } }
         public bool isBeam = false;
+        public bool isTrap = false;
         void Start()
         {
-            
+     
             projectileParticle = Instantiate(projectileParticle, transform.position, transform.rotation) as GameObject;
             projectileParticle.transform.parent = transform;
             if (muzzleParticle)
@@ -36,11 +37,13 @@ namespace VoxelArsenal
            // parentTower.projectile = null;
         }
         void FixedUpdate()
-        {	
-			if (GetComponent<Rigidbody>().velocity.magnitude != 0)
-			{
-			    transform.rotation = Quaternion.LookRotation(GetComponent<Rigidbody>().velocity); // Sets rotation to look at direction of movement
-			}
+        {	if (!isTrap)
+            {
+                if (GetComponent<Rigidbody>().velocity.magnitude != 0)
+                {
+                    transform.rotation = Quaternion.LookRotation(GetComponent<Rigidbody>().velocity); // Sets rotation to look at direction of movement
+                }
+            }
 			
             RaycastHit hit;
 			
@@ -75,7 +78,7 @@ namespace VoxelArsenal
                         Destroy(trail.gameObject, 2f); // Removes the trail after seconds
                     }
                 }
-                if (!isBeam)
+                if (!isBeam && !isTrap)
                 {
                     Destroy(projectileParticle, 3f); // Removes particle effect after delay
                     Destroy(impactP, 3.5f); // Removes impact effect after delay
