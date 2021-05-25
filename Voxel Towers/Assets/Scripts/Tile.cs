@@ -1,11 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    
+
     [SerializeField] Tower[] towers;
+    [SerializeField] Trap[] traps;
     GridManager gridManager;
     Pathfinder pathfinder;
     public Vector2Int coords = new Vector2Int();
@@ -14,13 +16,13 @@ public class Tile : MonoBehaviour
     public GameObject pathMesh;
     public GameObject path90Mesh;
     public TowerUI towerUI;
-    
+
     public Mesh mesh;
     public Material yesMaterial;
     public Material noMaterial;
 
 
-    public bool IsPlaceable { get   { return isPlaceable;}}
+    public bool IsPlaceable { get { return isPlaceable; } }
 
     private void Awake()
     {
@@ -73,77 +75,106 @@ public class Tile : MonoBehaviour
     {
         var menu = GameObject.FindGameObjectWithTag("Upgrade");
         DrawHighLight();
-        if (towerUI.ButtonChoice != -1 && !pathfinder.WillBlockPath(coords))
+        if (towerUI.TowerChoice != -1 && !pathfinder.WillBlockPath(coords))
         {
             DrawTowerMesh();
             DrawTowerRange();
-            if ((menu == null || menu.activeInHierarchy == false) )
+            if ((menu == null || menu.activeInHierarchy == false))
             {
                 if (Input.GetMouseButtonDown(0))
                 {
                     PlaceTower();
+
                 }
             }
         }
-       
 
-        
-     
-        
-    }
-    public void PlaceTower()
-    {
-        if (gridManager.GetNode(coords).isTraversable && towerUI.ButtonChoice != -1)
+
+        if (towerUI.TrapChoice != -1)
         {
-            if (!pathfinder.WillBlockPath(coords))
+            if ((menu == null || menu.activeInHierarchy == false))
             {
-                bool isPlaced = towers[towerUI.ButtonChoice].CreateTower(towers[towerUI.ButtonChoice], transform.position);
-          
-                isPlaceable = !isPlaced;
-                if (isPlaced)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    gridManager.BlockNode(coords);
-                    pathfinder.NotifyRecievers();
+                    PlaceTrap();
+
                 }
-                towerUI.ButtonChoice = -1;
-            } 
+            }
+
+
         }
-        Cursor.visible = true;
-    }
-    void DrawHighLight()
-    {
-        Vector3 scale =new Vector3( 1f,1.1f,1f);
-        //Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
-        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
-        if (isPlaceable)
+
+        void PlaceTrap()
         {
-            Graphics.DrawMesh(mesh, trsMatrix, yesMaterial, 1);
+            if (gridManager.GetNode(coords).isTraversable && towerUI.TrapChoice != -1)
+            {
+                bool isPlaced = traps[towerUI.TrapChoice].CreateTrap(traps[towerUI.TrapChoice], transform.position);
 
+                isPlaceable = !isPlaced;
+                // if (isPlaced)
+                // {
+                //     gridManager.BlockNode(coords);
+                //     pathfinder.NotifyRecievers();
+                // }
+                towerUI.TrapChoice = -1;
+
+            }
+            Cursor.visible = true;
         }
-        else
+
+        void PlaceTower()
         {
-            Graphics.DrawMesh(mesh, trsMatrix, noMaterial, 1);
+            if (gridManager.GetNode(coords).isTraversable && towerUI.TowerChoice != -1)
+            {
+                if (!pathfinder.WillBlockPath(coords)&&isPlaceable)
+                {
+                    bool isPlaced = towers[towerUI.TowerChoice].CreateTower(towers[towerUI.TowerChoice], transform.position);
+
+                    isPlaceable = !isPlaced;
+                    if (isPlaced)
+                    {
+                        gridManager.BlockNode(coords);
+                        pathfinder.NotifyRecievers();
+                    }
+                    towerUI.TowerChoice = -1;
+                }
+            }
+            Cursor.visible = true;
         }
+        void DrawHighLight()
+        {
+            Vector3 scale = new Vector3(1f, 1.1f, 1f);
+            //Vector3 rangeIndicatorVector = new Vector3(range * rangeIndicatorMod, range * (rangeIndicatorMod * zDrawOffset), range * rangeIndicatorMod);
+            Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
+            if (isPlaceable)
+            {
+                Graphics.DrawMesh(mesh, trsMatrix, yesMaterial, 1);
+
+            }
+            else
+            {
+                Graphics.DrawMesh(mesh, trsMatrix, noMaterial, 1);
+            }
+        }
+        void DrawTowerMesh()
+        {
+            var scale = new Vector3(1, 1, 1);
+            var towerChoice = towers[towerUI.TowerChoice];
+            Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
+
+            Graphics.DrawMesh(towerChoice.hilightMesh, trsMatrix, towerChoice.material, 1);
+        }
+        void DrawTowerRange()
+        {
+            var towerChoice = towers[towerUI.TowerChoice];
+            float zDrawOffset = 0.75f;
+            Vector3 rangeIndicatorVector = new Vector3(towerChoice.Range * towerChoice.RangeIndicatorMod, towerChoice.Range * (towerChoice.RangeIndicatorMod * zDrawOffset), towerChoice.Range * towerChoice.RangeIndicatorMod);
+            Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
+
+            Graphics.DrawMesh(towerChoice.mesh, trsMatrix, towerChoice.material, 1);
+
+        }
+
     }
-    void DrawTowerMesh()
-    {
-        var scale = new Vector3(1, 1, 1);
-        var towerChoice = towers[towerUI.ButtonChoice];
-        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
-
-        Graphics.DrawMesh(towerChoice.hilightMesh, trsMatrix, towerChoice.material, 1);
-    }
-    void DrawTowerRange()
-    {
-        var towerChoice = towers[towerUI.ButtonChoice];
-        float zDrawOffset = 0.75f;
-        Vector3 rangeIndicatorVector = new Vector3(towerChoice.Range * towerChoice.RangeIndicatorMod, towerChoice.Range * (towerChoice.RangeIndicatorMod * zDrawOffset), towerChoice.Range * towerChoice.RangeIndicatorMod);
-        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, rangeIndicatorVector);
-
-        Graphics.DrawMesh(towerChoice.mesh, trsMatrix, towerChoice.material, 1);
-
-    }
-
 }
-
 

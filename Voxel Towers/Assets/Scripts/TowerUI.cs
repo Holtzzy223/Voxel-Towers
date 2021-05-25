@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class TowerUI : MonoBehaviour
 {
-    public int ButtonChoice { get; set; }
+    public int TowerChoice { get; set; }
+    public int TrapChoice { get; set; }
     // Start is called before the first frame update
     void Start()
     {
-        ButtonChoice = -1;
+        TowerChoice = -1;
+        TrapChoice = -1;
         PauseGame();
     }
 

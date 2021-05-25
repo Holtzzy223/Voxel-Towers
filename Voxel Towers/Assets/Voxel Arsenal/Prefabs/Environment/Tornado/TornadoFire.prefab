@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1137809437}
   - component: {fileID: 1137809436}
   - component: {fileID: 1137809438}
+  - component: {fileID: 8449629266845028688}
   m_Layer: 0
   m_Name: TornadoFire
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013113278438126}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -38,7 +39,7 @@ Transform:
   - {fileID: 4564051384530440}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &198147718630944574
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4927,6 +4928,19 @@ MonoBehaviour:
   speedDamage: 0
   isBeam: 0
   isTrap: 1
+--- !u!114 &8449629266845028688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013113278438126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd2893a3dc39284691821f608e84b2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 50
 --- !u!1 &1185970842898462
 GameObject:
   m_ObjectHideFlags: 0
