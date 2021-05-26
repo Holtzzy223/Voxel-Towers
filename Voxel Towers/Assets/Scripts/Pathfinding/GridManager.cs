@@ -75,8 +75,8 @@ public class GridManager : MonoBehaviour
                 grid.Add(coords, new Node(coords, true));
                 Debug.Log(grid[coords].coords + "=" + grid[coords].isTraversable);
                 Instantiate(tile, GetPosFromCoords(grid[coords].coords), Quaternion.identity);
-                yield return new WaitForSeconds(0.025f);
-
+                yield return new WaitForSeconds(0.033f);
+                
             }
         }
         Debug.LogWarning("Built Grid");

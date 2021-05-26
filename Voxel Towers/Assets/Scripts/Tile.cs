@@ -63,7 +63,7 @@ public class Tile : MonoBehaviour
     }
     private void Update()
     {
-        if (pathfinder.WillBlockPath(coords))
+        if (pathfinder.WillBlockPath(this.coords))
         {
             isPlaceable = false;
         }

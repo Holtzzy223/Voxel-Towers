@@ -51,10 +51,10 @@ public class Timer : MonoBehaviour
                 {
                     
                     timeRemaining = 0;
-                  // if (FindObjectOfType<Base>().CurrentHP== FindObjectOfType<Base>().MaxHP)
-                  // {
-                  //     FindObjectOfType<PlayerBank>().Deposit(50);
-                  // }
+                   if (FindObjectOfType<Base>().CurrentHP== FindObjectOfType<Base>().MaxHP)
+                   {
+                       FindObjectOfType<PlayerBank>().Deposit(50);
+                   }
                     WavePool wavePool = FindObjectOfType<WavePool>();
                     if (!wavePool.triggered)
                     {
