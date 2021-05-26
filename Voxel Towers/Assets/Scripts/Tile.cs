@@ -39,12 +39,12 @@ public class Tile : MonoBehaviour
 
         towerUI = FindObjectOfType<TowerUI>();
         coords = gridManager.GetCoordsFromPos(transform.position);
-        if (pathfinder.IsInPath(coords))
-        {
-            grassMesh.gameObject.SetActive(false);
-            pathMesh.gameObject.SetActive(true);
-
-        }
+        //if (pathfinder.IsInPath(coords))
+        //{
+        //    grassMesh.gameObject.SetActive(false);
+        //    pathMesh.gameObject.SetActive(true);
+        //
+        //}
 
         // if (coords == pathfinder.StartCoords)
         // {
@@ -61,33 +61,21 @@ public class Tile : MonoBehaviour
         ///      }
         ///  }
     }
-    private void Update()
+    private void FixedUpdate()
     {
-        if (pathfinder.WillBlockPath(this.coords))
+      //  if (pathfinder.WillBlockPath(this.coords))
+      //  {
+      //      isPlaceable = false;
+      //  }
+        if (coords == pathfinder.DestinationCoords)
         {
-            isPlaceable = false;
-        }
-        if (pathfinder.IsInPath(coords))
-        {
-            grassMesh.gameObject.SetActive(false);
-            pathMesh.gameObject.SetActive(true);
-            if (coords == pathfinder.DestinationCoords)
+            if (!basePlaced)
             {
-                if (!basePlaced)
-                {
-                    Instantiate(playerBase, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
-                    basePlaced = true;
-                }
+                Instantiate(playerBase, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+                basePlaced = true;
             }
-           // if (coords == pathfinder.StartCoords)
-           // {
-           //     if (!poolPlaced)
-           //     {
-           //         Instantiate(wavePool, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
-           //         poolPlaced = true;
-           //     }
-           // }
         }
+        
         
         
 
@@ -139,7 +127,14 @@ public class Tile : MonoBehaviour
                     if (isPlaced && traps[towerUI.TrapChoice].isWall)
                     {
                         gridManager.BlockNode(coords);
+                        if (pathfinder.IsInPath(coords))
+                        {
+                            grassMesh.gameObject.SetActive(false);
+                            pathMesh.gameObject.SetActive(true);
+
+                        }
                         pathfinder.NotifyRecievers();
+
                     }
                     towerUI.TrapChoice = -1;
 
@@ -160,6 +155,12 @@ public class Tile : MonoBehaviour
                     if (isPlaced)
                     {
                         gridManager.BlockNode(coords);
+                        if (pathfinder.IsInPath(coords))
+                        {
+                            grassMesh.gameObject.SetActive(false);
+                            pathMesh.gameObject.SetActive(true);
+
+                        }
                         pathfinder.NotifyRecievers();
                     }
                     towerUI.TowerChoice = -1;

@@ -1482,7 +1482,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   rotationLerpTime: 0.01
-  invertY: 0
+  invertY: 1
 --- !u!1 &671713078
 GameObject:
   m_ObjectHideFlags: 0
@@ -3364,7 +3364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8844937783732326500, guid: 0e84661a440d5b24b8621751221769ba, type: 3}
       propertyPath: enemiesPerWave
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8844937783732326500, guid: 0e84661a440d5b24b8621751221769ba, type: 3}
       propertyPath: pools.Array.size

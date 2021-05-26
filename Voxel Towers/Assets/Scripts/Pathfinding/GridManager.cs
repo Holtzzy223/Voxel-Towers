@@ -67,24 +67,28 @@ public class GridManager : MonoBehaviour
 
     public IEnumerator CreateGrid(int xStart, int yStart, bool runTimer)
     {
-        for (int x = xStart; x < gridSize.x; x++)
+        if (grid != null)
         {
-            for (int y = yStart; y < gridSize.y; y++)
+            for (int x = xStart; x < gridSize.x; x++)
             {
-                Vector2Int coords = new Vector2Int(x, y);
-                grid.Add(coords, new Node(coords, true));
-                Debug.Log(grid[coords].coords + "=" + grid[coords].isTraversable);
-                Instantiate(tile, GetPosFromCoords(grid[coords].coords), Quaternion.identity);
-                yield return new WaitForSeconds(0.033f);
-                
+                for (int y = yStart; y < gridSize.y; y++)
+                {
+                    Vector2Int coords = new Vector2Int(x, y);
+                    
+                    grid.Add(coords, new Node(coords, true));
+                    Debug.Log(grid[coords].coords + "=" + grid[coords].isTraversable);
+                    Instantiate(tile, GetPosFromCoords(grid[coords].coords), Quaternion.identity);
+                    yield return new WaitForSeconds(0.05f);
+
+                }
             }
-        }
-        Debug.LogWarning("Built Grid");
-        FindObjectOfType<Pathfinder>().InitPath();
-        FindObjectOfType<Pathfinder>().GetNewPath();
-        if (runTimer)
-        {
-            FindObjectOfType<Timer>().timerIsRunning = true;
+            Debug.LogWarning("Built Grid");
+            FindObjectOfType<Pathfinder>().InitPath();
+            FindObjectOfType<Pathfinder>().GetNewPath();
+            if (runTimer)
+            {
+                FindObjectOfType<Timer>().timerIsRunning = true;
+            }
         }
     }
 }

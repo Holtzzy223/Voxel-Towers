@@ -85,6 +85,7 @@ public class Tower : MonoBehaviour
     public float textureLengthScale = 3; //Length of the beam texture
     public List<ParticleCollisionEvent> collisionEvents;
     GridManager gridManager;
+   
     void OnEnable()
     {
         nameText.text = towerName;
