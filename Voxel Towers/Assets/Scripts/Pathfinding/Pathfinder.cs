@@ -24,15 +24,7 @@ public class Pathfinder : MonoBehaviour
 
     private void Awake()
     {
-        gridManager = FindObjectOfType<GridManager>();
-        if (gridManager != null)
-        {
-            grid = gridManager.Grid;
-            startNode = grid[startCoords];
-            destinationNode = grid[destinationCoords];
-            startNode.isTraversable = true;
-            destinationNode.isTraversable = true;
-        }
+        
 
     }
 
@@ -154,5 +146,17 @@ public class Pathfinder : MonoBehaviour
     public void NotifyRecievers() 
     {
         BroadcastMessage("FindPath",false,SendMessageOptions.DontRequireReceiver);
+    }
+    public void InitPath()
+    {
+        gridManager = FindObjectOfType<GridManager>();
+        if (gridManager != null)
+        {
+            grid = gridManager.Grid;
+            startNode = grid[startCoords];
+            destinationNode = grid[destinationCoords];
+            startNode.isTraversable = true;
+            destinationNode.isTraversable = true;
+        }
     }
 }

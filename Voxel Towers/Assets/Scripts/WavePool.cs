@@ -19,12 +19,13 @@ public class WavePool : MonoBehaviour
     public GameObject[] waves;
     public TextMeshProUGUI waveText;
     public TextMeshProUGUI waveTimerText;
+    public bool triggered = false;
     
     // Start is called before the first frame update
     void Start()
     {
 
-        StartCoroutine(SpawnWave());
+       
         
     }
 
@@ -33,10 +34,10 @@ public class WavePool : MonoBehaviour
     {
         
     }
-    IEnumerator SpawnWave()
+   public  IEnumerator SpawnWave()
     {
 
-
+        triggered = true;
         for (int i = 0; i < waves.Length; i++)
         {
             if (waves[i].activeInHierarchy == false)

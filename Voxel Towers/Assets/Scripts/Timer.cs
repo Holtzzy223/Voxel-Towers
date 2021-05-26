@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
         spawnTimer = FindObjectOfType<WavePool>().SpawnTimer;
         timeRemaining = waveTimer * spawnTimer;
         // Starts the timer automatically
-        timerIsRunning = true;
+        
     }
 
     void Update()
@@ -51,11 +51,15 @@ public class Timer : MonoBehaviour
                 {
                     
                     timeRemaining = 0;
-                    if (FindObjectOfType<Base>().CurrentHP== FindObjectOfType<Base>().MaxHP)
+                  // if (FindObjectOfType<Base>().CurrentHP== FindObjectOfType<Base>().MaxHP)
+                  // {
+                  //     FindObjectOfType<PlayerBank>().Deposit(50);
+                  // }
+                    WavePool wavePool = FindObjectOfType<WavePool>();
+                    if (!wavePool.triggered)
                     {
-                        FindObjectOfType<PlayerBank>().Deposit(50);
+                        wavePool.StartCoroutine(wavePool.SpawnWave());
                     }
-
                     timeRemaining = waveTimer * spawnTimer;
                 }
                 if (isAlarmTimer)
