@@ -15,6 +15,7 @@ public class Tile : MonoBehaviour
     public GameObject grassMesh;
     public GameObject pathMesh;
     public GameObject path90Mesh;
+    public GameObject playerBase;
     public TowerUI towerUI;
 
     public Mesh mesh;
@@ -23,7 +24,7 @@ public class Tile : MonoBehaviour
 
 
     public bool IsPlaceable { get { return isPlaceable; } }
-
+    public bool basePlaced = false;
     private void Awake()
     {
 
@@ -33,12 +34,14 @@ public class Tile : MonoBehaviour
 
     private void Start()
     {
+
         towerUI = FindObjectOfType<TowerUI>();
         coords = gridManager.GetCoordsFromPos(transform.position);
         if (pathfinder.IsInPath(coords))
         {
             grassMesh.gameObject.SetActive(false);
             pathMesh.gameObject.SetActive(true);
+
         }
 
         // if (coords == pathfinder.StartCoords)
@@ -66,7 +69,16 @@ public class Tile : MonoBehaviour
         {
             grassMesh.gameObject.SetActive(false);
             pathMesh.gameObject.SetActive(true);
+            if (coords == pathfinder.DestinationCoords)
+            {
+                if (!basePlaced)
+                {
+                    Instantiate(playerBase, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+                    basePlaced = true;
+                }
+            }
         }
+        
 
 
     }

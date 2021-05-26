@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2405685707534536612}
   - component: {fileID: 6568884955367130515}
   - component: {fileID: -1010861214800314087}
+  - component: {fileID: 2337504027846763867}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
@@ -98,6 +99,19 @@ MonoBehaviour:
   cost: 25
   health: 1000
   isWall: 1
+--- !u!65 &2337504027846763867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6139140966176949491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5796673578579966862
 PrefabInstance:
   m_ObjectHideFlags: 0
