@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class Pathfinder : MonoBehaviour
 {
-    [SerializeField] Vector2Int startCoords;
+    public Vector2Int startCoords;
     public Vector2Int StartCoords { get { return startCoords; } }
    
 
-    [SerializeField] Vector2Int destinationCoords;
+    public Vector2Int destinationCoords;
     public Vector2Int DestinationCoords { get { return destinationCoords; } }
     Node startNode;
     Node destinationNode;

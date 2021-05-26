@@ -140,10 +140,13 @@ MonoBehaviour:
   pathMesh: {fileID: 6004184804393333005}
   path90Mesh: {fileID: 0}
   playerBase: {fileID: 3558977308698655734, guid: db98d2883cd1e204d95fe18363dcb478, type: 3}
+  wavePool: {fileID: 5559017132278683460, guid: 0e84661a440d5b24b8621751221769ba, type: 3}
   towerUI: {fileID: 0}
   mesh: {fileID: -2432090755550338912, guid: ea045bd341655c2449fc77d300291227, type: 3}
   yesMaterial: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
   noMaterial: {fileID: 2100000, guid: bd263060107bbae4c86609fce0633ee8, type: 2}
+  basePlaced: 0
+  poolPlaced: 0
 --- !u!1 &2767330991683516222
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1558129553879500, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4229706886185794, guid: 93518f1e15da50742a174649bdf5a56f, type: 3}
       propertyPath: m_RootOrder

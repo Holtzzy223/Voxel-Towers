@@ -16,6 +16,7 @@ public class Tile : MonoBehaviour
     public GameObject pathMesh;
     public GameObject path90Mesh;
     public GameObject playerBase;
+    public WavePool wavePool;
     public TowerUI towerUI;
 
     public Mesh mesh;
@@ -25,6 +26,7 @@ public class Tile : MonoBehaviour
 
     public bool IsPlaceable { get { return isPlaceable; } }
     public bool basePlaced = false;
+    public bool poolPlaced = false;
     private void Awake()
     {
 
@@ -77,7 +79,16 @@ public class Tile : MonoBehaviour
                     basePlaced = true;
                 }
             }
+           // if (coords == pathfinder.StartCoords)
+           // {
+           //     if (!poolPlaced)
+           //     {
+           //         Instantiate(wavePool, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
+           //         poolPlaced = true;
+           //     }
+           // }
         }
+        
         
 
 

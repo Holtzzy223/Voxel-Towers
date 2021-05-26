@@ -41,7 +41,7 @@ public class Base : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-       
+
     }
 
     public void RemoveHP(int amount)

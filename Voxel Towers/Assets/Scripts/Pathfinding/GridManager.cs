@@ -12,7 +12,7 @@ public class GridManager : MonoBehaviour
     public Tile tile;
     private void Awake()
     {
-       StartCoroutine(CreateGrid(0,0));
+       StartCoroutine(CreateGrid(0,0,true));
     }
     public Node GetNode(Vector2Int coords)
     {
@@ -65,7 +65,7 @@ public class GridManager : MonoBehaviour
         return pos;
     }
 
-    public IEnumerator CreateGrid(int xStart, int yStart)
+    public IEnumerator CreateGrid(int xStart, int yStart, bool runTimer)
     {
         for (int x = xStart; x < gridSize.x; x++)
         {
@@ -76,13 +76,16 @@ public class GridManager : MonoBehaviour
                 Debug.Log(grid[coords].coords + "=" + grid[coords].isTraversable);
                 Instantiate(tile, GetPosFromCoords(grid[coords].coords), Quaternion.identity);
                 yield return new WaitForSeconds(0.025f);
-               
+
             }
         }
         Debug.LogWarning("Built Grid");
         FindObjectOfType<Pathfinder>().InitPath();
         FindObjectOfType<Pathfinder>().GetNewPath();
-        FindObjectOfType<Timer>().timerIsRunning = true;
+        if (runTimer)
+        {
+            FindObjectOfType<Timer>().timerIsRunning = true;
+        }
     }
 }
 
