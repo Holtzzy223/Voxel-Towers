@@ -58,7 +58,11 @@ public class WavePool : MonoBehaviour
             switch (sceneCurrent.name)
             {
                 case "Scene1":
-                    SceneManager.LoadScene("Scene2");
+                    // SceneManager.LoadScene("Scene2");
+                    var oldGridSize = FindObjectOfType<GridManager>().gridSize;
+                    FindObjectOfType<GridManager>().gridSize += new Vector2Int(5,0);
+                    //FindObjectOfType<GridManager>().Grid.Clear();
+                    FindObjectOfType<GridManager>().StartCoroutine(FindObjectOfType<GridManager>().CreateGrid(10,0));
                     break;
                 case "Scene2":
                     SceneManager.LoadScene("Scene3");

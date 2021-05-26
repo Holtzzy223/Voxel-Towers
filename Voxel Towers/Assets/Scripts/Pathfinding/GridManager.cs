@@ -12,7 +12,7 @@ public class GridManager : MonoBehaviour
     public Tile tile;
     private void Awake()
     {
-       StartCoroutine(CreateGrid());
+       StartCoroutine(CreateGrid(0,0));
     }
     public Node GetNode(Vector2Int coords)
     {
@@ -65,11 +65,11 @@ public class GridManager : MonoBehaviour
         return pos;
     }
 
-    private IEnumerator CreateGrid()
+    public IEnumerator CreateGrid(int xStart, int yStart)
     {
-        for (int x = 0; x < gridSize.x; x++)
+        for (int x = xStart; x < gridSize.x; x++)
         {
-            for (int y = 0; y < gridSize.y; y++)
+            for (int y = yStart; y < gridSize.y; y++)
             {
                 Vector2Int coords = new Vector2Int(x, y);
                 grid.Add(coords, new Node(coords, true));
