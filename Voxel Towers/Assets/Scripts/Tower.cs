@@ -152,6 +152,27 @@ public class Tower : MonoBehaviour
                 }
 
             }
+        switch (tier)
+        {
+            case 0:
+                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
+
+                break;
+            case 1:
+                upgradeCost = Mathf.RoundToInt(cost * 1.35f);
+
+                break;
+            case 2:
+                upgradeCost = Mathf.RoundToInt(cost * 1.55f);
+
+                break;
+        }
+        if (tier == tierMax)
+            costText.text = "Max Tier";
+        else
+        {
+            costText.text = "- $" + upgradeCost.ToString();
+        }
     }
 
     private void OnMouseOver()
