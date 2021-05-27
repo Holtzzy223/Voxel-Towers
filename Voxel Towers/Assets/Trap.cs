@@ -98,6 +98,30 @@ public class Trap : MonoBehaviour
             KillSelf();
         }
     }
+    private void OnDestroy()
+    {
+        float targetDistance = 0f;
 
-   
+        Tile[] waypoints = FindObjectsOfType<Tile>();
+        Transform closestPoint = null;
+        float maxDistance = Mathf.Infinity;
+
+        foreach (Tile waypoint in waypoints)
+        {
+            targetDistance = Vector3.Distance(transform.position, waypoint.transform.position);
+            if (targetDistance < maxDistance)
+            {
+                closestPoint = waypoint.transform;
+                maxDistance = targetDistance;
+            }
+        }
+        var targetPoint = closestPoint;
+        closestPoint.gameObject.GetComponent<Tile>().isPlaceable = true;
+        if (isWall)
+        {
+            gridManager.ClearNode(gridManager.GetCoordsFromPos(closestPoint.position));
+            FindObjectOfType<Pathfinder>().NotifyRecievers();
+        }
+    }
+
 } 

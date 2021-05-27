@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class WavePool : MonoBehaviour
 {
-    [SerializeField] int enemiesPerWave;
+    private int enemiesPerWave;
     private int waveCount = 0;
+    private int roundCount = 0;
     public int maxWaves;
     public int WaveCount { get { return waveCount; } }
     public int EnemiesPerWave { get { return enemiesPerWave; } }
@@ -20,6 +21,7 @@ public class WavePool : MonoBehaviour
     public GameObject[] waves;
     public GameObject[] pools;
     public TextMeshProUGUI waveText;
+    public TextMeshProUGUI roundText;
     public TextMeshProUGUI waveTimerText;
     public bool triggered = false;
     private void Awake()
@@ -100,13 +102,22 @@ public class WavePool : MonoBehaviour
     }
     void SetWaves()
     {
+        enemiesPerWave = Random.Range(7,12);
         maxWaves = Random.Range(5, 25);
         waves = new GameObject[maxWaves];
+        roundCount++;
         for (int i = 0; i < maxWaves; i++)
         {
-
-            waves[i] = pools[Random.Range(0, 2)];
+            if (i < 10)
+            {
+                waves[i] = pools[Random.Range(0, 2)];
+            }
+            else
+            {
+                waves[i] = pools[Random.Range(0, 3)];
+            }
         }
+        roundText.text = "Round: " + roundCount.ToString();
         waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
     }
 
