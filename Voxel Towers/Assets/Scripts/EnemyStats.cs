@@ -36,17 +36,18 @@ public class EnemyStats : MonoBehaviour
     {
         if (wavePool != null)
         {
-            if (wavePool.WaveCount >1)
+            
+            if (wavePool.WaveCount >3)
             {
                 maxHP = (baseHP + 15) * (wavePool.WaveCount);
                 maxSpeed = baseSpeed +(wavePool.WaveCount * 0.08f);
                 enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.15f);
             }
-            if (wavePool.WaveCount >3)
+            if (wavePool.WaveCount >10)
             {
-                maxHP = (baseHP*1.15f) * (wavePool.WaveCount);
+                maxHP = (baseHP*(1+(wavePool.RoundCount*0.25f))) * (wavePool.WaveCount*0.5f);
                 maxSpeed = baseSpeed + (wavePool.WaveCount * 0.08f);
-                enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.25f);
+                enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.5f);
             }
             else
             {
