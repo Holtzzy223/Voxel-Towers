@@ -8,6 +8,7 @@ public class Tile : MonoBehaviour
 
     [SerializeField] Tower[] towers;
     [SerializeField] Trap[] traps;
+    [SerializeField] Building[] buildings;
     GridManager gridManager;
     Pathfinder pathfinder;
     public Vector2Int coords = new Vector2Int();
@@ -113,6 +114,36 @@ public class Tile : MonoBehaviour
             }
 
 
+        }
+
+        void PlaceBuilding()
+        {
+            if (isPlaceable)
+            {
+                if (gridManager.GetNode(coords).isTraversable && towerUI.BuildingChoice != -1)
+                {
+                    if (coords != pathfinder.StartCoords && coords != pathfinder.DestinationCoords)
+                    {
+                        bool isPlaced = buildings[towerUI.BuildingChoice].CreateBuilding(buildings[towerUI.BuildingChoice], transform.position);
+
+                        isPlaceable = !isPlaced;
+                        if (isPlaced && !buildings[towerUI.BuildingChoice].isRefinery)
+                        {
+                            gridManager.BlockNode(coords);
+                            if (pathfinder.IsInPath(coords))
+                            {
+                                grassMesh.gameObject.SetActive(false);
+                                pathMesh.gameObject.SetActive(true);
+
+                            }
+                            pathfinder.NotifyRecievers();
+
+                        }
+                        towerUI.TrapChoice = -1;
+                    }
+                }
+            }
+            Cursor.visible = true;
         }
 
         void PlaceTrap()

@@ -6,11 +6,14 @@ public class TowerUI : MonoBehaviour
 {
     public int TowerChoice { get; set; }
     public int TrapChoice { get; set; }
+    public int BuildingChoice { get; set; }
+    public float TimeScale { get; set; }
     // Start is called before the first frame update
     void Start()
     {
         TowerChoice = -1;
         TrapChoice = -1;
+        BuildingChoice = -1;
         PauseGame();
     }
 
@@ -26,11 +29,12 @@ public class TowerUI : MonoBehaviour
     }
     public void PauseGame()
     {
+        TimeScale = Time.timeScale;
         Time.timeScale = 0;
     }
     public void UnPauseGame()
     {
-        Time.timeScale = 1;
+        Time.timeScale = TimeScale;
     }
 
 
