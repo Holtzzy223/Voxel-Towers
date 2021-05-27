@@ -9,9 +9,10 @@ public class WavePool : MonoBehaviour
 {
     private int enemiesPerWave;
     private int waveCount = 0;
-    private int roundCount = 0;
+    private int roundCount = -1;
     public int maxWaves;
     public int WaveCount { get { return waveCount; } }
+    public int RoundCount { get { return roundCount; } }
     public int EnemiesPerWave { get { return enemiesPerWave; } }
     [SerializeField] float waveTimer;
     public float WaveTimer { get { return waveTimer; } }
@@ -66,7 +67,7 @@ public class WavePool : MonoBehaviour
 
 
     }
-    void SetCoords()
+    public void SetCoords()
     {
         var playerBase = FindObjectOfType<Base>();
         var pathfinder = FindObjectOfType<Pathfinder>();
@@ -76,8 +77,9 @@ public class WavePool : MonoBehaviour
         //pathfinder.destinationCoords = new Vector2Int(Random.Range(1, gridManager.gridSize.x - 2), Random.Range(1, gridManager.gridSize.y - 2));//new Vector2Int(14, 8);
         if (pathfinder.StartCoords!=pathfinder.DestinationCoords)//&& !pathfinder.WillBlockPath(pathfinder.destinationCoords))
         {
-            pathfinder.GetNewPath();
             ResetPool();
+            pathfinder.GetNewPath();
+            
         }
         else
         {
@@ -90,7 +92,7 @@ public class WavePool : MonoBehaviour
         var gridManager = FindObjectOfType<GridManager>();
         gridManager.gridSize += new Vector2Int(sizeX, sizeY);
         gridManager.StartCoroutine(gridManager.CreateGrid(gridManager.gridSize.x - sizeX, 0, false));
-        Invoke("SetCoords", 1f);
+     
 
     }
     void ResetPool()
@@ -102,10 +104,11 @@ public class WavePool : MonoBehaviour
     }
     void SetWaves()
     {
-        enemiesPerWave = Random.Range(7,12);
-        maxWaves = Random.Range(5, 25);
-        waves = new GameObject[maxWaves];
         roundCount++;
+        enemiesPerWave = Random.Range(5,12);
+        maxWaves = Random.Range(5, 15);
+        waves = new GameObject[maxWaves];
+       
         for (int i = 0; i < maxWaves; i++)
         {
             if (i < 10)

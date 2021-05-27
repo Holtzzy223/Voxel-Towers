@@ -23,8 +23,8 @@ public class EnemyStats : MonoBehaviour
         healthBar.maxValue = maxHP;
         healthBar.value = healthBar.maxValue;
         //int health per wave at base * wave count 
-        WavePool wavePool = FindObjectOfType<WavePool>();
-        UpdateStats(wavePool);
+       
+        UpdateStats();
 
 
     }
@@ -32,30 +32,37 @@ public class EnemyStats : MonoBehaviour
 
 
 
-    private void UpdateStats(WavePool wavePool)
+    private void UpdateStats()
     {
+        WavePool wavePool = FindObjectOfType<WavePool>();
         if (wavePool != null)
         {
-            if (wavePool.WaveCount >1)
+            Debug.LogError("FOUND THE POOL");
+            if (wavePool.WaveCount <=3)
             {
-                maxHP = (baseHP + 15) * (wavePool.WaveCount);
-                maxSpeed = baseSpeed +(wavePool.WaveCount * 0.08f);
+                maxHP = (baseHP + 15) * (wavePool.WaveCount + (wavePool.RoundCount * 0.05f));
+                maxSpeed = baseSpeed; //+(wavePool.WaveCount * 0.08f);
+                enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.10f);
+            }
+            if (wavePool.WaveCount>3&&wavePool.WaveCount <=10)
+            {
+                maxHP = (baseHP*1.35f) * (wavePool.WaveCount+(wavePool.RoundCount*0.10f));
+                maxSpeed = baseSpeed + (wavePool.WaveCount * 0.02f);
                 enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.15f);
             }
-            if (wavePool.WaveCount >3)
+            if ( wavePool.WaveCount > 10)
             {
-                maxHP = (baseHP*1.15f) * (wavePool.WaveCount);
-                maxSpeed = baseSpeed + (wavePool.WaveCount * 0.08f);
+                maxHP = (baseHP * 1.5f) * (wavePool.WaveCount + (wavePool.RoundCount * 0.15f));
+                maxSpeed = baseSpeed + (wavePool.WaveCount * 0.04f);
                 enemy.killReward = Mathf.RoundToInt(enemy.killReward * 1.25f);
             }
-            else
-            {
-                maxHP = baseHP;
-                maxSpeed = baseSpeed;
-            }
+           
             currentHP = maxHP;
             currentSpeed = maxSpeed;
+            Debug.LogError("Enemy Health: " + currentHP);
+            Debug.LogError("Enemy Speed: " + currentSpeed);
         }
+
     }
     // Update is called once per frame
 

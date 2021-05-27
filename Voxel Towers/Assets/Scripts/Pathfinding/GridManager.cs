@@ -85,6 +85,7 @@ public class GridManager : MonoBehaviour
             Debug.LogWarning("Built Grid");
             FindObjectOfType<Pathfinder>().InitPath();
             FindObjectOfType<Pathfinder>().GetNewPath();
+            FindObjectOfType<WavePool>().SetCoords();
             if (runTimer)
             {
                 FindObjectOfType<Timer>().timerIsRunning = true;

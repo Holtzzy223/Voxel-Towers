@@ -379,7 +379,8 @@ public class Tower : MonoBehaviour
         Time.timeScale = 1;
         onHoverUI.SetActive(false);
         gameObject.SetActive(false);
-        
+
+        CancelInvoke();
     }
     public void UpgradeButton() 
     {

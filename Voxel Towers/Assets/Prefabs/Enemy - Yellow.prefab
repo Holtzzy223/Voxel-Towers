@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 666485597493331142}
   - component: {fileID: 4898055743648372611}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy - Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beec15cf559166645b0e89c13bfe8aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseHP: 35
+  baseHP: 55
   currentHP: 0
   maxHP: 0
   isBreaker: 0
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c367f0304cc984c4784ff3df27befc6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killReward: 20
+  killReward: 12
   damageToBase: 20
 --- !u!114 &4898055743648372611
 MonoBehaviour:
