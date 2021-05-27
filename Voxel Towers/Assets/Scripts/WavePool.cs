@@ -7,12 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class WavePool : MonoBehaviour
 {
-    private int enemiesPerWave;
+    [SerializeField] int enemiesPerWave;
     private int waveCount = 0;
-    private int roundCount = 1;
     public int maxWaves;
     public int WaveCount { get { return waveCount; } }
-    public int RoundCount { get { return waveCount; } }
     public int EnemiesPerWave { get { return enemiesPerWave; } }
     [SerializeField] float waveTimer;
     public float WaveTimer { get { return waveTimer; } }
@@ -21,7 +19,6 @@ public class WavePool : MonoBehaviour
 
     public GameObject[] waves;
     public GameObject[] pools;
-    public TextMeshProUGUI roundText;
     public TextMeshProUGUI waveText;
     public TextMeshProUGUI waveTimerText;
     public bool triggered = false;
@@ -51,7 +48,6 @@ public class WavePool : MonoBehaviour
             {
                 //waves[i].SetActive(true);
                 waveCount++;
-                roundText.text = "Round: " + roundCount.ToString(); 
                 waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
 
                 Instantiate(waves[i], transform);
@@ -92,41 +88,26 @@ public class WavePool : MonoBehaviour
         var gridManager = FindObjectOfType<GridManager>();
         gridManager.gridSize += new Vector2Int(sizeX, sizeY);
         gridManager.StartCoroutine(gridManager.CreateGrid(gridManager.gridSize.x - sizeX, 0, false));
-       // gridManager.StartCoroutine(gridManager.CreateGrid(0, gridManager.gridSize.y - sizeY, false));
         Invoke("SetCoords", 1f);
 
     }
     void ResetPool()
     {
         waveCount = 0;
-        roundCount++;
-        roundText.text = "Round: " + roundCount.ToString();
         SetWaves();
         FindObjectOfType<Timer>().timerIsRunning = true;
         StartCoroutine(SpawnWave());
     }
     void SetWaves()
     {
-        enemiesPerWave = Random.Range(5, 25);
         maxWaves = Random.Range(5, 25);
         waves = new GameObject[maxWaves];
         for (int i = 0; i < maxWaves; i++)
         {
 
-            if (roundCount < 3)
-            {
-                waves[i] = pools[Random.Range(0, 2)];
-            }
-            else
-            {
-                waves[i] = pools[Random.Range(0, 3)];
-            }
-            
-        
+            waves[i] = pools[Random.Range(0, 2)];
         }
-    
         waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
-        roundText.text = "Round: " + roundCount.ToString();
     }
 
 }
