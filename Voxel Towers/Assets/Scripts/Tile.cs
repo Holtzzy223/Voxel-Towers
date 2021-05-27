@@ -121,23 +121,25 @@ public class Tile : MonoBehaviour
             {
                 if (gridManager.GetNode(coords).isTraversable && towerUI.TrapChoice != -1)
                 {
-                    bool isPlaced = traps[towerUI.TrapChoice].CreateTrap(traps[towerUI.TrapChoice], transform.position);
-
-                    isPlaceable = !isPlaced;
-                    if (isPlaced && traps[towerUI.TrapChoice].isWall)
+                    if (coords != pathfinder.StartCoords && coords != pathfinder.DestinationCoords)
                     {
-                        gridManager.BlockNode(coords);
-                        if (pathfinder.IsInPath(coords))
+                        bool isPlaced = traps[towerUI.TrapChoice].CreateTrap(traps[towerUI.TrapChoice], transform.position);
+
+                        isPlaceable = !isPlaced;
+                        if (isPlaced && traps[towerUI.TrapChoice].isWall)
                         {
-                            grassMesh.gameObject.SetActive(false);
-                            pathMesh.gameObject.SetActive(true);
+                            gridManager.BlockNode(coords);
+                            if (pathfinder.IsInPath(coords))
+                            {
+                                grassMesh.gameObject.SetActive(false);
+                                pathMesh.gameObject.SetActive(true);
+
+                            }
+                            pathfinder.NotifyRecievers();
 
                         }
-                        pathfinder.NotifyRecievers();
-
+                        towerUI.TrapChoice = -1;
                     }
-                    towerUI.TrapChoice = -1;
-
                 }
             }
             Cursor.visible = true;
