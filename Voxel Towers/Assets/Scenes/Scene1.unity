@@ -3193,7 +3193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: m_ClearFlags
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: orthographic

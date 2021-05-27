@@ -37,6 +37,7 @@ public class Trap : MonoBehaviour
             if (!isWall)
             {
                 Instantiate(trap, position + offset, Quaternion.Euler(-90, 0, 0));
+
             }
             if (isWall)
             {

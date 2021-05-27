@@ -105,8 +105,8 @@ public class WavePool : MonoBehaviour
     void SetWaves()
     {
         roundCount++;
-        enemiesPerWave = Random.Range(5,12);
-        maxWaves = Random.Range(5, 15);
+        enemiesPerWave = Random.Range(5,13);
+        maxWaves = Random.Range(5, 19);
         waves = new GameObject[maxWaves];
        
         for (int i = 0; i < maxWaves; i++)

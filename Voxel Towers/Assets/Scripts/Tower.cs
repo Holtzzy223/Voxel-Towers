@@ -123,26 +123,9 @@ public class Tower : MonoBehaviour
     void Update()
     {
         
-        switch (tier)
-        {
-            case 0:
-                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
-                break;
-            case 1:
-                upgradeCost = Mathf.RoundToInt(cost * 1.35f);
-                break;
-            case 2:
-                upgradeCost = Mathf.RoundToInt(cost * 1.55f);
-                break;
+        
 
-        }
-        if (tier == tierMax)
-            costText.text = "Max Tier";
-        else
-        {
-            costText.text = "- $" + upgradeCost.ToString();
-        }
-        sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
+        
         FindClosestTarget();
       
        
@@ -173,7 +156,28 @@ public class Tower : MonoBehaviour
 
     private void OnMouseOver()
     {
-          
+        sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
+        switch (tier)
+        {
+            case 0:
+                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
+               
+                break;
+            case 1:
+                upgradeCost = Mathf.RoundToInt(cost * 1.35f);
+                
+                break;
+            case 2:
+                upgradeCost = Mathf.RoundToInt(cost * 1.55f);
+                
+                break;
+        }
+        if (tier == tierMax)
+            costText.text = "Max Tier";
+        else
+        {
+            costText.text = "- $" + upgradeCost.ToString();
+        }
         DrawRange();
         var UI = FindObjectOfType<UpgradeUI>();
         if (Input.GetMouseButtonDown(0))
@@ -313,6 +317,7 @@ public class Tower : MonoBehaviour
             damage +=damageBuff*damageMod;
             speedDamage += 0.05f*speedDamageMod;
             range += rangeBuff;
+            
             switch (tier)
             {
                 case 0:
@@ -387,12 +392,15 @@ public class Tower : MonoBehaviour
         switch (tier)
         {
             case 0:
+                
                 UpgradeTower(2f, 0.75f, upgradeCost);
                 break;
             case 1:
+               
                 UpgradeTower(3f, 1.25f, upgradeCost);
                 break;
             case 2:
+                
                 UpgradeTower(4f, 1.25f, upgradeCost);
                 break;
 
