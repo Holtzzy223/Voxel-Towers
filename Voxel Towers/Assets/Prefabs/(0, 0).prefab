@@ -134,6 +134,9 @@ MonoBehaviour:
   traps:
   - {fileID: 8449629266845028688, guid: 9b5e314ca2bee3a44be337f8293b0497, type: 3}
   - {fileID: -1010861214800314087, guid: 37bf593c6dd5dc449a47ce5508a17b9a, type: 3}
+  buildings:
+  - {fileID: 8657262997518569394, guid: 97d701257113e13479dd8b0fb58d5ee9, type: 3}
+  - {fileID: 6814759661520664063, guid: 38131f732159c4c45998e188ed8eaf14, type: 3}
   coords: {x: 0, y: 0}
   isPlaceable: 1
   grassMesh: {fileID: 2183376101900200144}

@@ -12,7 +12,7 @@ public class Building : MonoBehaviour
     public float refineTime;
     public float refineAmount;
     public GameObject UI;
-    public Button[] buttons;
+    public GameObject[] buttons;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,12 +20,15 @@ public class Building : MonoBehaviour
         {
             InvokeRepeating("Refinery",chargeTime,refineTime);
         }
+        buttons = FindObjectsOfType<GameObject>(true);
+        Debug.LogAssertion(buttons.Length);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+   
     }
     public bool CreateBuilding(Building building, Vector3 position)
     {
@@ -65,13 +68,21 @@ public class Building : MonoBehaviour
     {
         var researchCost = 100;
         var dataOreAmt = FindObjectOfType<Base>().dataOreAmt;
+       
         switch (choice)
         {
             case 0:
                
                 if (dataOreAmt >= researchCost)
                 {
-                    buttons[choice].gameObject.SetActive(true);
+                    for (int i = 0; i < buttons.Length; i++)
+                    {
+
+                        if (buttons[i].gameObject.CompareTag("Laser Upgrade"))
+                        {
+                            buttons[i].gameObject.SetActive(true);
+                        }
+                    }
                     FindObjectOfType<Base>().dataOreAmt -= researchCost;
                 }
                 break;
@@ -79,7 +90,14 @@ public class Building : MonoBehaviour
                 researchCost =Mathf.FloorToInt(researchCost* 2.5f);
                 if (dataOreAmt >= researchCost)
                 {
-                    buttons[choice].gameObject.SetActive(true);
+                    for (int i = 0; i < buttons.Length; i++)
+                    {
+
+                        if (buttons[i].gameObject.CompareTag("Cannon Upgrade"))
+                        {
+                            buttons[i].gameObject.SetActive(true);
+                        }
+                    }
                     FindObjectOfType<Base>().dataOreAmt -= researchCost;
                 }
                 break;
@@ -87,7 +105,14 @@ public class Building : MonoBehaviour
                 researchCost = Mathf.FloorToInt(researchCost * 3.5f);
                 if (dataOreAmt >= researchCost)
                 {
-                    buttons[choice].gameObject.SetActive(true);
+                    for (int i = 0; i < buttons.Length; i++)
+                    {
+
+                        if (buttons[i].gameObject.CompareTag("Sloth Upgrade"))
+                        {
+                            buttons[i].gameObject.SetActive(true);
+                        }
+                    }
                     FindObjectOfType<Base>().dataOreAmt -= researchCost;
                 }
                 break;
@@ -95,7 +120,7 @@ public class Building : MonoBehaviour
                 researchCost = Mathf.FloorToInt(researchCost * 5.5f);
                 if (dataOreAmt >= researchCost)
                 {
-                    buttons[choice].gameObject.SetActive(true);
+                    
                     FindObjectOfType<Base>().dataOreAmt -= researchCost;
                 }
                 break;
@@ -103,7 +128,7 @@ public class Building : MonoBehaviour
                 researchCost = Mathf.FloorToInt(researchCost * 7.5f);
                 if (dataOreAmt >= researchCost)
                 {
-                    buttons[choice].gameObject.SetActive(true);
+                   
                     FindObjectOfType<Base>().dataOreAmt -= researchCost;
                 }
                 break;
@@ -111,7 +136,7 @@ public class Building : MonoBehaviour
                 researchCost = Mathf.FloorToInt(researchCost * 10f);
                 if (dataOreAmt >= researchCost)
                 {
-                    buttons[choice].gameObject.SetActive(true);
+                   
                     FindObjectOfType<Base>().dataOreAmt -= researchCost;
                 }
                 break;

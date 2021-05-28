@@ -113,9 +113,21 @@ public class Tile : MonoBehaviour
                 }
             }
 
-
         }
 
+        if (towerUI.BuildingChoice != -1)
+        {
+            if ((menu == null || menu.activeInHierarchy == false))
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    PlaceBuilding();
+
+                }
+            }
+
+        }
+    }
         void PlaceBuilding()
         {
             if (isPlaceable)
@@ -235,6 +247,6 @@ public class Tile : MonoBehaviour
 
         }
 
-    }
 }
+
 

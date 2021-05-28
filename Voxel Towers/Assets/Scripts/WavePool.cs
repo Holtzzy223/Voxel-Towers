@@ -73,7 +73,7 @@ public class WavePool : MonoBehaviour
         var pathfinder = FindObjectOfType<Pathfinder>();
         var gridManager = FindObjectOfType<GridManager>();
        // playerBase.gameObject.SetActive(false);
-        pathfinder.startCoords = new Vector2Int(Random.Range(0, gridManager.gridSize.x - 1), Random.Range(0, gridManager.gridSize.y - 1));
+        pathfinder.startCoords = new Vector2Int(Random.Range(0, gridManager.gridSize.x - 2), Random.Range(0, gridManager.gridSize.y - 2));
         //pathfinder.destinationCoords = new Vector2Int(Random.Range(1, gridManager.gridSize.x - 2), Random.Range(1, gridManager.gridSize.y - 2));//new Vector2Int(14, 8);
         if (pathfinder.StartCoords!=pathfinder.DestinationCoords)//&& !pathfinder.WillBlockPath(pathfinder.destinationCoords))
         {

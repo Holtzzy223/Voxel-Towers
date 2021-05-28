@@ -109,8 +109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRefinery: 1
-  cost: 100
+  cost: 30
   chargeTime: 5
   refineTime: 10
-  refineAmount: 1.5
+  refineAmount: 2.5
+  UI: {fileID: 0}
   buttons: []
