@@ -12,6 +12,9 @@ TagManager:
   - Undefined
   - Beam
   - Trap
+  - Laser Upgrade
+  - Cannon Upgrade
+  - Sloth Upgrade
   layers:
   - Default
   - TransparentFX
