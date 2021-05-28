@@ -151,7 +151,7 @@ public class Tile : MonoBehaviour
                             pathfinder.NotifyRecievers();
 
                         }
-                        towerUI.TrapChoice = -1;
+                        towerUI.BuildingChoice = -1;
                     }
                 }
             }

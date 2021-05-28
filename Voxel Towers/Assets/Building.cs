@@ -13,16 +13,19 @@ public class Building : MonoBehaviour
     public float refineAmount;
     public GameObject UI;
     public GameObject[] buttons;
+    public int health;
+    public GridManager gridManager;
     // Start is called before the first frame update
     void Start()
     {
         if (isRefinery)
         {
             InvokeRepeating("Refinery",chargeTime,refineTime);
+            health = 15;
         }
         buttons = FindObjectsOfType<GameObject>(true);
         Debug.LogAssertion(buttons.Length);
-        
+        gridManager = FindObjectOfType<GridManager>();
     }
 
     // Update is called once per frame
@@ -68,7 +71,7 @@ public class Building : MonoBehaviour
     {
         var researchCost = 100;
         var dataOreAmt = FindObjectOfType<PlayerBank>().dataOreAmt;
-       
+        buttons = FindObjectsOfType<GameObject>(true);
         switch (choice)
         {
             case 0:
@@ -78,9 +81,9 @@ public class Building : MonoBehaviour
                     for (int i = 0; i < buttons.Length; i++)
                     {
 
-                        if (buttons[i].gameObject.CompareTag("Laser Upgrade"))
+                        if (buttons[i].CompareTag("Laser Upgrade"))
                         {
-                            buttons[i].gameObject.SetActive(true);
+                            buttons[i].SetActive(true);
                         }
                     }
                     FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
@@ -178,4 +181,41 @@ public class Building : MonoBehaviour
             UI.SetActive(false);
         }
     }
+
+    void KillSelf()
+    {
+        float targetDistance = 0f;
+
+        Tile[] waypoints = FindObjectsOfType<Tile>();
+        Transform closestPoint = null;
+        float maxDistance = Mathf.Infinity;
+
+        foreach (Tile waypoint in waypoints)
+        {
+            targetDistance = Vector3.Distance(transform.position, waypoint.transform.position);
+            if (targetDistance < maxDistance)
+            {
+                closestPoint = waypoint.transform;
+                maxDistance = targetDistance;
+            }
+        }
+        var targetPoint = closestPoint;
+        closestPoint.gameObject.GetComponent<Tile>().isPlaceable = true;
+        //if (isWall)
+        //{
+        //    gridManager.ClearNode(gridManager.GetCoordsFromPos(closestPoint.position));
+        //    FindObjectOfType<Pathfinder>().NotifyRecievers();
+        //}
+        Destroy(this.gameObject);
+    }
+    public void DamageBuilding()
+    {
+        health--;
+        Debug.LogError("Trap loss health -1, total health = " + health);
+        if (health <= 0)
+        {
+            KillSelf();
+        }
+    }
+
 }

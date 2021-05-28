@@ -8,7 +8,7 @@ public class Base : MonoBehaviour
 {
     [SerializeField] int maxHP = 200;
     public int MaxHP {get {return maxHP;}}
-    public float dataOreAmt;
+    
     [SerializeField] int currentHP;
     public int CurrentHP { get { return currentHP; } }
     public Slider healthBar;
