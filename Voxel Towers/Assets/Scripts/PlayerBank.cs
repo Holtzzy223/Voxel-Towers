@@ -7,7 +7,9 @@ public class PlayerBank : MonoBehaviour
     [SerializeField] int startBalance = 150;
     [SerializeField] int currentBalance;        //change once UI in place
     public int CurrentBalance {get  { return currentBalance;} }
+    public float dataOreAmt;
     public TextMeshProUGUI currencyText;
+    public TextMeshProUGUI oreText;
     private void Awake()
     {
         currentBalance = startBalance;
@@ -15,7 +17,8 @@ public class PlayerBank : MonoBehaviour
     }
     private void Update()
     {
-     //   currencyText.text = "Currency: " + currentBalance;
+        oreText.text = "Ore: " + dataOreAmt;
+        //   currencyText.text = "Currency: " + currentBalance;
     }
 
     public void Deposit(int amount) 

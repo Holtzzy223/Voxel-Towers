@@ -57,7 +57,7 @@ public class Building : MonoBehaviour
     }
     public void Refinery()
     {
-        FindObjectOfType<Base>().dataOreAmt += refineAmount;
+        FindObjectOfType<PlayerBank>().dataOreAmt += refineAmount;
     }
 
     public void ScienceUI()
@@ -67,7 +67,7 @@ public class Building : MonoBehaviour
     public void ResearchTower(int choice)
     {
         var researchCost = 100;
-        var dataOreAmt = FindObjectOfType<Base>().dataOreAmt;
+        var dataOreAmt = FindObjectOfType<PlayerBank>().dataOreAmt;
        
         switch (choice)
         {
@@ -83,7 +83,7 @@ public class Building : MonoBehaviour
                             buttons[i].gameObject.SetActive(true);
                         }
                     }
-                    FindObjectOfType<Base>().dataOreAmt -= researchCost;
+                    FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
                 }
                 break;
             case 1:
@@ -98,7 +98,7 @@ public class Building : MonoBehaviour
                             buttons[i].gameObject.SetActive(true);
                         }
                     }
-                    FindObjectOfType<Base>().dataOreAmt -= researchCost;
+                    FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
                 }
                 break;
             case 2:
@@ -113,7 +113,7 @@ public class Building : MonoBehaviour
                             buttons[i].gameObject.SetActive(true);
                         }
                     }
-                    FindObjectOfType<Base>().dataOreAmt -= researchCost;
+                    FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
                 }
                 break;
             case 3:
@@ -121,7 +121,7 @@ public class Building : MonoBehaviour
                 if (dataOreAmt >= researchCost)
                 {
                     
-                    FindObjectOfType<Base>().dataOreAmt -= researchCost;
+                    FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
                 }
                 break;
             case 4:
@@ -129,7 +129,7 @@ public class Building : MonoBehaviour
                 if (dataOreAmt >= researchCost)
                 {
                    
-                    FindObjectOfType<Base>().dataOreAmt -= researchCost;
+                    FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
                 }
                 break;
             case 5:
@@ -137,7 +137,7 @@ public class Building : MonoBehaviour
                 if (dataOreAmt >= researchCost)
                 {
                    
-                    FindObjectOfType<Base>().dataOreAmt -= researchCost;
+                    FindObjectOfType<PlayerBank>().dataOreAmt -= researchCost;
                 }
                 break;
         }
