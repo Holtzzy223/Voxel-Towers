@@ -127,7 +127,30 @@ public class Tower : MonoBehaviour
 
         
         FindClosestTarget();
-      
+        if (onHoverUI.activeInHierarchy)
+        {
+            switch (tier)
+            {
+                case 0:
+                    upgradeCost = Mathf.RoundToInt(cost * 1.15f);
+
+                    break;
+                case 1:
+                    upgradeCost = Mathf.RoundToInt(cost * 1.35f);
+
+                    break;
+                case 2:
+                    upgradeCost = Mathf.RoundToInt(cost * 1.55f);
+
+                    break;
+            }
+            if (tier == tierMax)
+                costText.text = "Max Tier";
+            else
+            {
+                costText.text = "- $" + upgradeCost.ToString();
+            }
+        }
        
 
     }
@@ -178,27 +201,7 @@ public class Tower : MonoBehaviour
     private void OnMouseOver()
     {
         sellText.text = "+ $" + Mathf.FloorToInt(cost * (tier + 1) * 0.50f).ToString();
-        switch (tier)
-        {
-            case 0:
-                upgradeCost = Mathf.RoundToInt(cost * 1.15f);
-               
-                break;
-            case 1:
-                upgradeCost = Mathf.RoundToInt(cost * 1.35f);
-                
-                break;
-            case 2:
-                upgradeCost = Mathf.RoundToInt(cost * 1.55f);
-                
-                break;
-        }
-        if (tier == tierMax)
-            costText.text = "Max Tier";
-        else
-        {
-            costText.text = "- $" + upgradeCost.ToString();
-        }
+      
         DrawRange();
         var UI = FindObjectOfType<UpgradeUI>();
         if (Input.GetMouseButtonDown(0))

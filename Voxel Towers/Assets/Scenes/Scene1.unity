@@ -1004,7 +1004,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &384428207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1020,9 +1020,9 @@ RectTransform:
   m_Father: {fileID: 1682065001}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -196}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &384428208
@@ -3220,7 +3220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 519859f07ed188d4f8a022955c992afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 10, y: 10}
+  gridSize: {x: 15, y: 15}
   sceneGridSize: 5
   tile: {fileID: 1679577417513585445, guid: f187d0fed0ee4d64fb86b197e3a8ddf0, type: 3}
 --- !u!4 &1682601563
@@ -3878,7 +3878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: m_ClearFlags
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: orthographic
@@ -3894,15 +3894,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 1
+      value: 0.20754719
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.8864374
+      value: 0.15022457
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188380, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.5896226
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 338231751179188381, guid: c40c6f22de9c03f4799c86bc04f7a197, type: 3}
       propertyPath: m_RootOrder

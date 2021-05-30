@@ -61,8 +61,9 @@ public class WavePool : MonoBehaviour
         }
         if (waveCount == waves.Length)
         {
-            ExpandGrid(5, 0);
-
+            //ExpandGrid(5, 0);
+            SetCoords();
+            
         }  
 
 
@@ -73,7 +74,7 @@ public class WavePool : MonoBehaviour
         var pathfinder = FindObjectOfType<Pathfinder>();
         var gridManager = FindObjectOfType<GridManager>();
        // playerBase.gameObject.SetActive(false);
-        pathfinder.startCoords = new Vector2Int(Random.Range(0, gridManager.gridSize.x - 2), Random.Range(0, gridManager.gridSize.y - 2));
+        pathfinder.startCoords = new Vector2Int(Random.Range(0,0), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6,pathfinder.DestinationCoords.y+6),Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
         //pathfinder.destinationCoords = new Vector2Int(Random.Range(1, gridManager.gridSize.x - 2), Random.Range(1, gridManager.gridSize.y - 2));//new Vector2Int(14, 8);
         if (pathfinder.StartCoords!=pathfinder.DestinationCoords)//&& !pathfinder.WillBlockPath(pathfinder.destinationCoords))
         {
@@ -84,6 +85,7 @@ public class WavePool : MonoBehaviour
         else
         {
             SetCoords();
+            pathfinder.NotifyRecievers();
         }
 
     }
@@ -105,8 +107,8 @@ public class WavePool : MonoBehaviour
     void SetWaves()
     {
         roundCount++;
-        enemiesPerWave = Random.Range(5,13);
-        maxWaves = Random.Range(5, 19);
+        enemiesPerWave = Random.Range(5,5);
+        maxWaves = Random.Range(1, 1);
         waves = new GameObject[maxWaves];
        
         for (int i = 0; i < maxWaves; i++)
