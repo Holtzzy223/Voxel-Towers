@@ -18,7 +18,7 @@ public class Timer : MonoBehaviour
     
 
 
-    private void Start()
+    private void Awake()
     {
         waveTimer = FindObjectOfType<WavePool>().WaveTimer;
         spawnTimer = FindObjectOfType<WavePool>().SpawnTimer;

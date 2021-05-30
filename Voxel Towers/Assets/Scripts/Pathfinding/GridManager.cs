@@ -12,7 +12,7 @@ public class GridManager : MonoBehaviour
     public Tile tile;
     private void Awake()
     {
-       StartCoroutine(CreateGrid(0,0,true));
+       StartCoroutine(CreateGrid(0,0,false));
     }
     public Node GetNode(Vector2Int coords)
     {
@@ -78,7 +78,7 @@ public class GridManager : MonoBehaviour
                     grid.Add(coords, new Node(coords, true));
                     Debug.Log(grid[coords].coords + "=" + grid[coords].isTraversable);
                     Instantiate(tile, GetPosFromCoords(grid[coords].coords), Quaternion.identity);
-                    yield return new WaitForSeconds(0.05f);
+                    yield return new WaitForSeconds(0.00f);
 
                 }
             }

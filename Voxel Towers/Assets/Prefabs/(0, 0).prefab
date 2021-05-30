@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7193959104207571675
 Transform:
   m_ObjectHideFlags: 0
@@ -712,7 +712,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 271e60c7637242940944cd6fb87e743a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -8469494145858465668, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
+      objectReference: {fileID: 2100000, guid: ec739259ec61f5d4ba3ed6d34fd802a6, type: 2}
     - target: {fileID: 919132149155446097, guid: 271e60c7637242940944cd6fb87e743a, type: 3}
       propertyPath: m_Name
       value: path
@@ -778,7 +778,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: ea045bd341655c2449fc77d300291227, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -8469494145858465668, guid: caaf18301e9137d4fab5aa43b1ac8d21, type: 3}
+      objectReference: {fileID: 2100000, guid: 83424bd4209ab084eaf5f073dfa4c9a2, type: 2}
     - target: {fileID: 919132149155446097, guid: ea045bd341655c2449fc77d300291227, type: 3}
       propertyPath: m_Name
       value: GrassElevated

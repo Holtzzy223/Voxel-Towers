@@ -5237,6 +5237,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 524d536f675c26448a70504fc8fd3b02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 830b4c7fb3d0e2d46af5a191575a9ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 524d536f675c26448a70504fc8fd3b02, type: 3}
       propertyPath: m_Name
       value: TowerBaseStandard
@@ -5299,6 +5303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 47f70761ec2d9ee4d91b0a2378f172c6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01d8a06cc3877cd43b42ebe5aa34db29, type: 2}
     - target: {fileID: 919132149155446097, guid: 47f70761ec2d9ee4d91b0a2378f172c6, type: 3}
       propertyPath: m_Name
       value: TowerTopBasic

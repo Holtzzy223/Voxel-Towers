@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class WavePool : MonoBehaviour
 {
     private int enemiesPerWave;
-    private int waveCount = 0;
+    private int waveCount = -1;
     private int roundCount = -1;
     public int maxWaves;
     public int WaveCount { get { return waveCount; } }
@@ -51,10 +51,12 @@ public class WavePool : MonoBehaviour
             {
                 //waves[i].SetActive(true);
                 waveCount++;
-                waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
-
-                Instantiate(waves[i], transform);
-
+              if(waveCount >0)
+                {
+                    waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
+                
+                    Instantiate(waves[i], transform);
+                }
                 yield return new WaitForSeconds(waveTimer * spawnTimer);
             }
 
@@ -107,8 +109,8 @@ public class WavePool : MonoBehaviour
     void SetWaves()
     {
         roundCount++;
-        enemiesPerWave = Random.Range(5,5);
-        maxWaves = Random.Range(1, 1);
+        enemiesPerWave = Random.Range(5,15);
+        maxWaves = Random.Range(10,20);
         waves = new GameObject[maxWaves];
        
         for (int i = 0; i < maxWaves; i++)
