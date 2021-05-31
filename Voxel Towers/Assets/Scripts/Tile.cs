@@ -162,7 +162,9 @@ public class Tile : MonoBehaviour
         {
             if (isPlaceable)
             {
-                if (gridManager.GetNode(coords).isTraversable && towerUI.TrapChoice != -1)
+            if (gridManager.GetNode(coords).isTraversable && towerUI.TrapChoice != -1)
+            {
+                if (traps[towerUI.TrapChoice].isWall && !pathfinder.WillBlockPath(coords))
                 {
                     if (coords != pathfinder.StartCoords && coords != pathfinder.DestinationCoords)
                     {
@@ -184,6 +186,29 @@ public class Tile : MonoBehaviour
                         towerUI.TrapChoice = -1;
                     }
                 }
+                if(!traps[towerUI.TrapChoice].isWall)
+                {
+                    if (coords != pathfinder.StartCoords && coords != pathfinder.DestinationCoords)
+                    {
+                        bool isPlaced = traps[towerUI.TrapChoice].CreateTrap(traps[towerUI.TrapChoice], transform.position);
+
+                        isPlaceable = !isPlaced;
+                        if (isPlaced && traps[towerUI.TrapChoice].isWall)
+                        {
+                            gridManager.BlockNode(coords);
+                            if (pathfinder.IsInPath(coords))
+                            {
+                                grassMesh.gameObject.SetActive(false);
+                                pathMesh.gameObject.SetActive(true);
+
+                            }
+                            pathfinder.NotifyRecievers();
+
+                        }
+                        towerUI.TrapChoice = -1;
+                    }
+                }
+            }
             }
             Cursor.visible = true;
         }

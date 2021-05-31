@@ -28,6 +28,7 @@ public class WavePool : MonoBehaviour
     private void Awake()
     {
         SetWaves();
+        SetCoords();
     }
     // Start is called before the first frame update
     void Start()
@@ -51,10 +52,17 @@ public class WavePool : MonoBehaviour
             {
                 //waves[i].SetActive(true);
                 waveCount++;
-              if(waveCount >0)
+              if(waveCount > 0)
                 {
+                    if (waveCount == 1)
+                    {
+                        var gridManager = FindObjectOfType<GridManager>();
+                        var pathfinder = FindObjectOfType<Pathfinder>();
+                        pathfinder.startCoords = new Vector2Int(Random.Range(0, 0), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6, pathfinder.DestinationCoords.y + 6), Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
+                        // SetCoords();
+                    }
                     waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
-                
+                    
                     Instantiate(waves[i], transform);
                 }
                 yield return new WaitForSeconds(waveTimer * spawnTimer);
@@ -82,12 +90,13 @@ public class WavePool : MonoBehaviour
         {
             ResetPool();
             pathfinder.GetNewPath();
-            
+            pathfinder.NotifyRecievers();
+
         }
         else
         {
             SetCoords();
-            pathfinder.NotifyRecievers();
+            
         }
 
     }

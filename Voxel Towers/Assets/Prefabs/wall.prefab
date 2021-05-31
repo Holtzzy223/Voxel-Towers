@@ -107,11 +107,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6139140966176949491}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.081214905, z: 0.98029786}
+  m_Center: {x: 0, y: -0.40854263, z: 0.009851075}
 --- !u!1001 &5796673578579966862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -166,6 +166,18 @@ PrefabInstance:
     - target: {fileID: 4126776537466820, guid: 25697b6ce7367a449a910cd5f21b3ee3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198120527422789750, guid: 25697b6ce7367a449a910cd5f21b3ee3, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 198302347410549204, guid: 25697b6ce7367a449a910cd5f21b3ee3, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 198733020888624598, guid: 25697b6ce7367a449a910cd5f21b3ee3, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 199121610645102794, guid: 25697b6ce7367a449a910cd5f21b3ee3, type: 3}
       propertyPath: m_Materials.Array.size
