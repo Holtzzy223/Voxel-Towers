@@ -28,7 +28,10 @@ public class WavePool : MonoBehaviour
     private void Awake()
     {
         SetWaves();
-        SetCoords();
+        SetStartCoords();
+        Pathfinder pathfinder = FindObjectOfType<Pathfinder>();
+        var gridManager = FindObjectOfType<GridManager>();
+        pathfinder.startCoords = new Vector2Int(Random.Range(0, gridManager.gridSize.x), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6, pathfinder.DestinationCoords.y + 6), Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
     }
     // Start is called before the first frame update
     void Start()
@@ -58,7 +61,7 @@ public class WavePool : MonoBehaviour
                     {
                         var gridManager = FindObjectOfType<GridManager>();
                         var pathfinder = FindObjectOfType<Pathfinder>();
-                        pathfinder.startCoords = new Vector2Int(Random.Range(0, 0), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6, pathfinder.DestinationCoords.y + 6), Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
+                        //pathfinder.startCoords = new Vector2Int(Random.Range(0, 0), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6, pathfinder.DestinationCoords.y + 6), Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
                         // SetCoords();
                     }
                     waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
@@ -72,19 +75,20 @@ public class WavePool : MonoBehaviour
         if (waveCount == waves.Length)
         {
             //ExpandGrid(5, 0);
-            SetCoords();
+            
+            SetStartCoords();
             
         }  
 
 
     }
-    public void SetCoords()
+    public void SetStartCoords()
     {
         var playerBase = FindObjectOfType<Base>();
         var pathfinder = FindObjectOfType<Pathfinder>();
         var gridManager = FindObjectOfType<GridManager>();
        // playerBase.gameObject.SetActive(false);
-        pathfinder.startCoords = new Vector2Int(Random.Range(0,0), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6,pathfinder.DestinationCoords.y+6),Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
+        pathfinder.startCoords = new Vector2Int(Random.Range(0,gridManager.gridSize.x), Random.Range(Random.Range(pathfinder.DestinationCoords.x - 6,pathfinder.DestinationCoords.y+6),Random.Range(gridManager.gridSize.x, gridManager.gridSize.y)));
         //pathfinder.destinationCoords = new Vector2Int(Random.Range(1, gridManager.gridSize.x - 2), Random.Range(1, gridManager.gridSize.y - 2));//new Vector2Int(14, 8);
         if (pathfinder.StartCoords!=pathfinder.DestinationCoords)//&& !pathfinder.WillBlockPath(pathfinder.destinationCoords))
         {
@@ -95,7 +99,7 @@ public class WavePool : MonoBehaviour
         }
         else
         {
-            SetCoords();
+            SetStartCoords();
             
         }
 
@@ -111,9 +115,10 @@ public class WavePool : MonoBehaviour
     void ResetPool()
     {
         waveCount = 0;
+        triggered = false;
         SetWaves();
         FindObjectOfType<Timer>().timerIsRunning = true;
-        StartCoroutine(SpawnWave());
+      
     }
     void SetWaves()
     {

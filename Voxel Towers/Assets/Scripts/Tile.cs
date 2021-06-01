@@ -62,6 +62,13 @@ public class Tile : MonoBehaviour
         ///      }
         ///  }
     }
+    private void Update()
+    {
+        if (Input.GetMouseButtonUp(1))
+        {
+            DiscardChoice();
+        }
+    }
     private void FixedUpdate()
     {
       //  if (pathfinder.WillBlockPath(this.coords))
@@ -76,8 +83,8 @@ public class Tile : MonoBehaviour
                 basePlaced = true;
             }
         }
-        
-        
+
+  
         
 
 
@@ -125,7 +132,8 @@ public class Tile : MonoBehaviour
 
                 }
             }
-
+           
+                   
         }
     }
         void PlaceBuilding()
@@ -151,7 +159,6 @@ public class Tile : MonoBehaviour
                             pathfinder.NotifyRecievers();
 
                         }
-                        towerUI.BuildingChoice = -1;
                     }
                 }
             }
@@ -183,7 +190,6 @@ public class Tile : MonoBehaviour
                             pathfinder.NotifyRecievers();
 
                         }
-                        towerUI.TrapChoice = -1;
                     }
                 }
                 if(!traps[towerUI.TrapChoice].isWall)
@@ -205,7 +211,7 @@ public class Tile : MonoBehaviour
                             pathfinder.NotifyRecievers();
 
                         }
-                        towerUI.TrapChoice = -1;
+                        
                     }
                 }
             }
@@ -233,7 +239,6 @@ public class Tile : MonoBehaviour
                         }
                         pathfinder.NotifyRecievers();
                     }
-                    towerUI.TowerChoice = -1;
                 }
             }
             Cursor.visible = true;
@@ -271,7 +276,12 @@ public class Tile : MonoBehaviour
             Graphics.DrawMesh(towerChoice.mesh, trsMatrix, towerChoice.material, 1);
 
         }
-
+    void DiscardChoice()
+    {
+        towerUI.TowerChoice = -1;
+        towerUI.BuildingChoice = -1;
+        towerUI.TrapChoice = -1;
+    }
 }
 
 
