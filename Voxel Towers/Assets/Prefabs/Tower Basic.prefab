@@ -4905,9 +4905,9 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 8f9a7ad722cac224695947c5de17f6b0, type: 2}
   projectiles: {fileID: 1327142519841044, guid: 697a7acf0d6ce8f4dab72ebae97a9dd7, type: 3}
   upgradeProjectiles:
-  - {fileID: 1327142519841044, guid: ec64493a88371a341a496d5146796b05, type: 3}
-  - {fileID: 1327142519841044, guid: 00d522ee3ed6056458636e905b5be7ff, type: 3}
-  - {fileID: 1327142519841044, guid: fe7c0d0684a1e5f4f8dc64e44b21b1ea, type: 3}
+  - {fileID: 1327142519841044, guid: cba4d02f42b31004d9a909855be998fd, type: 3}
+  - {fileID: 1327142519841044, guid: 1de70698d5d25fc4dbb163fecefd99f6, type: 3}
+  - {fileID: 1327142519841044, guid: 7fda0839fbb1a1943a6fcdb7636ee5c4, type: 3}
   upgradeProjectileSpeeds:
   - 1200
   - 1400

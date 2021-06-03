@@ -113,6 +113,7 @@ public class Tile : MonoBehaviour
         {
             if ((menu == null || menu.activeInHierarchy == false))
             {
+                //DrawTrapMesh();
                 if (Input.GetMouseButtonDown(0))
                 {
                     PlaceTrap();
@@ -126,6 +127,7 @@ public class Tile : MonoBehaviour
         {
             if ((menu == null || menu.activeInHierarchy == false))
             {
+                //DrawTowerMesh();
                 if (Input.GetMouseButtonDown(0))
                 {
                     PlaceBuilding();
@@ -266,7 +268,15 @@ public class Tile : MonoBehaviour
 
             Graphics.DrawMesh(towerChoice.hilightMesh, trsMatrix, towerChoice.material, 1);
         }
-        void DrawTowerRange()
+    void DrawTrapMesh()
+    {
+        var scale = new Vector3(1, 1, 1);
+        var towerChoice = traps[towerUI.TowerChoice];
+        Matrix4x4 trsMatrix = Matrix4x4.TRS(transform.position, Quaternion.identity, scale);
+
+        Graphics.DrawMesh(towerChoice.GetComponent<Mesh>(), trsMatrix, towerChoice.GetComponent<Material>(), 1);
+    }
+    void DrawTowerRange()
         {
             var towerChoice = towers[towerUI.TowerChoice];
             float zDrawOffset = 0.75f;

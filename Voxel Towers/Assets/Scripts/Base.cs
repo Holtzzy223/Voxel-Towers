@@ -20,27 +20,18 @@ public class Base : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        currentHP = maxHP;
         healthBar.maxValue = maxHP;
         healthBar.value = healthBar.maxValue;
 
-        currentHP = maxHP;
-      // healthParticles = GetComponentInChildren<ParticleSystem>();
-      // main = healthParticles.main;
-      // main.startColor = Color.green;
-        if (healthParticles == null)
-        {
-            Debug.Log("healthparticles is null");
-        }
+
      
     }
 
     private void Update()
     {
-        UpdateHeathBar();
-        if (Input.GetKey(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+       // UpdateHeathBar();
+
 
 
     }

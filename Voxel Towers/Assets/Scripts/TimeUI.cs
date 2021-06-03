@@ -31,7 +31,15 @@ public class TimeUI : MonoBehaviour
     }
     public void PlayButton()
     {
-        Time.timeScale = oldTime; 
+        if (oldTime > 0.25f)
+        {
+            Time.timeScale = oldTime;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
+
     }
     public void NormalTimeButton()
     {

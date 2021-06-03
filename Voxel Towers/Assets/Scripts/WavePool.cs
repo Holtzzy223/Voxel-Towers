@@ -21,6 +21,7 @@ public class WavePool : MonoBehaviour
 
     public GameObject[] waves;
     public GameObject[] pools;
+    public GameObject towerChoice;
     public TextMeshProUGUI waveText;
     public TextMeshProUGUI roundText;
     public TextMeshProUGUI waveTimerText;
@@ -122,14 +123,31 @@ public class WavePool : MonoBehaviour
     }
     void SetWaves()
     {
+        
         roundCount++;
-        enemiesPerWave = Random.Range(5,15);
-        maxWaves = Random.Range(10,20);
+        switch (roundCount)
+        {
+            case 2:
+                ActivateTowerChoice("Laser Upgrade");
+
+                break;
+            case 4:
+                ActivateTowerChoice("Cannon Upgrade");
+                break;
+            case 6:
+                ActivateTowerChoice("Sloth Upgrade");
+                break;
+            case 8:
+                break;
+        }
+
+        enemiesPerWave = Random.Range(10,15);
+        maxWaves = Random.Range(9,18);
         waves = new GameObject[maxWaves];
        
         for (int i = 0; i < maxWaves; i++)
         {
-            if (i < 10)
+            if (i < 8)
             {
                 waves[i] = pools[Random.Range(0, 2)];
             }
@@ -142,4 +160,16 @@ public class WavePool : MonoBehaviour
         waveText.text = "Wave: " + waveCount.ToString() + " / " + maxWaves.ToString();
     }
 
+    private void ActivateTowerChoice(string choiceTag)
+    {
+        var towerButtons = towerChoice.GetComponentsInChildren<Transform>(true);
+        for (int i = 0; i < towerButtons.Length; i++)
+        {
+            if (towerButtons[i].CompareTag(choiceTag))
+            {
+                towerButtons[i].gameObject.SetActive(true);
+            }
+        }
+
+    }
 }

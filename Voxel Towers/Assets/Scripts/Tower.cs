@@ -126,7 +126,7 @@ public class Tower : MonoBehaviour
         
 
         
-        FindClosestTarget();
+        
         if (onHoverUI.activeInHierarchy)
         {
             switch (tier)
@@ -160,8 +160,8 @@ public class Tower : MonoBehaviour
     private void FixedUpdate()
     {
 
-     
-            AimWeapon();
+        FindClosestTarget();
+        AimWeapon();
             if (isBeamWeapon)
             {
                 if (target == null  || targetDistance > range)
@@ -209,7 +209,7 @@ public class Tower : MonoBehaviour
             if (UI == null||UI.gameObject.activeInHierarchy == false)
             {
                 onHoverUI.SetActive(true);
-                Time.timeScale = 0;
+                
             }
         }
     }
